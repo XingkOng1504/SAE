@@ -1,0 +1,671 @@
+{
+    "dept_id": 8,
+    "annexe": "24",
+    "specialite": "STID",
+    "specialite_long": "Statistique et informatique décisionnelle",
+    "type_structure": "type1",
+    "type_departement": "tertiaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2021-12-11 00:00:00",
+    "scodoc_date_loaded": "2022-06-27T09:19:58.141022Z",
+    "scodoc_orig_filename": "but-STID-05012022-081608.xml",
+    "competences": {
+        "Traiter": {
+            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16",
+            "titre": "Traiter",
+            "titre_long": "Traiter des données à des fins décisionnelles ",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Dans le contexte du développement d'un système d'information décisionnel"
+                },
+                {
+                    "libelle": "Dans le contexte de préparation des données à des fins d'analyse statistique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En intervenant à toutes les étapes du cycle de vie de la donnée (insertion, modification, extraction, suppression)"
+                },
+                {
+                    "libelle": "En utilisant le modèle de données adapté aux besoins"
+                },
+                {
+                    "libelle": "En s’inscrivant dans une démarche de documentation des réalisations adaptée au public visé"
+                },
+                {
+                    "libelle": "En traduisant correctement les demandes métier en programmes, avec le respect du cahier des charges s'il existe"
+                },
+                {
+                    "libelle": "En écrivant un programme correctement structuré et documenté, respectant les bonnes pratiques"
+                },
+                {
+                    "libelle": "En identifiant les librairies et langages dédiés"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Traiter des données structurées",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Correctement interpréter et prendre en compte le besoin du commanditaire ou du client",
+                            "oid": 330
+                        },
+                        "AC11.02": {
+                            "libelle": "Respecter les formalismes de notation",
+                            "oid": 331
+                        },
+                        "AC11.03": {
+                            "libelle": "Connaître la syntaxe des langages et savoir l’utiliser",
+                            "oid": 332
+                        },
+                        "AC11.04": {
+                            "libelle": "Mesurer l’importance de maîtriser la structure des données à exploiter",
+                            "oid": 333
+                        },
+                        "AC11.05": {
+                            "libelle": "Comprendre les structures algorithmiques de base et leur contexte d’usage",
+                            "oid": 334
+                        },
+                        "AC11.06": {
+                            "libelle": "Prendre conscience de l’intérêt de la programmation",
+                            "oid": 335
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Automatiser le traitement de données multidimensionnelles",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Comprendre l'organisation des données de l'entreprise",
+                            "oid": 336
+                        },
+                        "AC21.02": {
+                            "libelle": "Réaliser le rôle central et spécifique de l'entrepôt de données dans la chaine décisionnelle",
+                            "oid": 337
+                        },
+                        "AC21.03": {
+                            "libelle": "Identifier et résoudre les problèmes d’intégration de sources complémentaires et hétérogènes",
+                            "oid": 338
+                        },
+                        "AC21.04": {
+                            "libelle": "Comprendre la nécessité de tester, corriger et documenter un programme",
+                            "oid": 339
+                        },
+                        "AC21.05": {
+                            "libelle": "Apprécier l’intérêt de briques logicielles existantes et savoir les utiliser",
+                            "oid": 340
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Intégrer le traitement de données complexes",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Identifier les solutions technologiques permettant la collecte et la diffusion de données",
+                            "oid": 341
+                        },
+                        "AC31.02": {
+                            "libelle": "Comprendre les spécificités des données complexes et de leur exploitation",
+                            "oid": 342
+                        },
+                        "AC31.03": {
+                            "libelle": "Savoir mener une veille technologique",
+                            "oid": 343
+                        }
+                    }
+                }
+            }
+        },
+        "Analyser": {
+            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726",
+            "titre": "Analyser",
+            "titre_long": "Analyser statistiquement les données ",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Dans le contexte de programmation d'un outil d'aide à la décision"
+                },
+                {
+                    "libelle": "Dans le contexte d'un projet d'étude statistique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En tenant compte du contexte de l’étude (économique, socio-démographique, commerciale, clinique...)"
+                },
+                {
+                    "libelle": "En mettant en évidence les grandes tendances et les informations principales"
+                },
+                {
+                    "libelle": "En identifiant et en mettant en œuvre les techniques adaptées aux attentes du client ou de l’instance décisionnaire"
+                },
+                {
+                    "libelle": "En identifiant et en mettant en œuvre les techniques adaptées aux données complexes (données massives, données mal structurées, flux de données…)"
+                },
+                {
+                    "libelle": "En tenant compte du contexte inférentiel (variabilité de l’échantillon)"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Mettre en œuvre une analyse descriptive",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Réaliser que les sources de données ont des caractéristiques propres à considérer (variation, précision, mise à jour...)",
+                            "oid": 344
+                        },
+                        "AC12.02": {
+                            "libelle": "Comprendre qu’une analyse correcte ne peut émaner que de données propres et préparées",
+                            "oid": 345
+                        },
+                        "AC12.03": {
+                            "libelle": "Comprendre l’intérêt des synthèses numériques et graphiques pour décrire une variable statistique",
+                            "oid": 346
+                        },
+                        "AC12.04": {
+                            "libelle": "Comprendre l’intérêt des synthèses numériques et graphiques pour mettre en évidence des liaisons entre variables.",
+                            "oid": 347
+                        },
+                        "AC12.05": {
+                            "libelle": "Comprendre l'intérêt de l’utilisation d’un modèle probabiliste",
+                            "oid": 348
+                        },
+                        "AC12.06": {
+                            "libelle": "Appréhender la notion de fluctuation d'échantillonnage, notamment à l’aide de simulations probabilistes",
+                            "oid": 349
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Mettre en œuvre une analyse exploratoire",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Prendre conscience de la différence entre modélisation statistique et analyse exploratoire",
+                            "oid": 350
+                        },
+                        "AC22.02": {
+                            "libelle": "Saisir la spécificité de l’analyse des données temporelles",
+                            "oid": 351
+                        },
+                        "AC22.03": {
+                            "libelle": "Comprendre l’intérêt des analyses multivariées pour synthétiser et résumer l’information portée par plusieurs variables",
+                            "oid": 352
+                        },
+                        "AC22.04": {
+                            "libelle": "Appréhender l’idée de confronter une hypothèse avec la réalité pour prendre une décision",
+                            "oid": 353
+                        },
+                        "AC22.05": {
+                            "libelle": "Apprécier les limites de validité et les conditions d’application d’une analyse",
+                            "oid": 354
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Mettre en œuvre l'analyse exploratoire de données complexes",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Prendre conscience des différences entre des outils statistiques pour choisir le plus adapté",
+                            "oid": 355
+                        },
+                        "AC32.02": {
+                            "libelle": "Saisir l’importance de la mise en œuvre de méthodes  adaptées à des domaines et des données spécifiques (Marketing, Biostatistique, Statistique spatiale, Gestion …)",
+                            "oid": 356
+                        },
+                        "AC32.03": {
+                            "libelle": "Prendre conscience des limites des méthodes classiques pour l’analyse des données complexes (données massives, données mal structurées…)",
+                            "oid": 357
+                        },
+                        "AC32.04": {
+                            "libelle": "Comprendre les mécanismes de bases de l’intelligence artificielle (apprentissage statistique supervisé, échantillons d'apprentissage et échantillons de test…)",
+                            "oid": 358
+                        }
+                    }
+                }
+            }
+        },
+        "Valoriser": {
+            "id_orebut": "bfa93ca138c434e6b23c792d3938b936",
+            "titre": "Valoriser",
+            "titre_long": "Valoriser une production dans un contexte professionnel",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Dans le contexte du développement d'outils décisionnels"
+                },
+                {
+                    "libelle": "Dans le contexte d'une étude statistique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En s’adaptant au niveau d’expertise, à la culture et au statut du destinataire"
+                },
+                {
+                    "libelle": "En s’exprimant correctement, aussi bien en français qu’en anglais, à l'oral comme à l'écrit"
+                },
+                {
+                    "libelle": "En veillant aux aspects éthiques, déontologiques et réglementaires d’utilisation et de diffusion des données"
+                },
+                {
+                    "libelle": "En interprétant et contextualisant les résultats (citations, vérification des sources, esprit critique)"
+                },
+                {
+                    "libelle": "En utilisant la forme de restitution adaptée"
+                },
+                {
+                    "libelle": "En tenant compte des réalités économiques et managériales des entreprises"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Contextualiser et présenter les données",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC13.01": {
+                            "libelle": "Prendre connaissance des biais rencontrés dans la mise en place d’une enquête",
+                            "oid": 359
+                        },
+                        "AC13.02": {
+                            "libelle": "Identifier l’importance de contextualiser ses données",
+                            "oid": 360
+                        },
+                        "AC13.03": {
+                            "libelle": "Mesurer l’importance de mettre en évidence des résultats clés par l’utilisation d’indicateurs pertinents",
+                            "oid": 361
+                        },
+                        "AC13.04": {
+                            "libelle": "Lors de la restitution des résultats, mesurer l’importance d’expliciter également la démarche suivie",
+                            "oid": 362
+                        },
+                        "AC13.05": {
+                            "libelle": "Comprendre les intérêts de la data visualisation et de l’infographie",
+                            "oid": 363
+                        },
+                        "AC13.06": {
+                            "libelle": "Mesurer l’importance d’une expression précise et nuancée dans la communication en français et dans une langue étrangère des résultats",
+                            "oid": 364
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Restituer et argumenter ses résultats",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Saisir l’intérêt de mobiliser de manière proactive des ressources métiers liées à l'environnement (y compris économique, international…)",
+                            "oid": 365
+                        },
+                        "AC23.02": {
+                            "libelle": "Savoir défendre ses choix d’analyses",
+                            "oid": 366
+                        },
+                        "AC23.03": {
+                            "libelle": "Saisir la nécessité de choisir des indicateurs pertinents pour communiquer sur les résultats",
+                            "oid": 367
+                        },
+                        "AC23.04": {
+                            "libelle": "Prendre conscience de la rigueur requise dans ses productions et dans la communication à leur propos",
+                            "oid": 368
+                        },
+                        "AC23.05": {
+                            "libelle": "Comprendre les enjeux des relations en milieu professionnel adaptées à l’interlocuteur et à sa culture",
+                            "oid": 369
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Intégrer et valoriser sa production dans l'écosystème de l'entreprise",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Savoir transformer la donnée pour la mettre en conformité avec des normes (anonymisation, normalisation)",
+                            "oid": 370
+                        },
+                        "AC33.02": {
+                            "libelle": "Mesurer l'impact d'un respect de la législation en terme de droit des données.",
+                            "oid": 371
+                        },
+                        "AC33.03": {
+                            "libelle": "Identifier les clés d'une bonne communication (procédures et techniques utilisées)",
+                            "oid": 372
+                        },
+                        "AC33.04": {
+                            "libelle": "Mesurer l’importance de comprendre et de répondre à l'ensemble des problématiques posées",
+                            "oid": 373
+                        },
+                        "AC33.05": {
+                            "libelle": "Être force de proposition",
+                            "oid": 374
+                        },
+                        "AC33.06": {
+                            "libelle": "Prendre conscience de la nécessité d’intégrer la vision de l’interlocuteur (transversalité, international, multiculture, niveau d’expertise…)",
+                            "oid": 375
+                        }
+                    }
+                }
+            }
+        },
+        "Développer": {
+            "id_orebut": "e84093146911c42659b5dec7bf24e7a4",
+            "titre": "Développer",
+            "titre_long": "Développer un outil décisionnel",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans le contexte du déploiement d'une solution décisionnelle"
+                },
+                {
+                    "libelle": "Dans le contexte d'automatisation de reporting et de visualisation"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En mettant en œuvre une structuration des données adaptée à leurs caractéristiques (type, volume...)"
+                },
+                {
+                    "libelle": "En assurant la qualité des données et minimisant les biais liés à l’incertitude et l’imprécision dans les sources"
+                },
+                {
+                    "libelle": "En étant sensible aux aspects éthiques, déontologiques et juridiques d’utilisation et de diffusion des données"
+                },
+                {
+                    "libelle": "En réalisant des solutions de visualisation spécifiques aux données métier"
+                },
+                {
+                    "libelle": "En intervenant à différents niveaux de la chaîne décisionnelle"
+                },
+                {
+                    "libelle": "En utilisant des méthodes de développement logiciel"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Développer un composant d’une solution décisionnelle",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01SDVCOD": {
+                            "libelle": "Comprendre le rôle fondamental de l’analyse des besoins et de l’existant dans un projet décisionnel (architecture, visualisation...)",
+                            "oid": 376
+                        },
+                        "AC24.02SDVCOD": {
+                            "libelle": "Percevoir les enjeux de l’automatisation et de l'interopérabilité d’un ensemble de tâches",
+                            "oid": 377
+                        },
+                        "AC24.03SDVCOD": {
+                            "libelle": "Prendre conscience des différences entre outils (logiciels, langages) pour choisir le plus adapté",
+                            "oid": 378
+                        },
+                        "AC24.04SDVCOD": {
+                            "libelle": "Comprendre le cycle de vie d’un projet informatique",
+                            "oid": 379
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Participer au déploiement d'une solution décisionnelle",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01SDVCOD": {
+                            "libelle": "Prendre conscience de la nécessité d’utiliser des moyens spécifiques pour exploiter les Big Data ou les flux de données",
+                            "oid": 380
+                        },
+                        "AC34.02SDVCOD": {
+                            "libelle": "Défendre ses choix de solution par un argumentaire éclairé",
+                            "oid": 381
+                        },
+                        "AC34.03SDVCOD": {
+                            "libelle": "Réaliser l’intérêt d’appliquer les méthodes de développement dans la réalisation d’un projet informatique",
+                            "oid": 382
+                        },
+                        "AC34.04SDVCOD": {
+                            "libelle": "Apprécier l’intérêt de l’utilisation d’un gestionnaire de versions de code",
+                            "oid": 383
+                        }
+                    }
+                }
+            }
+        },
+        "Modéliser": {
+            "id_orebut": "9a83300b795cd0bd43ce236c149b486e",
+            "titre": "Modéliser",
+            "titre_long": "Modéliser les données dans un cadre statistique",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans le contexte d’une analyse statistique"
+                },
+                {
+                    "libelle": "Dans le contexte d'un développement statistique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En choisissant le modèle adapté à la situation"
+                },
+                {
+                    "libelle": "En maîtrisant la qualité du modèle"
+                },
+                {
+                    "libelle": "En s’adaptant aux spécificités (données, enjeux, méthodes) d'un domaine d'application particulier (santé, marketing, assurance, qualité, socio-démographie...)"
+                },
+                {
+                    "libelle": "En s'adaptant à la complexité des données (données massives, données mal structurées, flux de données…)"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en œuvre un modèle statistique",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01SDEMS": {
+                            "libelle": "Comprendre l'intérêt de planifier le recueil des données",
+                            "oid": 384
+                        },
+                        "AC24.02SDEMS": {
+                            "libelle": "Appréhender les difficultés et les limites rencontrées dans la mise en œuvre d'un terrain de collecte",
+                            "oid": 385
+                        },
+                        "AC24.03SDEMS": {
+                            "libelle": "Comprendre l'impact du type de données sur le choix de la modélisation à mettre en œuvre",
+                            "oid": 386
+                        },
+                        "AC24.04SDEMS": {
+                            "libelle": "Apprécier les limites de validité et les conditions d'application d'un modèle",
+                            "oid": 387
+                        },
+                        "AC24.05SDEMS": {
+                            "libelle": "Réaliser l'importance de la mise en œuvre d'une procédure de test statistique pour valider ou non une hypothèse",
+                            "oid": 388
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Réaliser l'ensemble de la démarche de modélisation",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01SDEMS": {
+                            "libelle": "Comprendre l'intérêt des approches statistiques pour la fiabilisation, la validation, les incertitudes, les imprécisions des données",
+                            "oid": 389
+                        },
+                        "AC34.02SDEMS": {
+                            "libelle": "Comprendre l'intérêt de la problématique métier pour réaliser la modélisation",
+                            "oid": 390
+                        },
+                        "AC34.03SDEMS": {
+                            "libelle": "Viser la réalisation d'un processus de modélisation dans son ensemble",
+                            "oid": 391
+                        },
+                        "AC34.04SDEMS": {
+                            "libelle": "Prendre conscience des différences entre les modèles pour choisir le plus adapté",
+                            "oid": 392
+                        },
+                        "AC34.05SDEMS": {
+                            "libelle": "Prendre conscience de la nécessité d'utiliser des moyens spécifiques pour analyser les données massives ou les flux de données",
+                            "oid": 393
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "EMS": {
+            "code": "EMS",
+            "numero": 0,
+            "libelle": "Science des données : exploration et modélisation statistique",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 1,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 1,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 2,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 2,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        },
+                        "Modéliser": {
+                            "niveau": 1,
+                            "id_orebut": "9a83300b795cd0bd43ce236c149b486e"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 3,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 3,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        },
+                        "Modéliser": {
+                            "niveau": 2,
+                            "id_orebut": "9a83300b795cd0bd43ce236c149b486e"
+                        }
+                    }
+                }
+            }
+        },
+        "VCOD": {
+            "code": "VCOD",
+            "numero": 0,
+            "libelle": "Science des données : visualisation, conception d'outils décisionnels",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 1,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 1,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 2,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 2,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        },
+                        "Développer": {
+                            "niveau": 1,
+                            "id_orebut": "e84093146911c42659b5dec7bf24e7a4"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Traiter": {
+                            "niveau": 3,
+                            "id_orebut": "fddbf64f2b1e1e93765ba1476025fb16"
+                        },
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "6cdfe8a53961726f6824cb93d46a6726"
+                        },
+                        "Valoriser": {
+                            "niveau": 3,
+                            "id_orebut": "bfa93ca138c434e6b23c792d3938b936"
+                        },
+                        "Développer": {
+                            "niveau": 2,
+                            "id_orebut": "e84093146911c42659b5dec7bf24e7a4"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

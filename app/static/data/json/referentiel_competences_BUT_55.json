@@ -1,0 +1,587 @@
+{
+    "dept_id": 1,
+    "annexe": "2",
+    "specialite": "CJ",
+    "specialite_long": "Carrière Juridique",
+    "type_structure": "type2",
+    "type_departement": "tertiaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2021-12-11 00:00:00",
+    "scodoc_date_loaded": "2022-02-24T18:30:02.148903Z",
+    "scodoc_orig_filename": "but-CJ-05012022-081535.xml",
+    "competences": {
+        "Piloter": {
+            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2",
+            "titre": "Piloter",
+            "titre_long": "Piloter des tâches et activités d'ordre juridique, comptable, financier, organisationnel. ",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Assistance aux fonctions support dans une structure privée ou publique"
+                },
+                {
+                    "libelle": "Traitement de dossiers contentieux"
+                },
+                {
+                    "libelle": "Traitement de dossiers non contentieux"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En appliquant avec rigueur les procédures existantes"
+                },
+                {
+                    "libelle": "En organisant ses actions de façon optimale"
+                },
+                {
+                    "libelle": "En recourant aux ressources et moyens adaptés à l’environnement professionnel"
+                },
+                {
+                    "libelle": "En sélectionnant les informations pertinentes à des fins d’analyse"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Piloter les activités élémentaires sous contrôle ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Se projeter dans un planning intégrant plusieurs facteurs",
+                            "oid": 1
+                        },
+                        "AC11.02": {
+                            "libelle": "Sélectionner les informations et ressources pertinentes",
+                            "oid": 2
+                        },
+                        "AC11.03": {
+                            "libelle": "Respecter les procédures prédéfinies",
+                            "oid": 3
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Piloter les activités essentielles en soutien",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Hiérarchiser les étapes de réalisation d’une tâche",
+                            "oid": 4
+                        },
+                        "AC21.02": {
+                            "libelle": "Interpréter les directives de réalisation d’une mission",
+                            "oid": 5
+                        },
+                        "AC21.03": {
+                            "libelle": "Interroger ses méthodes pour les rendre plus efficaces",
+                            "oid": 6
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Piloter les activités complexes en autonomie ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Choisir la procédure la plus efficiente",
+                            "oid": 7
+                        },
+                        "AC31.02": {
+                            "libelle": "Conduire une mission dans son intégralité",
+                            "oid": 8
+                        },
+                        "AC31.03": {
+                            "libelle": "Prévoir les besoins liés à l’activité",
+                            "oid": 9
+                        }
+                    }
+                }
+            }
+        },
+        "Conseiller": {
+            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c",
+            "titre": "Conseiller",
+            "titre_long": "Conseiller sur des questions d'ordre juridique, comptable, financier, organisationnel.",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Assistance aux fonctions support dans une structure privée ou publique"
+                },
+                {
+                    "libelle": "Accueil et orientation dans un contexte amiable"
+                },
+                {
+                    "libelle": "Réponse à une question contentieuse"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En adaptant la réponse à l’interlocuteur et au contexte dans lequel la question est posée"
+                },
+                {
+                    "libelle": "En apportant une réponse précise, rigoureuse et à jour à la question posée"
+                },
+                {
+                    "libelle": "En assurant une communication fluide en interne comme vers l’extérieur"
+                },
+                {
+                    "libelle": "En recourant à bon escient aux personnes ressources"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Conseiller en tant que contributeur à la mission de conseil",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Prendre conscience des enjeux de communication dans les relations interpersonnelles (communication écrite et orale)",
+                            "oid": 10
+                        },
+                        "AC12.02": {
+                            "libelle": "Interpréter en droit le discours d’un client ou usager",
+                            "oid": 11
+                        },
+                        "AC12.03": {
+                            "libelle": "S’engager dans l’interaction professionnelle",
+                            "oid": 12
+                        },
+                        "AC12.04": {
+                            "libelle": "Mobiliser les personnes-ressources en fonction des besoins",
+                            "oid": 13
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Conseiller en tant qu’acteur de la mission de conseil",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Faire entendre ses idées au sein d’une équipe",
+                            "oid": 14
+                        },
+                        "AC22.02": {
+                            "libelle": "Accepter la critique de façon constructive",
+                            "oid": 15
+                        },
+                        "AC22.03": {
+                            "libelle": "Proposer des solutions et les défendre",
+                            "oid": 16
+                        },
+                        "AC22.04": {
+                            "libelle": "Reformuler en droit le discours d’un client ou usager",
+                            "oid": 17
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Conseiller en tant que responsable de la mission de conseil ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Assumer la responsabilité d'une prise de position",
+                            "oid": 18
+                        },
+                        "AC32.02": {
+                            "libelle": "Construire un discours structuré et finalisé",
+                            "oid": 19
+                        },
+                        "AC32.03": {
+                            "libelle": "Animer un travail collectif",
+                            "oid": 20
+                        },
+                        "AC32.04": {
+                            "libelle": "Intégrer les règles déontologiques dans la communication professionnelle",
+                            "oid": 21
+                        }
+                    }
+                }
+            }
+        },
+        "Sécuriser": {
+            "id_orebut": "8c8a9fafbc9cf628a562696a165af604",
+            "titre": "Sécuriser",
+            "titre_long": "Sécuriser les relations et les données d’ordre juridique, comptable, financier, organisationnel",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Assistance à la prise de décision publique (institutions administratives et judiciaires)"
+                },
+                {
+                    "libelle": "Traitement des données au sein de structures privées ou publiques (RGPD)"
+                },
+                {
+                    "libelle": "Mise en conformité de décisions privées (entreprises et associations)"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En respectant les règles de déontologie et d’éthique"
+                },
+                {
+                    "libelle": "En s’assurant de la régularité des documents"
+                },
+                {
+                    "libelle": "En utilisant les technologies appropriées"
+                },
+                {
+                    "libelle": "En exploitant une veille juridique pertinente"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Exercer une sécurisation ponctuelle ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC13.01": {
+                            "libelle": "Adopter les exigences de discrétion et confidentialité des échanges",
+                            "oid": 22
+                        },
+                        "AC13.02": {
+                            "libelle": "Se documenter pour progresser",
+                            "oid": 23
+                        },
+                        "AC13.03": {
+                            "libelle": "Intégrer les enjeux liés à la protection des données",
+                            "oid": 24
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Réaliser une sécurisation sectorielle",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Sélectionner les informations à transmettre en fonction de l’interlocuteur",
+                            "oid": 25
+                        },
+                        "AC23.02": {
+                            "libelle": "Alerter à bon escient en cas de risque pour la sécurité juridique",
+                            "oid": 26
+                        },
+                        "AC23.03": {
+                            "libelle": "Cibler les éléments essentiels à la régularité des actes accomplis",
+                            "oid": 27
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Assurer une sécurisation systémique",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Anticiper les risques pesant sur la régularité d’un acte",
+                            "oid": 28
+                        },
+                        "AC33.02": {
+                            "libelle": "Faire respecter les règles de sécurisation des données",
+                            "oid": 29
+                        },
+                        "AC33.03": {
+                            "libelle": "Contextualiser une problématique de sécurité",
+                            "oid": 30
+                        }
+                    }
+                }
+            }
+        },
+        "Rédiger": {
+            "id_orebut": "8a663105502d71a6a839e409cb53c4ef",
+            "titre": "Rédiger",
+            "titre_long": "Rédiger des actes et documents d’ordre juridique, comptable, financier, organisationnel",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Rédaction d’actes juridiques dans une structure privée ou publique"
+                },
+                {
+                    "libelle": "Rédaction de documents extrajuridiques dans une structure privée ou publique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En intégrant systématiquement le formalisme adéquat aux productions écrites"
+                },
+                {
+                    "libelle": "En synthétisant utilement les ressources disponibles pour établir des documents"
+                },
+                {
+                    "libelle": "En optimisant les relations avec les acteurs impliqués"
+                },
+                {
+                    "libelle": "En utilisant de façon rigoureuse la terminologie appropriée"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Exprimer un raisonnement simple à l'écrit",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC14.01": {
+                            "libelle": "Utiliser un langage professionnel adapté",
+                            "oid": 31
+                        },
+                        "AC14.02": {
+                            "libelle": "Attribuer utilement un écrit à un contexte prédéfini",
+                            "oid": 32
+                        },
+                        "AC14.03": {
+                            "libelle": "Intégrer les modes de communication en vigueur au sein d’une structure",
+                            "oid": 33
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Formuler un raisonnement composite à l'écrit",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC24.01": {
+                            "libelle": "Construire des écrits accessibles à différents publics",
+                            "oid": 34
+                        },
+                        "AC24.02": {
+                            "libelle": "Articuler le fond et la forme",
+                            "oid": 35
+                        },
+                        "AC24.03": {
+                            "libelle": "Adapter son mode d’expression suivant le contexte",
+                            "oid": 36
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Élaborer un raisonnement complexe à l'écrit",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC34.01": {
+                            "libelle": "Choisir de façon sûre un acte en fonction du contexte",
+                            "oid": 37
+                        },
+                        "AC34.02": {
+                            "libelle": "Assumer une prise de position écrite",
+                            "oid": 38
+                        },
+                        "AC34.03": {
+                            "libelle": "Planifier la rédaction d’un document",
+                            "oid": 39
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "AJ": {
+            "code": "AJ",
+            "numero": 0,
+            "libelle": "Administration et Justice ",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 1,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 1,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 1,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 2,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 2,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 2,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Sécuriser": {
+                            "niveau": 3,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 3,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                }
+            }
+        },
+        "EA": {
+            "code": "EA",
+            "numero": 0,
+            "libelle": "Entreprise et Association ",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 1,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 1,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 1,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 2,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 2,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 2,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 3,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Rédiger": {
+                            "niveau": 3,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                }
+            }
+        },
+        "PF": {
+            "code": "PF",
+            "numero": 0,
+            "libelle": "Patrimoine et Finance ",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 1,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 1,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 1,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "dc7d3872818f1e2b3bf087df6fcf79e2"
+                        },
+                        "Conseiller": {
+                            "niveau": 2,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 2,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 2,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Conseiller": {
+                            "niveau": 3,
+                            "id_orebut": "7937c3ffae5b4377bea15224a1ebcf9c"
+                        },
+                        "Sécuriser": {
+                            "niveau": 3,
+                            "id_orebut": "8c8a9fafbc9cf628a562696a165af604"
+                        },
+                        "Rédiger": {
+                            "niveau": 3,
+                            "id_orebut": "8a663105502d71a6a839e409cb53c4ef"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

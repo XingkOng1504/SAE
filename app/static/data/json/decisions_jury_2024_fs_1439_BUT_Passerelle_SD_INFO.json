@@ -1,0 +1,3848 @@
+[
+    {
+        "etudid": "166e0f7c8f412b02ace40a9c1e000897937cead0ae4aee034c23317af2206625",
+        "code_nip": "011aa2bff79373ae411c23613ae46378426c982a53e94560bcd927203aebc1c1",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 9.975205761316872,
+                    "code": "AJ"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 9.845527447089948,
+                    "code": "AJ"
+                },
+                "moy": 9.91036660420341,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 9.364666039832185,
+                    "code": "AJ"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 9.237827266922094,
+                    "code": "AJ"
+                },
+                "moy": 9.30124665337714,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.7368,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.904671717171716,
+                    "code": "ADM"
+                },
+                "moy": 11.82073585858586,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 8.334568862848535,
+                    "code": "AJ"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 9.983501039304612,
+                    "code": "AJ"
+                },
+                "moy": 9.159034951076574,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 11.069471544715448,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 10.94262784890392,
+                    "code": "ADM"
+                },
+                "moy": 11.006049696809683,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 10.176574074074074,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 11.642624910877975,
+                    "code": "ADM"
+                },
+                "moy": 10.909599492476024,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2514,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "PAS1NCI",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "166e0f7c8f412b02ace40a9c1e000897937cead0ae4aee034c23317af2206625",
+                "id": 45955,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-17T17:27:20.566128+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "06fd9c862f0ebecd55ba50a850f78a910f649374e75ad9395a0a83f748ea6af3",
+        "code_nip": "98137a880e40dbbf04e253711f014e2b6b9fc8f4f2d032505c440df8f98e7d84",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 12.358801440329218,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 12.199761196145124,
+                    "code": "ADM"
+                },
+                "moy": 12.279281318237171,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 11.956641456995555,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 11.014453338806788,
+                    "code": "ADM"
+                },
+                "moy": 11.485547397901172,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.42879891304348,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.805,
+                    "code": "ADM"
+                },
+                "moy": 11.61689945652174,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.457037523239231,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.970807714111286,
+                    "code": "ADM"
+                },
+                "moy": 11.713922618675259,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.553191056910569,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 12.948491691164323,
+                    "code": "ADM"
+                },
+                "moy": 12.750841374037446,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 11.729814814814816,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.114774790974703,
+                    "code": "ADM"
+                },
+                "moy": 12.42229480289476,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "06fd9c862f0ebecd55ba50a850f78a910f649374e75ad9395a0a83f748ea6af3",
+                "id": 45836,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:46.807665+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "3baf5cce5e7d3c2433502399768d8a9fde0ad78551eee0ce8c5e6154742b2fbf",
+        "code_nip": "ea773118c4614648b8066ea704c68b0b47c215f7a85694e47b5f8f0d4910dca1",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 13.573935185185185,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.52034828514739,
+                    "code": "ADM"
+                },
+                "moy": 13.547141735166289,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 12.964181875447094,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 11.982031677613573,
+                    "code": "ADM"
+                },
+                "moy": 12.473106776530333,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 11.416433333333334,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 15.434419191919192,
+                    "code": "ADM"
+                },
+                "moy": 13.425426262626264,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.009414304273655,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 13.19835682670504,
+                    "code": "ADM"
+                },
+                "moy": 12.103885565489348,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.493739837398374,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.831388513221501,
+                    "code": "ADM"
+                },
+                "moy": 13.662564175309939,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.288870370370372,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 14.766504285267859,
+                    "code": "ADM"
+                },
+                "moy": 14.527687327819116,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "3baf5cce5e7d3c2433502399768d8a9fde0ad78551eee0ce8c5e6154742b2fbf",
+                "id": 45837,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:46.807665+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "75a54b027ebea8cb02fc77062edf4fac8eaa363066f7c924a04344c711f80bfb",
+        "code_nip": "1ab315101a9bc4e22f660547dbfe1620ec56ee3256c0bae16998bfccb52fd2fa",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.624588477366256,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 10.845633739606955,
+                    "code": "ADM"
+                },
+                "moy": 11.235111108486606,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 11.369286228819597,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 10.084194261995986,
+                    "code": "CMP"
+                },
+                "moy": 10.726740245407791,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.545095833333335,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.94949494949495,
+                    "code": "ADM"
+                },
+                "moy": 12.247295391414141,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.959219997944118,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.771542571707045,
+                    "code": "ADM"
+                },
+                "moy": 11.365381284825581,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.853861788617886,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 12.154502532340066,
+                    "code": "ADM"
+                },
+                "moy": 13.004182160478976,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.318814814814816,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 14.91739892625,
+                    "code": "ADM"
+                },
+                "moy": 14.618106870532408,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "75a54b027ebea8cb02fc77062edf4fac8eaa363066f7c924a04344c711f80bfb",
+                "id": 45838,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:47.616185+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "b56555d178d2f9f1b52a50d420df29bf12543f5b76a19ddbdb5b94c0be9f178f",
+        "code_nip": "38305f5684ff41ae8820329f3e50441d5137127a857876b6032ce5bd25df1ef8",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 15.922376543209877,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 16.258152872260016,
+                    "code": "ADM"
+                },
+                "moy": 16.090264707734946,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 15.277410962840959,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 15.923120780879401,
+                    "code": "ADM"
+                },
+                "moy": 15.60026587186018,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 14.271231944444445,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 17.351565656565654,
+                    "code": "ADM"
+                },
+                "moy": 15.81139880050505,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 15.334088620568881,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 16.21370610209896,
+                    "code": "ADM"
+                },
+                "moy": 15.77389736133392,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 16.11971544715447,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 16.567382594710196,
+                    "code": "ADM"
+                },
+                "moy": 16.343549020932333,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 16.037259259259258,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 16.78337231675595,
+                    "code": "ADM"
+                },
+                "moy": 16.410315788007605,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "b56555d178d2f9f1b52a50d420df29bf12543f5b76a19ddbdb5b94c0be9f178f",
+                "id": 45839,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:48.172192+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "ec9bf9071699beb30ad7e8c6c90aa261d3c47cf111ff0bb9a17c887de50c1cc9",
+        "code_nip": "03d2bcd3243880de3086556a89b5d79387761eb0a01445efcbbfdf7227597e1f",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.75886574074074,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 11.555762235449736,
+                    "code": "ADM"
+                },
+                "moy": 11.657313988095238,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 12.395923177197359,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 8.620889208173692,
+                    "code": "CMP"
+                },
+                "moy": 10.508406192685525,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 12.051324607487922,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 14.08838383838384,
+                    "code": "ADM"
+                },
+                "moy": 13.06985422293588,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.92305342452121,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.559364824989826,
+                    "code": "ADM"
+                },
+                "moy": 11.241209124755517,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.551422764227643,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.117470335063432,
+                    "code": "ADM"
+                },
+                "moy": 12.334446549645538,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.318925925925926,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 14.312928054055059,
+                    "code": "ADM"
+                },
+                "moy": 14.315926989990492,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "ec9bf9071699beb30ad7e8c6c90aa261d3c47cf111ff0bb9a17c887de50c1cc9",
+                "id": 45840,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:48.657319+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "f9327a43d66db72fdad717abc8b609105ed073d69a9e14ee8a78637fd2090cd0",
+        "code_nip": "c4325ebffe9725b4fbf5fd2e5f7698ee9883ceeb10cde9424825231ec385bc12",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 15.419264403292178,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 14.601489512471655,
+                    "code": "ADM"
+                },
+                "moy": 15.010376957881917,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 16.054120694392406,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 14.396380678708265,
+                    "code": "ADM"
+                },
+                "moy": 15.225250686550336,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 15.401050664251208,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.965833333333332,
+                    "code": "ADM"
+                },
+                "moy": 14.18344199879227,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 13.678170548597992,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 12.778639019710448,
+                    "code": "ADM"
+                },
+                "moy": 13.22840478415422,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 15.095691056910571,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.303300003834776,
+                    "code": "ADM"
+                },
+                "moy": 14.199495530372673,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 13.984277777777779,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.093349077589286,
+                    "code": "ADM"
+                },
+                "moy": 13.538813427683532,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "f9327a43d66db72fdad717abc8b609105ed073d69a9e14ee8a78637fd2090cd0",
+                "id": 45841,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:49.119809+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "f0097d484984df4b6c2ea46ac0297df1233ae1a93c85c00cccea32b4c490b7de",
+        "code_nip": "f85f2c5c96bace5d618cbdbe7fc3a23d946a3fde2f1c7e23cfc889a20f2d5b83",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 12.383991769547325,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 14.64703798185941,
+                    "code": "ADM"
+                },
+                "moy": 13.515514875703367,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 13.004222312822053,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 13.481048166392995,
+                    "code": "ADM"
+                },
+                "moy": 13.242635239607523,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 13.3561788647343,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 15.015782828282827,
+                    "code": "ADM"
+                },
+                "moy": 14.185980846508564,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 12.757444503652374,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 13.574197627769056,
+                    "code": "ADM"
+                },
+                "moy": 13.165821065710716,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.668536585365853,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.845599860417568,
+                    "code": "ADM"
+                },
+                "moy": 12.25706822289171,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 12.617185185185186,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.674207279456846,
+                    "code": "ADM"
+                },
+                "moy": 13.145696232321015,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "f0097d484984df4b6c2ea46ac0297df1233ae1a93c85c00cccea32b4c490b7de",
+                "id": 45842,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:49.160354+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "bca06c44d7e0d6fc2edb6b7dbb42eef8bcfa8a72f1efe812c4853d3ecb9db160",
+        "code_nip": "1894c9a7d35406ec1d0f2457ea5daa90df6a5cce8de4414affd5eeccaec8d1d2",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 14.707093621399178,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.596690759637188,
+                    "code": "ADM"
+                },
+                "moy": 14.151892190518183,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 15.202790668297963,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 12.548097974822113,
+                    "code": "ADM"
+                },
+                "moy": 13.875444321560039,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 15.520013103864734,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.279671717171716,
+                    "code": "ADM"
+                },
+                "moy": 14.399842410518225,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 15.232319437060415,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 12.627202162916449,
+                    "code": "ADM"
+                },
+                "moy": 13.929760799988433,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 15.574430894308945,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.678251742888708,
+                    "code": "ADM"
+                },
+                "moy": 14.626341318598826,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 15.728685185185183,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.90821224579613,
+                    "code": "ADM"
+                },
+                "moy": 14.818448715490657,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "bca06c44d7e0d6fc2edb6b7dbb42eef8bcfa8a72f1efe812c4853d3ecb9db160",
+                "id": 45843,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:49.676050+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "3a89b9ab3c516849ff199630be2deba8bdb2a6a516dd0ff36bc11283a22d0ca9",
+        "code_nip": "67c76cbd6b4b6267a129c22bc8ea46f7c8ca4150fd4a03edcd13b9fbc18cd8ff",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 17.498359053497943,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 18.645819397203326,
+                    "code": "ADM"
+                },
+                "moy": 18.072089225350634,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 18.034263834080775,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 18.86638501185915,
+                    "code": "ADM"
+                },
+                "moy": 18.450324422969963,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 17.6701509057971,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 18.582626262626263,
+                    "code": "ADM"
+                },
+                "moy": 18.126388584211682,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 17.43736569477505,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 18.092224656956798,
+                    "code": "ADM"
+                },
+                "moy": 17.764795175865924,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 17.21520325203252,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 18.41142577699014,
+                    "code": "ADM"
+                },
+                "moy": 17.81331451451133,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 16.622999999999998,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 17.82939338199405,
+                    "code": "ADM"
+                },
+                "moy": 17.22619669099702,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "3a89b9ab3c516849ff199630be2deba8bdb2a6a516dd0ff36bc11283a22d0ca9",
+                "id": 45844,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:49.716351+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "6959b7bcd446b60870d9b9f6caeadd711405bf0fb7d01e70d32349b67a75195a",
+        "code_nip": "b08726a658b22f0f590b240668d78081809e94670e9ace26d86f35447f65b8e4",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "DEF",
+        "nb_competences": 6,
+        "rcues": [],
+        "ues": [],
+        "semestre": {
+            "code": "DEF"
+        },
+        "annee": [],
+        "autorisations": []
+    },
+    {
+        "etudid": "07bb8e2a69e061dc684ed4b8014a10447147e7fe3e516be806758a0459b6a73f",
+        "code_nip": "35f42bd84a3ef9732a456b8a62fa7ca00839409be636a0736dd39753409d255f",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.305339506172839,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 2.7715752551020407,
+                    "code": "AJ"
+                },
+                "moy": 7.03845738063744,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 10.336586767105821,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 0.33143472906403937,
+                    "code": "AJ"
+                },
+                "moy": 5.33401074808493,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.715283333333332,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 2.2783333333333333,
+                    "code": "AJ"
+                },
+                "moy": 6.496808333333332,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.38122370935443,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 0.7566964285714286,
+                    "code": "AJ"
+                },
+                "moy": 5.568960068962929,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.159796747967482,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 0.8068181818181818,
+                    "code": "AJ"
+                },
+                "moy": 6.983307464892832,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.592574074074072,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 3.5391666666666666,
+                    "code": "AJ"
+                },
+                "moy": 9.06587037037037,
+                "code": "AJ"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2514,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2515,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2516,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2517,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2518,
+                "code": "AJ",
+                "ects": 0
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "NAR",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": []
+    },
+    {
+        "etudid": "8f2b5d64795b9409e98f731342738a117851c10fe80a5201df5d40a256174c2b",
+        "code_nip": "f4229f71011d8a6c6e584fe707f89a505ae9c393db5b08a29971cefc59135e8e",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 13.144140946502057,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 7.735836522108843,
+                    "code": "CMP"
+                },
+                "moy": 10.43998873430545,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 12.082929320010201,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 9.292359400656814,
+                    "code": "CMP"
+                },
+                "moy": 10.687644360333508,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 11.900089673913044,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 10.46401515151515,
+                    "code": "ADM"
+                },
+                "moy": 11.182052412714096,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.710741736243612,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 10.363671670591314,
+                    "code": "ADM"
+                },
+                "moy": 10.537206703417464,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.797317073170733,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.490497355473485,
+                    "code": "CMP"
+                },
+                "moy": 12.643907214322109,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.268574074074074,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 11.493837017340688,
+                    "code": "ADM"
+                },
+                "moy": 12.881205545707381,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "8f2b5d64795b9409e98f731342738a117851c10fe80a5201df5d40a256174c2b",
+                "id": 45845,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:50.117230+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "fae1a26c912878545c764a0ea6cd8acfcbef2c24209c6f72ae56eccf07dc09b7",
+        "code_nip": "bcbee2ab9b8aa7f09301b935c34d1286b4e3da169e9651fe1786422f7eb2c08a",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.228544238683126,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 10.646616591080877,
+                    "code": "ADM"
+                },
+                "moy": 10.937580414882001,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 10.794383798489056,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 9.645890348476556,
+                    "code": "CMP"
+                },
+                "moy": 10.220137073482807,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 9.927268297101449,
+                    "code": "CMP"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.325050505050505,
+                    "code": "ADM"
+                },
+                "moy": 11.126159401075977,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.969234576024563,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.308341873074015,
+                    "code": "ADM"
+                },
+                "moy": 11.13878822454929,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.419715447154472,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.999090811300205,
+                    "code": "ADM"
+                },
+                "moy": 12.209403129227338,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 12.496277777777777,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 12.103919663444941,
+                    "code": "ADM"
+                },
+                "moy": 12.30009872061136,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "fae1a26c912878545c764a0ea6cd8acfcbef2c24209c6f72ae56eccf07dc09b7",
+                "id": 45846,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:50.569350+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "a1b00c2626589a2155153057c7de231741fd90c68ee958703e15cf00ef418234",
+        "code_nip": "03f003b5eafda85f565c85948d4ff942046fb9d65f8801962e009a9f1dde0797",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 13.920241769547324,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 14.347203144078144,
+                    "code": "ADM"
+                },
+                "moy": 14.133722456812734,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 14.032950511711073,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 12.193639562743337,
+                    "code": "ADM"
+                },
+                "moy": 13.113295037227205,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 13.84179722222222,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.352272727272727,
+                    "code": "ADM"
+                },
+                "moy": 13.597034974747473,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 13.924336894634022,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 12.909393384393384,
+                    "code": "ADM"
+                },
+                "moy": 13.416865139513703,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 14.678252032520327,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.62771516037518,
+                    "code": "ADM"
+                },
+                "moy": 14.152983596447754,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.818166666666666,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 14.41202593404762,
+                    "code": "ADM"
+                },
+                "moy": 14.615096300357143,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "a1b00c2626589a2155153057c7de231741fd90c68ee958703e15cf00ef418234",
+                "id": 45847,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:50.612500+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "a427bb10bf942e8389d8b2236cf6b34e460bd16ff7a453e35249aa50fd3bb942",
+        "code_nip": "e01873ab2a85f18cbe26f452088e2bd0f77a31ddb01acc0cd5dedbacee942651",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "DEF",
+        "nb_competences": 6,
+        "rcues": [],
+        "ues": [],
+        "semestre": {
+            "code": "DEF"
+        },
+        "annee": [],
+        "autorisations": []
+    },
+    {
+        "etudid": "2391f4426c3d18abeac624315fb1c499f64afeac46ad84ee70725b9647134abb",
+        "code_nip": "56ada2850049ae9386424b4f0392566892918470a2ecefe4d020ff89df794098",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.003292181069959,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 11.678134448223732,
+                    "code": "ADM"
+                },
+                "moy": 11.340713314646845,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 11.768356723678142,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 11.578361612844372,
+                    "code": "ADM"
+                },
+                "moy": 11.673359168261257,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.853683031400966,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.58838383838384,
+                    "code": "ADM"
+                },
+                "moy": 11.721033434892401,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.963622988547511,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.335356525088669,
+                    "code": "ADM"
+                },
+                "moy": 11.64948975681809,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.374349593495934,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.66896784289923,
+                    "code": "ADM"
+                },
+                "moy": 12.021658718197582,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 12.710537037037037,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 12.53922360907738,
+                    "code": "ADM"
+                },
+                "moy": 12.624880323057209,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "2391f4426c3d18abeac624315fb1c499f64afeac46ad84ee70725b9647134abb",
+                "id": 45848,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:51.144013+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "80013586ddd64c9220eb5dbd1bf94af3e99765b03a66954c5d4946a9ddab5288",
+        "code_nip": "31cdb1030a37797c1ffe09b1b5e74ef3e920edf54ce29fef11fb0bc30518d65d",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.039657921810699,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 7.9643654336734695,
+                    "code": "ADJR"
+                },
+                "moy": 9.502011677742084,
+                "code": "ADJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 10.913616532630083,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 8.873640188834155,
+                    "code": "ADJR"
+                },
+                "moy": 9.89362836073212,
+                "code": "ADJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.145652445652173,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 9.85479797979798,
+                    "code": "CMP"
+                },
+                "moy": 10.000225212725077,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.640081937069741,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 10.692761479591837,
+                    "code": "ADM"
+                },
+                "moy": 11.16642170833079,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 11.531138211382114,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.443395801818182,
+                    "code": "ADM"
+                },
+                "moy": 11.487267006600149,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 12.13412962962963,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 10.141862818333333,
+                    "code": "ADM"
+                },
+                "moy": 11.137996223981482,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADJR",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADJR",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "PASD",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "80013586ddd64c9220eb5dbd1bf94af3e99765b03a66954c5d4946a9ddab5288",
+                "id": 45900,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-12T14:20:46.001099+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "0e159611d346c769dd63c554c1da05d6ca9a7e1d225791a643504fe80df79aa6",
+        "code_nip": "3da733de74206c4cde2bf86adb9a77c0c30d0784f75007c10c37790e09ae3ce8",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 12.440216049382716,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 11.636282596371883,
+                    "code": "ADM"
+                },
+                "moy": 12.038249322877299,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 12.498207347177692,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 9.353106185002737,
+                    "code": "CMP"
+                },
+                "moy": 10.925656766090214,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 12.100833333333334,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.359772727272729,
+                    "code": "ADM"
+                },
+                "moy": 12.23030303030303,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 12.179013566617341,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 10.946464002267573,
+                    "code": "ADM"
+                },
+                "moy": 11.562738784442457,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.112642276422765,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 11.214035695396825,
+                    "code": "ADM"
+                },
+                "moy": 12.163338985909796,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 12.566185185185184,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 12.583514202261906,
+                    "code": "ADM"
+                },
+                "moy": 12.574849693723545,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "0e159611d346c769dd63c554c1da05d6ca9a7e1d225791a643504fe80df79aa6",
+                "id": 45849,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:51.296500+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "d46e6858c69b990556c32c9358d287024013738e5b986a12c8193f101213fc7d",
+        "code_nip": "aebdc49754a121a80794287a22f31f5cb6f89ec37d62424ade4d73b35d42d472",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.214022633744856,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.383833262471654,
+                    "code": "ADM"
+                },
+                "moy": 12.298927948108254,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 10.986541322225275,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 12.993183839627806,
+                    "code": "ADM"
+                },
+                "moy": 11.989862580926541,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 10.159053140096619,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 14.323308080808081,
+                    "code": "ADM"
+                },
+                "moy": 12.24118061045235,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.082209755580951,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 13.07342496293389,
+                    "code": "ADM"
+                },
+                "moy": 12.07781735925742,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.34160569105691,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.186644185198412,
+                    "code": "ADM"
+                },
+                "moy": 12.764124938127662,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 13.464333333333332,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.874747910505953,
+                    "code": "ADM"
+                },
+                "moy": 13.669540621919642,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "d46e6858c69b990556c32c9358d287024013738e5b986a12c8193f101213fc7d",
+                "id": 45850,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:51.296500+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "7e485b919dce8bff91bb086d2b8e66ab660a5eafdc1b94da15b1f037e4738d86",
+        "code_nip": "170588495fbd1d634a9c429dd45a782a9a69862eb599fb4b1be7116fa0af441e",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 14.730434670781893,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 16.1038351521164,
+                    "code": "ADM"
+                },
+                "moy": 15.417134911449146,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 15.74219830553727,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 15.59592512771392,
+                    "code": "ADM"
+                },
+                "moy": 15.669061716625595,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 15.27620256642512,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 17.271540404040405,
+                    "code": "ADM"
+                },
+                "moy": 16.27387148523276,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 15.091623654859601,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 15.146651422321066,
+                    "code": "ADM"
+                },
+                "moy": 15.119137538590333,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 15.071991869918698,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 15.100716183039621,
+                    "code": "ADM"
+                },
+                "moy": 15.08635402647916,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 15.600074074074074,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 16.71201452581101,
+                    "code": "ADM"
+                },
+                "moy": 16.156044299942543,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "7e485b919dce8bff91bb086d2b8e66ab660a5eafdc1b94da15b1f037e4738d86",
+                "id": 45851,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:51.923191+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "26f75da08c33228cf864dc7e6c485bc4a92adbf966ae350c723b1dee7e722837",
+        "code_nip": "495a81799dec8a600ff7f615fb841fcc7ba78c33fdb24329dee52ea0796bc225",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.915185185185184,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.36779195011338,
+                    "code": "ADM"
+                },
+                "moy": 12.641488567649283,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 13.315183601545074,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 12.972666940339353,
+                    "code": "ADM"
+                },
+                "moy": 13.143925270942214,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 13.962621195652172,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.872550505050505,
+                    "code": "ADM"
+                },
+                "moy": 13.917585850351339,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 12.506346507603373,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 12.72726430315716,
+                    "code": "ADM"
+                },
+                "moy": 12.616805405380266,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 14.568495934959351,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 12.922288893824856,
+                    "code": "ADM"
+                },
+                "moy": 13.745392414392104,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.63437037037037,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 14.601218523043155,
+                    "code": "ADM"
+                },
+                "moy": 14.617794446706762,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "26f75da08c33228cf864dc7e6c485bc4a92adbf966ae350c723b1dee7e722837",
+                "id": 45852,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:51.964581+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "3f51956f4b1c732d453052edca05db4d0868cda2f615844bb35a69b46b61ff91",
+        "code_nip": "0d58f2fef9fc4f7cb02601a23f671485652f55605a850b8dafe3fa7640b4d94b",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 16.397430555555555,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.10508491591081,
+                    "code": "ADM"
+                },
+                "moy": 14.751257735733184,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 16.97525840802461,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 12.387859765553731,
+                    "code": "ADM"
+                },
+                "moy": 14.681559086789171,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 15.841973460144928,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.467803030303031,
+                    "code": "ADM"
+                },
+                "moy": 14.15488824522398,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 16.42295894129814,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.983107211901855,
+                    "code": "ADM"
+                },
+                "moy": 14.203033076599997,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 15.719959349593495,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 12.43466218374068,
+                    "code": "ADM"
+                },
+                "moy": 14.077310766667088,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 15.418185185185186,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.770971199293154,
+                    "code": "ADM"
+                },
+                "moy": 14.594578192239169,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "3f51956f4b1c732d453052edca05db4d0868cda2f615844bb35a69b46b61ff91",
+                "id": 45853,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:52.480075+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "f8806a2fd8b7b6683cfe2b9db1edccbd836f0263d97a9f5798e6aa816337bdbe",
+        "code_nip": "df9c8940440701bbb989eda2191874c46bf41a19569607521d58c6b99951b754",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.354992283950619,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 0,
+                    "code": "AJ"
+                },
+                "moy": 5.677496141975309,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 13.098213535940193,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 0,
+                    "code": "AJ"
+                },
+                "moy": 6.5491067679700965,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 12.20066875,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 0,
+                    "code": "AJ"
+                },
+                "moy": 6.100334375,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.282388609961322,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 2.8125,
+                    "code": "AJ"
+                },
+                "moy": 6.547444304980661,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 10.72459349593496,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 0,
+                    "code": "AJ"
+                },
+                "moy": 5.36229674796748,
+                "code": "AJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 11.10611111111111,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 0.6862745098039216,
+                    "code": "AJ"
+                },
+                "moy": 5.896192810457515,
+                "code": "AJ"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2514,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2515,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2516,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2517,
+                "code": "AJ",
+                "ects": 0
+            },
+            {
+                "ue_id": 2518,
+                "code": "AJ",
+                "ects": 0
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "NAR",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": []
+    },
+    {
+        "etudid": "a5c4c3dd7821f679d591513ce40260bb611ae290ce595113ecff2e6554150bbc",
+        "code_nip": "b7429973c273c4d57a931c8287e5088f587a7a9d935d6ff2e9940c8b183ce27d",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 12.857780349794236,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 16.34730867346939,
+                    "code": "ADM"
+                },
+                "moy": 14.602544511631812,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 15.270542614434431,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 16.204125615763548,
+                    "code": "ADM"
+                },
+                "moy": 15.737334115098989,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 14.586966334541062,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 17.527070707070706,
+                    "code": "ADM"
+                },
+                "moy": 16.057018520805883,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 13.553457295206943,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 15.179928702250132,
+                    "code": "ADM"
+                },
+                "moy": 14.366692998728539,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 12.023617886178862,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 15.797156971623377,
+                    "code": "ADM"
+                },
+                "moy": 13.91038742890112,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 13.058814814814816,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 15.653227223988095,
+                    "code": "ADM"
+                },
+                "moy": 14.356021019401457,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "a5c4c3dd7821f679d591513ce40260bb611ae290ce595113ecff2e6554150bbc",
+                "id": 45832,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:45.426924+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "c631c5908f82fb765f455e19ba39b5294de10ad98b0be2b31585b1c4b6a61042",
+        "code_nip": "6b1c1d55c40e3b71c143450eb5ee5650c11a13eceb17c90450030dafe53323f2",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 13.426813271604937,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 13.790184476568404,
+                    "code": "ADM"
+                },
+                "moy": 13.60849887408667,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 12.612144790196972,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 11.897754743659917,
+                    "code": "ADM"
+                },
+                "moy": 12.254949766928444,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 12.741224245169082,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 14.409722222222221,
+                    "code": "ADM"
+                },
+                "moy": 13.575473233695652,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 13.290117894444462,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 13.101556594860167,
+                    "code": "ADM"
+                },
+                "moy": 13.195837244652314,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 14.183577235772358,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 13.07102636933231,
+                    "code": "ADM"
+                },
+                "moy": 13.627301802552335,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.379425925925926,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.821203184233632,
+                    "code": "ADM"
+                },
+                "moy": 14.100314555079779,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "c631c5908f82fb765f455e19ba39b5294de10ad98b0be2b31585b1c4b6a61042",
+                "id": 45833,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:46.353559+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "b008ad7317385749c08493976c6274be1cca62bc499d2d47d3da3048129a5d3b",
+        "code_nip": "7b8c9d2296acabc3d50a40679d0ad1846eb67ff6936a542a95e06e5067424870",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 10.082772633744856,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 11.897984930083144,
+                    "code": "ADM"
+                },
+                "moy": 10.990378781914,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 9.283666617143199,
+                    "code": "ADJR"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 9.722125296478744,
+                    "code": "ADJR"
+                },
+                "moy": 9.50289595681097,
+                "code": "ADJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 8.785768055555556,
+                    "code": "CMP"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.900328282828282,
+                    "code": "ADM"
+                },
+                "moy": 11.343048169191919,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.747112398229909,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.86583522297808,
+                    "code": "ADM"
+                },
+                "moy": 11.306473810603993,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 11.975000000000001,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 12.606110234217773,
+                    "code": "ADM"
+                },
+                "moy": 12.290555117108887,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 14.761752136752134,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 13.908178208526785,
+                    "code": "ADM"
+                },
+                "moy": 14.33496517263946,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADJR",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADJ",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "b008ad7317385749c08493976c6274be1cca62bc499d2d47d3da3048129a5d3b",
+                "id": 45901,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-12T14:21:19.487622+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "cd5eeee955879aac7a0bd57cd6aa6b38c939015dc144d545cd72c53cf381dc77",
+        "code_nip": "2600361d175c8b3a519cf8e1c1f0bd0e10dc5cba54eec3a1051106dc8114c61f",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 11.02625,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 12.15312996031746,
+                    "code": "ADM"
+                },
+                "moy": 11.58968998015873,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 11.79002668383477,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 10.70198754789272,
+                    "code": "ADM"
+                },
+                "moy": 11.246007115863744,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 11.144954227053141,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 13.679217171717173,
+                    "code": "ADM"
+                },
+                "moy": 12.412085699385157,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 10.281247160263046,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 11.776575854700853,
+                    "code": "ADM"
+                },
+                "moy": 11.02891150748195,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 11.270203252032521,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 10.876144639409272,
+                    "code": "ADM"
+                },
+                "moy": 11.073173945720896,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 10.88462962962963,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 12.981419623162203,
+                    "code": "ADM"
+                },
+                "moy": 11.933024626395916,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "cd5eeee955879aac7a0bd57cd6aa6b38c939015dc144d545cd72c53cf381dc77",
+                "id": 45834,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-11T07:15:46.529182+02:00"
+            }
+        ]
+    },
+    {
+        "etudid": "ff5c8f50e1a36663cd5e5fdd4e4b98f1ab32753179bb13af93ae0b99d4526df5",
+        "code_nip": "5f9ded89a3fa0d648fb218143581a513c66f87119c82898cf2c19258ff849e32",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 6,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2346,
+                    "moy": 13.594056069958848,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2513,
+                    "moy": 10.93630928760393,
+                    "code": "ADM"
+                },
+                "moy": 12.26518267878139,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2347,
+                    "moy": 13.035122119593085,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2514,
+                    "moy": 8.752423143586936,
+                    "code": "CMP"
+                },
+                "moy": 10.89377263159001,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2348,
+                    "moy": 12.029474305555555,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2515,
+                    "moy": 12.808156565656565,
+                    "code": "ADM"
+                },
+                "moy": 12.41881543560606,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2349,
+                    "moy": 11.204262210028633,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2516,
+                    "moy": 8.753236925111924,
+                    "code": "ADJR"
+                },
+                "moy": 9.97874956757028,
+                "code": "ADJ"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2350,
+                    "moy": 13.257195121951222,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2517,
+                    "moy": 10.033850666372054,
+                    "code": "ADM"
+                },
+                "moy": 11.645522894161637,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2351,
+                    "moy": 13.815518518518518,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2518,
+                    "moy": 10.579980394791667,
+                    "code": "ADM"
+                },
+                "moy": 12.197749456655092,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2513,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2514,
+                "code": "CMP",
+                "ects": 5
+            },
+            {
+                "ue_id": 2515,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2516,
+                "code": "ADJR",
+                "ects": 5
+            },
+            {
+                "ue_id": 2517,
+                "code": "ADM",
+                "ects": 5
+            },
+            {
+                "ue_id": 2518,
+                "code": "ADM",
+                "ects": 5
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADJ",
+            "ordre": 2,
+            "annee_scolaire": 2024
+        },
+        "autorisations": [
+            {
+                "etudid": "ff5c8f50e1a36663cd5e5fdd4e4b98f1ab32753179bb13af93ae0b99d4526df5",
+                "id": 45902,
+                "origin_formsemestre_id": 1439,
+                "formation_code": "FCOD49",
+                "semestre_id": 5,
+                "date": "2025-09-12T14:22:05.570210+02:00"
+            }
+        ]
+    }
+]

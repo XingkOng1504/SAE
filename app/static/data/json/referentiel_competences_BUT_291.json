@@ -1,0 +1,1274 @@
+{
+    "dept_id": 2,
+    "annexe": "12",
+    "specialite": "GEA",
+    "specialite_long": "Gestion des entreprises et des administrations",
+    "type_structure": "type1",
+    "type_departement": "tertiaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2022-03-31 00:00:00",
+    "scodoc_date_loaded": "2025-07-23T12:14:44.066379Z",
+    "scodoc_orig_filename": "but-GEA-13052023-142654.xml",
+    "competences": {
+        "Analyser": {
+            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e",
+            "titre": "Analyser",
+            "titre_long": "Analyser les processus de l'organisation dans son environnement",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en déterminant correctement ses enjeux sociaux économiques et juridiques"
+                },
+                {
+                    "libelle": "en identifiant rigoureusement les différentes dimensions de l’identité et des caractéristiques internes et externes des organisations selon des critères pertinents"
+                },
+                {
+                    "libelle": "en présentant de manière détaillée les attentes de chacun des acteurs et partenaires de l’organisation"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Identifier les processus de l'organisation",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Identifier les différents types d'enjeux",
+                            "oid": 504
+                        },
+                        "AC11.02": {
+                            "libelle": "Qualifier les différents types d'organisations",
+                            "oid": 505
+                        },
+                        "AC11.03": {
+                            "libelle": "Identifier les parties prenantes et leurs relations au sein d'un processus",
+                            "oid": 506
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Évaluer les processus de l'organisation ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Analyser les différents types d'enjeux",
+                            "oid": 507
+                        },
+                        "AC21.02": {
+                            "libelle": "Analyser les dimensions identitaires (juridiques, managériales,...) de l'organisation",
+                            "oid": 508
+                        },
+                        "AC21.03": {
+                            "libelle": "Évaluer le niveau de performance des processus",
+                            "oid": 509
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Conseiller pour l'amélioration des processus de l'organisation ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Intégrer l'impact des enjeux sur l'organisation",
+                            "oid": 510
+                        },
+                        "AC31.02": {
+                            "libelle": "Conseiller un type d'organisation",
+                            "oid": 511
+                        },
+                        "AC31.03": {
+                            "libelle": "Proposer des améliorations des processus",
+                            "oid": 512
+                        }
+                    }
+                }
+            }
+        },
+        "Décider": {
+            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d",
+            "titre": "Décider",
+            "titre_long": "Aider à la prise de décision",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en utilisant efficacement un système d’information de gestion adapté"
+                },
+                {
+                    "libelle": "en utilisant des outils notamment numériques pertinents"
+                },
+                {
+                    "libelle": "en interprétant pertinemment les données qualitatives et quantitatives"
+                },
+                {
+                    "libelle": "en respectant rigoureusement les contraintes et les procédures de l’organisation"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Identifier les éléments d'aide à la prise de décision ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Identifier les composantes du système d'information de gestion",
+                            "oid": 513
+                        },
+                        "AC12.02": {
+                            "libelle": "Rechercher, collecter et traiter les données brutes afin de produire et de diffuser une information structurée",
+                            "oid": 514
+                        },
+                        "AC12.03": {
+                            "libelle": "Identifier les contraintes qui s'imposent à l'organisation",
+                            "oid": 515
+                        },
+                        "AC12.04": {
+                            "libelle": "Identifier les risques",
+                            "oid": 516
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Évaluer les éléments d'aide à la prise de décision ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Analyser les enjeux du système d'information et leur impact sur le fonctionnement de l'organisation",
+                            "oid": 517
+                        },
+                        "AC22.02": {
+                            "libelle": "Exploiter un ERP\/PGI et ses fonctionnalités de base",
+                            "oid": 518
+                        },
+                        "AC22.03": {
+                            "libelle": "Traiter les données pertinentes pour répondre à une problématique",
+                            "oid": 519
+                        },
+                        "AC22.04": {
+                            "libelle": "Analyser les contraintes et leur impact sur le fonctionnement et sur la performance de l'organisation",
+                            "oid": 520
+                        },
+                        "AC22.05": {
+                            "libelle": "Évaluer les risques",
+                            "oid": 521
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Concourir à la prise de décision",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Collaborer au processus d'amélioration continue du système d'information",
+                            "oid": 522
+                        },
+                        "AC32.02": {
+                            "libelle": "Exploiter les données pour accompagner la prise de décision",
+                            "oid": 523
+                        },
+                        "AC32.03": {
+                            "libelle": "Participer à la prise de décision en fonction des contraintes identifiées",
+                            "oid": 524
+                        },
+                        "AC32.04": {
+                            "libelle": "Élaborer des mesures préventives de minimisation des risques",
+                            "oid": 525
+                        }
+                    }
+                }
+            }
+        },
+        "Piloter": {
+            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d",
+            "titre": "Piloter",
+            "titre_long": "Piloter les relations avec les parties prenantes de l'organisation",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en mettant en œuvre une démarche favorisant la cohésion de groupe"
+                },
+                {
+                    "libelle": "en participant efficacement à des travaux collectifs ou des projets collaboratifs"
+                },
+                {
+                    "libelle": "en mobilisant des outils et techniques de communication adaptés aux enjeux de l’organisation"
+                },
+                {
+                    "libelle": "en contribuant efficacement à la gestion individuelle et collective des parties prenantes de l’organisation"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Identifier les relations entre les parties prenantes",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC13.03": {
+                            "libelle": "Travailler en équipe avec méthodes",
+                            "oid": 528
+                        },
+                        "AC13.01": {
+                            "libelle": "Identifier ses qualités individuelles",
+                            "oid": 526
+                        },
+                        "AC13.02": {
+                            "libelle": "Identifier les relations inter-personnelles et collectives",
+                            "oid": 527
+                        },
+                        "AC13.04": {
+                            "libelle": "Utiliser de façon pertinente les techniques de communication",
+                            "oid": 529
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Coordonner les relations entre les parties prenantes",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Mobiliser ses qualités individuelles au service de l'intelligence collective",
+                            "oid": 530
+                        },
+                        "AC23.02": {
+                            "libelle": "Analyser les relations inter-personnelles et collectives dans la stratégie de l'organisation",
+                            "oid": 531
+                        },
+                        "AC23.03": {
+                            "libelle": "Utiliser les outils d'organisation et méthodes dédiés au travail collaboratif",
+                            "oid": 532
+                        },
+                        "AC23.04": {
+                            "libelle": "Combiner les méthodes de communication en lien avec la stratégie",
+                            "oid": 533
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Améliorer les relations entre les parties prenantes",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Animer une équipe",
+                            "oid": 534
+                        },
+                        "AC33.02": {
+                            "libelle": "Mener un projet collaboratif",
+                            "oid": 535
+                        },
+                        "AC33.03": {
+                            "libelle": "Participer à l'amélioration de la politique de communication en lien avec la stratégie",
+                            "oid": 536
+                        }
+                    }
+                }
+            }
+        },
+        "Produire": {
+            "id_orebut": "bd4b811ec3d8c7a4a7b98f502993f4da",
+            "titre": "Produire",
+            "titre_long": "Produire l’information comptable, fiscale et sociale de l'organisation",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en repérant précisément le fonctionnement juridique et comptable des différents types d'organisation"
+                },
+                {
+                    "libelle": "en respectant les règles comptables et de révision comptable applicables"
+                },
+                {
+                    "libelle": "en respectant les règles de droit fiscal et de droit social applicables"
+                },
+                {
+                    "libelle": "en s'adaptant efficacement à l’environnement numérique et à la digitalisation des activités comptables, sociales et fiscales"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Contrôler l'information comptable, fiscale et sociale produite ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01GC2F": {
+                            "libelle": "Traiter et contrôler l’ensemble des opérations de comptabilité générale et de comptabilité approfondie en conformité avec les règles comptables, fiscales et sociales et dans le respect des normes professionnelles",
+                            "oid": 537
+                        },
+                        "AC24.02GC2F": {
+                            "libelle": "Distinguer les différents acteurs de la comptabilité et leur environnement réglementaire",
+                            "oid": 538
+                        },
+                        "AC24.03GC2F": {
+                            "libelle": "Prendre en charge la révision comptable en contrôlant les différents cycles de l'organisation",
+                            "oid": 539
+                        },
+                        "AC24.04GC2F": {
+                            "libelle": "Établir les comptes annuels à l'aide des outils de digitalisation",
+                            "oid": 540
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Optimiser l'information comptable, fiscale et sociale produite",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01GC2F": {
+                            "libelle": "Résoudre les problèmes comptables spécifiques à l'évaluation des actifs et passifs et à la détermination des charges et produits dans une organisation",
+                            "oid": 541
+                        },
+                        "AC34.02GC2F": {
+                            "libelle": "Appliquer les règles comptables, fiscales et sociales adaptées à l’organisation",
+                            "oid": 542
+                        },
+                        "AC34.03GC2F": {
+                            "libelle": "Réaliser un diagnostic et\/ou un audit pour apporter des conseils",
+                            "oid": 543
+                        },
+                        "AC34.04GC2F": {
+                            "libelle": "Sécuriser l'information comptable, fiscale et sociale produite",
+                            "oid": 544
+                        }
+                    }
+                }
+            }
+        },
+        "Concevoir": {
+            "id_orebut": "21787820439ecf902ea5acce57e1a60a",
+            "titre": "Concevoir",
+            "titre_long": "Concevoir des outils de contrôle de gestion",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en choisissant une méthode de calcul des coûts pertinente"
+                },
+                {
+                    "libelle": "en solutionnant des problèmes de gestion en avenir certain et aléatoire"
+                },
+                {
+                    "libelle": "en maîtrisant la démarche budgétaire avec ses enjeux et ses limites"
+                },
+                {
+                    "libelle": "en proposant des améliorations en fonction d'écarts budgétaires constatés"
+                },
+                {
+                    "libelle": "en élaborant des outils de gestion adaptés autour de l'entreprise étendue et de son environnement"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Analyser le système de contrôle de gestion",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01CG2P": {
+                            "libelle": "Identifier les intérêts et les limites des méthodes de calcul de coûts",
+                            "oid": 545
+                        },
+                        "AC24.02CG2P": {
+                            "libelle": "Mettre en oeuvre les démarches et pratiques budgétaires en lien avec les choix managériaux",
+                            "oid": 546
+                        },
+                        "AC24.03CG2P": {
+                            "libelle": "Analyser la rentabilité et le risque financier",
+                            "oid": 547
+                        },
+                        "AC24.04CG2P": {
+                            "libelle": "Analyser les relations des parties prenantes liées à la complexité du système de l’organisation",
+                            "oid": 548
+                        },
+                        "AC24.05CG2P": {
+                            "libelle": "Analyser la valeur dans une approche systémique",
+                            "oid": 549
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Améliorer le système de contrôle de gestion",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01CG2P": {
+                            "libelle": "Rédiger un diagnostic approfondi en lien avec les choix managériaux et la gestion des risques",
+                            "oid": 550
+                        },
+                        "AC34.02CG2P": {
+                            "libelle": "Conseiller le décideur sur des actions correctives et préventives",
+                            "oid": 551
+                        },
+                        "AC34.03CG2P": {
+                            "libelle": "Mettre en oeuvre un système de management intégré dans une démarche qualité et d'amélioration continue de la performance globale de l’entreprise",
+                            "oid": 552
+                        },
+                        "AC34.04CG2P": {
+                            "libelle": "Prendre en compte les coûts environnementaux, sociaux et sociétaux dans une approche systémique",
+                            "oid": 553
+                        }
+                    }
+                }
+            }
+        },
+        "Entreprendre": {
+            "id_orebut": "7c9f042192f051fef863a12f4210399c",
+            "titre": "Entreprendre",
+            "titre_long": "Concevoir la stratégie de création de valeur",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en étudiant les marchés actuels et futurs dans un environnement sectoriel spécifique"
+                },
+                {
+                    "libelle": "en élaborant un business model adapté"
+                },
+                {
+                    "libelle": "en réalisant un business plan réaliste dans sa dimension financière"
+                },
+                {
+                    "libelle": "en choisissant une structure juridique pertinente"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Modéliser la proposition de valeur ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01GEMA": {
+                            "libelle": "S'adapter aux évolutions induites par le contexte d'incertitude",
+                            "oid": 554
+                        },
+                        "AC24.02GEMA": {
+                            "libelle": "Évaluer le potentiel d'un marché à partir d'une collecte d'informations pertinentes",
+                            "oid": 555
+                        },
+                        "AC24.03GEMA": {
+                            "libelle": "Modéliser les composantes d'un business model d'une entité existante",
+                            "oid": 556
+                        },
+                        "AC24.04GEMA": {
+                            "libelle": "Apprécier la cohérence d'un business model et de son business plan",
+                            "oid": 557
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Sécuriser la proposition de valeur ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01GEMA": {
+                            "libelle": "Tester la viabilité financière d’un business model",
+                            "oid": 558
+                        },
+                        "AC34.02GEMA": {
+                            "libelle": "Apprécier les risques financiers, fiscaux et juridiques de l’entité ou de l’entrepreneur",
+                            "oid": 559
+                        },
+                        "AC34.03GEMA": {
+                            "libelle": "Préconiser les mesures de protection contre les risques",
+                            "oid": 560
+                        },
+                        "AC34.04GEMA": {
+                            "libelle": "Persuader une partie prenante de la viabilité du business plan",
+                            "oid": 561
+                        },
+                        "AC34.05GEMA": {
+                            "libelle": "Confronter son projet à son expérience de terrain",
+                            "oid": 562
+                        }
+                    }
+                }
+            }
+        },
+        "Administrer": {
+            "id_orebut": "fcc282ea71450d93f15717d51c53090d",
+            "titre": "Administrer",
+            "titre_long": "Gérer l'administration du personnel ",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en appliquant rigoureusement le cadre juridique en matière de RH"
+                },
+                {
+                    "libelle": "en établissant la paie conformément à la réglementation en vigueur et à la politique de rémunération"
+                },
+                {
+                    "libelle": "en produisant des documents administratifs et juridiques adaptés"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Conduire les activités administratives des RH",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01GPRH": {
+                            "libelle": "Établir un bulletin de paie en intégrant les éléments fixes et variables de la rémunération",
+                            "oid": 563
+                        },
+                        "AC24.02GPRH": {
+                            "libelle": "Appliquer rigoureusement les procédures, depuis le recrutement jusqu'à la fin du contrat de travail",
+                            "oid": 564
+                        },
+                        "AC24.03GPRH": {
+                            "libelle": "Administrer les dossiers personnels des salariés y compris dans le domaine de la santé et de la sécurité au travail",
+                            "oid": 565
+                        },
+                        "AC24.04GPRH": {
+                            "libelle": "Produire des déclarations sociales fiables",
+                            "oid": 566
+                        },
+                        "AC24.05GPRH": {
+                            "libelle": "Restituer les résultats des tableaux de bord sociaux",
+                            "oid": 567
+                        },
+                        "AC24.06GPRH": {
+                            "libelle": "Organiser les élections, le renouvellement et le fonctionnement des instances représentatives du personnel",
+                            "oid": 568
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Optimiser les processus administratifs RH",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01GPRH": {
+                            "libelle": "Rendre compte des évolutions des obligations sociales et juridiques qui impactent l'organisation",
+                            "oid": 569
+                        },
+                        "AC34.02GPRH": {
+                            "libelle": "Optimiser la procédure de gestion de la paie et la politique de rémunération",
+                            "oid": 570
+                        },
+                        "AC34.03GPRH": {
+                            "libelle": "Proposer, après analyse, des indicateurs pertinents du dialogue social",
+                            "oid": 571
+                        },
+                        "AC34.04GPRH": {
+                            "libelle": "Réaliser un reporting RH adapté pour les parties prenantes internes",
+                            "oid": 572
+                        },
+                        "AC34.05GPRH": {
+                            "libelle": "Proposer des solutions d’optimisation de la performance sociale en fonction des choix stratégiques",
+                            "oid": 573
+                        }
+                    }
+                }
+            }
+        },
+        "Evaluer": {
+            "id_orebut": "cb4d744f57f41f850b89a5b18c0ab6a7",
+            "titre": "Evaluer",
+            "titre_long": "Évaluer l'activité de l'organisation",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en identifiant rigoureusement l'activité et la structure financière en fonction des différents types d'organisation en proposant des solutions d'amélioration à partir de l'identification des éventuels problèmes"
+                },
+                {
+                    "libelle": "en proposant des solutions d'amélioration à partir de l'identification des éventuels problèmes"
+                },
+                {
+                    "libelle": "en développant la politique financière d’une organisation de façon pertinente et adaptée"
+                },
+                {
+                    "libelle": "en mobilisant des outils pertinents de contrôle de gestion propres à l'organisation"
+                },
+                {
+                    "libelle": "en développant un système d’information numérique d’analyse et de prévision de l’activité adapté au type d'organisation"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Élaborer des outils d'analyse et de prévision de l'activité ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01GC2F": {
+                            "libelle": "Identifier les points forts et les points faibles de l'organisation aussi bien en terme d'activité que de structure financière",
+                            "oid": 574
+                        },
+                        "AC25.02GC2F": {
+                            "libelle": "Mesurer la rentabilité d'un investissement",
+                            "oid": 575
+                        },
+                        "AC25.03GC2F": {
+                            "libelle": "Réaliser des prévisions au niveau de l'activité, de la trésorerie et du patrimoine dans une optique de financement de l'organisation",
+                            "oid": 576
+                        },
+                        "AC25.04GC2F": {
+                            "libelle": "Mettre en place une comptabilité analytique et une gestion budgétaire",
+                            "oid": 577
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Optimiser les outils d'analyse et de prévision de l'activité",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01GC2F": {
+                            "libelle": "Mettre en place une politique d'investissement cohérente",
+                            "oid": 578
+                        },
+                        "AC35.02GC2F": {
+                            "libelle": "Mettre en place les sources de financement nécessaires",
+                            "oid": 579
+                        },
+                        "AC35.03GC2F": {
+                            "libelle": "Établir un plan de financement équilibré",
+                            "oid": 580
+                        },
+                        "AC35.04GC2F": {
+                            "libelle": "Réaliser la gestion de trésorerie sur le court terme",
+                            "oid": 581
+                        },
+                        "AC35.05GC2F": {
+                            "libelle": "Réaliser à moyen et long terme des budgets d’exploitation et de trésorerie, des comptes de résultat et des bilans prévisionnels",
+                            "oid": 582
+                        },
+                        "AC35.06GC2F": {
+                            "libelle": "Évaluer les résultats et les performances de l’organisation par le contrôle budgétaire",
+                            "oid": 583
+                        }
+                    }
+                }
+            }
+        },
+        "Améliorer": {
+            "id_orebut": "5db84bf1664bc5d65cb788e7ca19c6f7",
+            "titre": "Améliorer",
+            "titre_long": "Mettre en œuvre des leviers d’amélioration continue des performances de l’organisation",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en utilisant efficacement le processus de contrôle de gestion dans la conduite du changement"
+                },
+                {
+                    "libelle": "en optimisant les flux grâce au Système d'information"
+                },
+                {
+                    "libelle": "en concevant des tableaux de bord adaptés à la prise de décision"
+                },
+                {
+                    "libelle": "en optimisant la performance (Reporting et Indicateurs Clés de Performance)"
+                }
+            ],
+            "niveaux": {
+                "BUT3": {
+                    "libelle": "Améliorer les outils de la performance",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01CG2P": {
+                            "libelle": "Exploiter les fonctionnalités avancées et adaptées d'un ERP \/ PGI",
+                            "oid": 588
+                        },
+                        "AC35.02CG2P": {
+                            "libelle": "Confronter différentes sources de données hétérogènes",
+                            "oid": 589
+                        },
+                        "AC35.03CG2P": {
+                            "libelle": "Proposer des plans d'action et des indicateurs cibles",
+                            "oid": 590
+                        },
+                        "AC35.04CG2P": {
+                            "libelle": "Analyser les enjeux de la RSE dans une approche globale de la performance",
+                            "oid": 591
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Analyser les outils de la performance ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01CG2P": {
+                            "libelle": "Critiquer le fonctionnement d'une organisation",
+                            "oid": 584
+                        },
+                        "AC25.02CG2P": {
+                            "libelle": "Définir les indicateurs clés de performances",
+                            "oid": 585
+                        },
+                        "AC25.03CG2P": {
+                            "libelle": "Mettre en oeuvre des outils de suivi et de pilotage",
+                            "oid": 586
+                        },
+                        "AC25.04CG2P": {
+                            "libelle": "Exploiter des outils de visualisation des données",
+                            "oid": 587
+                        }
+                    }
+                }
+            }
+        },
+        "Développer": {
+            "id_orebut": "c0daa59d097e26e578379c6a1cf354f2",
+            "titre": "Développer",
+            "titre_long": "Assurer la gestion et le développement de la chaîne de valeur",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en gérant avec les outils adaptés les activités de production"
+                },
+                {
+                    "libelle": "en gérant les activités de développement marketing en mobilisant les techniques pertinentes"
+                },
+                {
+                    "libelle": "en gérant opérationnellement les ressources humaines"
+                },
+                {
+                    "libelle": "en gérant la supply-chain avec les techniques adéquates"
+                },
+                {
+                    "libelle": "en maîtrisant le risque financier à l'aide des outils adaptés"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Développer la chaîne de valeur",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01GEMA": {
+                            "libelle": "Promouvoir un projet, un événement ou une organisation par des actions de communication adaptées",
+                            "oid": 592
+                        },
+                        "AC25.02GEMA": {
+                            "libelle": "Identifier la variété et la complexité des processus de production et de supply chain",
+                            "oid": 593
+                        },
+                        "AC25.03GEMA": {
+                            "libelle": "Utiliser les techniques de négociation avec les partenaires commerciaux",
+                            "oid": 594
+                        },
+                        "AC25.04GEMA": {
+                            "libelle": "Évaluer les axes d’une démarche de marketing opérationnel y compris digitale",
+                            "oid": 595
+                        },
+                        "AC25.05GEMA": {
+                            "libelle": "Évaluer le risque de trésorerie",
+                            "oid": 596
+                        },
+                        "AC25.06GEMA": {
+                            "libelle": "Contribuer à la gestion opérationnelle des ressources humaines",
+                            "oid": 597
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Optimiser la chaîne de valeur",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01GEMA": {
+                            "libelle": "Concevoir une stratégie de communication en utilisant les outils adaptés y compris digitaux",
+                            "oid": 598
+                        },
+                        "AC35.02GEMA": {
+                            "libelle": "Mettre en oeuvre des processus de production et de supply chain adaptés à la situation de l’entité",
+                            "oid": 599
+                        },
+                        "AC35.03GEMA": {
+                            "libelle": "Concevoir une démarche de marketing opérationnel adaptée à l’entité",
+                            "oid": 600
+                        },
+                        "AC35.04GEMA": {
+                            "libelle": "Prévenir les risques de défaillance avec les outils adaptés",
+                            "oid": 601
+                        },
+                        "AC35.05GEMA": {
+                            "libelle": "Déterminer les axes principaux d’une politique de ressources humaines dans l’entité",
+                            "oid": 602
+                        }
+                    }
+                }
+            }
+        },
+        "Développer 2": {
+            "id_orebut": "678f62193c977daa28fa035982e494c5",
+            "titre": "Développer 2",
+            "titre_long": "Gérer le développement des ressources humaines",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Dans des organisations de tailles et d'espaces géographiques différents"
+                },
+                {
+                    "libelle": "Dans des organisations marchandes ou non marchandes"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en mobilisant les dispositifs adaptés de formation, d’évaluation et de développement des compétences et de mobilité"
+                },
+                {
+                    "libelle": "en contribuant efficacement au processus de recrutement externe"
+                },
+                {
+                    "libelle": "en assurant une communication RH interne et externe pertinente"
+                },
+                {
+                    "libelle": "en contribuant à l’élaboration et la diffusion des dispositifs de lutte contre les discriminations dans le respect de la loi et des politiques de RSE"
+                },
+                {
+                    "libelle": "en contribuant efficacement à la mise en place et au suivi des dispositifs de protection de la santé - sécurité et de la qualité de vie au travail"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en œuvre les politiques RH",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01GPRH": {
+                            "libelle": "Mettre en œuvre les outils et les dispositifs de développement des emplois, des compétences et des carrières selon la stratégie de l’organisation",
+                            "oid": 603
+                        },
+                        "AC25.02GPRH": {
+                            "libelle": "Mettre en oeuvre des outils et des techniques adaptés du processus de recrutement",
+                            "oid": 604
+                        },
+                        "AC25.03GPRH": {
+                            "libelle": "Mettre en œuvre la communication RH",
+                            "oid": 605
+                        },
+                        "AC25.04GPRH": {
+                            "libelle": "Identifier les enjeux et les outils d’une démarche de Qualité de Vie au Travail",
+                            "oid": 606
+                        },
+                        "AC25.05GPRH": {
+                            "libelle": "Définir les enjeux et les dispositifs adaptés de RSE",
+                            "oid": 607
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Optimiser les politiques RH",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01GPRH": {
+                            "libelle": "Optimiser les dispositifs de développement RH",
+                            "oid": 608
+                        },
+                        "AC35.02GPRH": {
+                            "libelle": "Optimiser les outils et techniques du processus de recrutement",
+                            "oid": 609
+                        },
+                        "AC35.03GPRH": {
+                            "libelle": "Optimiser la communication RH en interne et en externe",
+                            "oid": 610
+                        },
+                        "AC35.04GPRH": {
+                            "libelle": "Analyser la pertinence des outils de la digitalisation de la gestion RH",
+                            "oid": 611
+                        },
+                        "AC35.05GPRH": {
+                            "libelle": "Optimiser les dispositifs de gestion de la diversité et de la Qualité de Vie au Travail",
+                            "oid": 612
+                        },
+                        "AC35.06GPRH": {
+                            "libelle": "Optimiser les différentes politiques RH grâce à l'analyse des résultats des indicateurs de performance RH",
+                            "oid": 613
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "CG2P": {
+            "code": "CG2P",
+            "numero": 0,
+            "libelle": "Contrôle de gestion et pilotage de la performance",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 1,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 2,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Concevoir": {
+                            "niveau": 1,
+                            "id_orebut": "21787820439ecf902ea5acce57e1a60a"
+                        },
+                        "Améliorer": {
+                            "niveau": 1,
+                            "id_orebut": "5db84bf1664bc5d65cb788e7ca19c6f7"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 3,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Concevoir": {
+                            "niveau": 2,
+                            "id_orebut": "21787820439ecf902ea5acce57e1a60a"
+                        },
+                        "Améliorer": {
+                            "niveau": 2,
+                            "id_orebut": "5db84bf1664bc5d65cb788e7ca19c6f7"
+                        }
+                    }
+                }
+            }
+        },
+        "GC2F": {
+            "code": "GC2F",
+            "numero": 0,
+            "libelle": "Gestion comptable fiscale et financière ",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 1,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 2,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Produire": {
+                            "niveau": 1,
+                            "id_orebut": "bd4b811ec3d8c7a4a7b98f502993f4da"
+                        },
+                        "Evaluer": {
+                            "niveau": 1,
+                            "id_orebut": "cb4d744f57f41f850b89a5b18c0ab6a7"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 3,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Produire": {
+                            "niveau": 2,
+                            "id_orebut": "bd4b811ec3d8c7a4a7b98f502993f4da"
+                        },
+                        "Evaluer": {
+                            "niveau": 2,
+                            "id_orebut": "cb4d744f57f41f850b89a5b18c0ab6a7"
+                        }
+                    }
+                }
+            }
+        },
+        "GEMA": {
+            "code": "GEMA",
+            "numero": 0,
+            "libelle": "Gestion entrepreneuriat et management des activités",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 1,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 2,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Entreprendre": {
+                            "niveau": 1,
+                            "id_orebut": "7c9f042192f051fef863a12f4210399c"
+                        },
+                        "Développer": {
+                            "niveau": 1,
+                            "id_orebut": "c0daa59d097e26e578379c6a1cf354f2"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 3,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Entreprendre": {
+                            "niveau": 2,
+                            "id_orebut": "7c9f042192f051fef863a12f4210399c"
+                        },
+                        "Développer": {
+                            "niveau": 2,
+                            "id_orebut": "c0daa59d097e26e578379c6a1cf354f2"
+                        }
+                    }
+                }
+            }
+        },
+        "GPRH": {
+            "code": "GPRH",
+            "numero": 0,
+            "libelle": "Gestion et pilotage des ressources humaines  ",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 1,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 1,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 2,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 2,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "fcc282ea71450d93f15717d51c53090d"
+                        },
+                        "Développer 2": {
+                            "niveau": 1,
+                            "id_orebut": "678f62193c977daa28fa035982e494c5"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Analyser": {
+                            "niveau": 3,
+                            "id_orebut": "01c0bd6f9146a05cbe254b4e1faba33e"
+                        },
+                        "Décider": {
+                            "niveau": 3,
+                            "id_orebut": "9ae2112701d3a5ca303e5fdd5051639d"
+                        },
+                        "Piloter": {
+                            "niveau": 3,
+                            "id_orebut": "5c98fd1639c95d87a47d707fba439a5d"
+                        },
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "fcc282ea71450d93f15717d51c53090d"
+                        },
+                        "Développer 2": {
+                            "niveau": 2,
+                            "id_orebut": "678f62193c977daa28fa035982e494c5"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

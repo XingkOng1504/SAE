@@ -1,0 +1,1515 @@
+{
+    "dept_id": 5,
+    "annexe": "22",
+    "specialite": "RT",
+    "specialite_long": "Réseaux et télécommunications",
+    "type_structure": "type1",
+    "type_departement": "secondaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2021-12-11 00:00:00",
+    "scodoc_date_loaded": "2022-04-18T08:37:29.382863Z",
+    "scodoc_orig_filename": "but-RT-05012022-081735.xml",
+    "competences": {
+        "Administrer": {
+            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282",
+            "titre": "Administrer",
+            "titre_long": "Administrer les réseaux et l’Internet",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Conception et administration de l’infrastructure du réseau informatique d’une entreprise"
+                },
+                {
+                    "libelle": "Installation et administration des services réseau informatique d’une entreprise"
+                },
+                {
+                    "libelle": "Déploiement et administration des solutions fixes pour les clients d’un opérateur de télécommunication"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en choisissant les solutions et technologies réseaux adaptées"
+                },
+                {
+                    "libelle": "en respectant les principes fondamentaux de la sécurité informatique"
+                },
+                {
+                    "libelle": "en utilisant une approche rigoureuse pour la résolution des dysfonctionnements"
+                },
+                {
+                    "libelle": "en respectant les règles métiers"
+                },
+                {
+                    "libelle": "en assurant une veille technologique"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Assister l’administrateur du réseau",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications",
+                            "oid": 40
+                        },
+                        "AC11.02": {
+                            "libelle": "Comprendre l'architecture et les fondements des systèmes numériques, les principes du codage de l'information, des communications et de l'Internet",
+                            "oid": 41
+                        },
+                        "AC11.03": {
+                            "libelle": "Configurer les fonctions de base du réseau local",
+                            "oid": 42
+                        },
+                        "AC11.04": {
+                            "libelle": "Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour la configuration et l'administration des réseaux et services fournis",
+                            "oid": 43
+                        },
+                        "AC11.05": {
+                            "libelle": "Identifier les dysfonctionnements du réseau local et savoir les signaler",
+                            "oid": 44
+                        },
+                        "AC11.06": {
+                            "libelle": "Installer un poste client, expliquer la procédure mise en place",
+                            "oid": 45
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Administrer un réseau ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Configurer et dépanner le routage dynamique dans un réseau",
+                            "oid": 46
+                        },
+                        "AC21.02": {
+                            "libelle": "Configurer et expliquer une politique simple de QoS et les fonctions de base  de la sécurité d’un réseau",
+                            "oid": 47
+                        },
+                        "AC21.03": {
+                            "libelle": "Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée",
+                            "oid": 48
+                        },
+                        "AC21.04": {
+                            "libelle": "Déployer des services réseaux avancés",
+                            "oid": 49
+                        },
+                        "AC21.05": {
+                            "libelle": "Identifier les réseaux opérateurs et l’architecture d’Internet",
+                            "oid": 50
+                        },
+                        "AC21.06": {
+                            "libelle": "Travailler en équipe pour développer ses compétences professionnelles",
+                            "oid": 51
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Concevoir un réseau",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Concevoir un projet de réseau informatique d’une entreprise en intégrant les problématiques de haute disponibilité, de QoS, de sécurité et de supervision",
+                            "oid": 52
+                        },
+                        "AC31.02": {
+                            "libelle": "Réaliser la documentation technique de ce projet",
+                            "oid": 53
+                        },
+                        "AC31.03": {
+                            "libelle": "Réaliser une maquette de démonstration du projet",
+                            "oid": 54
+                        },
+                        "AC31.04": {
+                            "libelle": "Défendre\/argumenter un projet",
+                            "oid": 55
+                        },
+                        "AC31.05": {
+                            "libelle": "Communiquer avec les acteurs du projet",
+                            "oid": 56
+                        },
+                        "AC31.06": {
+                            "libelle": "Gérer le projet et les différentes étapes de sa mise en œuvre en respectant les délais",
+                            "oid": 57
+                        }
+                    }
+                }
+            }
+        },
+        "Connecter": {
+            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e",
+            "titre": "Connecter",
+            "titre_long": "Connecter les entreprises et les usagers ",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Déploiement des supports et systèmes de transmission"
+                },
+                {
+                    "libelle": "Mise en service et administration des équipements d’accès fixe ou mobile d’un opérateur de télécommunications"
+                },
+                {
+                    "libelle": "Déploiement et administration des accès sans fil pour l'entreprise"
+                },
+                {
+                    "libelle": "Déploiement des systèmes de communications"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en communiquant avec le client et les différents acteurs impliqués, parfois en anglais"
+                },
+                {
+                    "libelle": "en faisant preuve d’une démarche scientifique"
+                },
+                {
+                    "libelle": "en choisissant les solutions et technologies adaptées"
+                },
+                {
+                    "libelle": "en proposant des solutions respectueuses de l'environnement"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Découvrir les transmissions et la ToIP",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Mesurer, analyser et commenter les signaux",
+                            "oid": 58
+                        },
+                        "AC12.02": {
+                            "libelle": "Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement",
+                            "oid": 59
+                        },
+                        "AC12.03": {
+                            "libelle": "Déployer des supports de transmission",
+                            "oid": 60
+                        },
+                        "AC12.04": {
+                            "libelle": "Connecter les systèmes de ToIP",
+                            "oid": 61
+                        },
+                        "AC12.05": {
+                            "libelle": "Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur",
+                            "oid": 62
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Maîtriser les différentes composantes des solutions de connexion des entreprises et des usagers",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Déployer et caractériser des systèmes de transmissions complexes",
+                            "oid": 63
+                        },
+                        "AC22.02": {
+                            "libelle": "Mettre en place un accès distant sécurisé",
+                            "oid": 64
+                        },
+                        "AC22.03": {
+                            "libelle": "Mettre en place une connexion multi-site via un réseau opérateur",
+                            "oid": 65
+                        },
+                        "AC22.04": {
+                            "libelle": "Déployer des réseaux d’accès des opérateurs",
+                            "oid": 66
+                        },
+                        "AC22.05": {
+                            "libelle": "Capacité à questionner un cahier des charges RT",
+                            "oid": 67
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Déployer une solution de connexion ou de communication sur IP",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Déployer un système de communication pour l’entreprise",
+                            "oid": 68
+                        },
+                        "AC32.02": {
+                            "libelle": "Déployer un réseau d’accès sans fil pour le réseau d’entreprise en intégrant les enjeux de la sécurité",
+                            "oid": 69
+                        },
+                        "AC32.03": {
+                            "libelle": "Déployer un réseau d’accès fixe ou mobile pour un opérateur de télécommunications en intégrant la sécurité",
+                            "oid": 70
+                        },
+                        "AC32.04": {
+                            "libelle": "Permettre aux collaborateurs de se connecter de manière sécurisée au système d’information de l’entreprise",
+                            "oid": 71
+                        },
+                        "AC32.05": {
+                            "libelle": "Collaborer en mode projet en français et en anglais",
+                            "oid": 72
+                        }
+                    }
+                }
+            }
+        },
+        "Programmer": {
+            "id_orebut": "baec10409ad866b2c21a280e9a94a35e",
+            "titre": "Programmer",
+            "titre_long": "Créer des outils et applications informatiques pour les R&T ",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Conception, déploiement et maintenance du système d’information d’une entreprise"
+                },
+                {
+                    "libelle": "Automatisation du déploiement et de la maintenance des outils logiciels"
+                },
+                {
+                    "libelle": "Développement d’outils informatiques à usage interne d'une équipe"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en étant à l’écoute des besoins du client"
+                },
+                {
+                    "libelle": "en documentant le travail réalisé"
+                },
+                {
+                    "libelle": "en utilisant les outils numériques à bon escient"
+                },
+                {
+                    "libelle": "en choisissant les outils de développement adaptés"
+                },
+                {
+                    "libelle": "en intégrant les problématiques de sécurité"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "S’intégrer dans un service informatique",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC13.01": {
+                            "libelle": "Utiliser un système informatique et ses outils",
+                            "oid": 73
+                        },
+                        "AC13.02": {
+                            "libelle": "Lire, exécuter, corriger et modifier un programme",
+                            "oid": 74
+                        },
+                        "AC13.03": {
+                            "libelle": "Traduire un algorithme, dans un langage et pour un environnement donné",
+                            "oid": 75
+                        },
+                        "AC13.04": {
+                            "libelle": "Connaître l’architecture et les technologies d’un site Web",
+                            "oid": 76
+                        },
+                        "AC13.05": {
+                            "libelle": "Choisir les mécanismes de gestion de données adaptés au développement de l’outil et argumenter ses choix",
+                            "oid": 77
+                        },
+                        "AC13.06": {
+                            "libelle": "S’intégrer dans un environnement propice au développement et au travail collaboratif",
+                            "oid": 78
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Développer une application R&T ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Automatiser l’administration système avec des scripts",
+                            "oid": 79
+                        },
+                        "AC23.02": {
+                            "libelle": "Développer une application à partir d’un cahier des charges donné, pour le Web ou les périphériques mobiles",
+                            "oid": 80
+                        },
+                        "AC23.03": {
+                            "libelle": "Utiliser un protocole réseau pour programmer une application client\/serveur",
+                            "oid": 81
+                        },
+                        "AC23.04": {
+                            "libelle": "Installer, administrer un système de gestion de données",
+                            "oid": 82
+                        },
+                        "AC23.05": {
+                            "libelle": "Accéder à un ensemble de données depuis une application et\/ou un site web",
+                            "oid": 83
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Piloter un projet de développement d’une application R&T",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Élaborer les spécifications techniques et le cahier des charges d’une application informatique",
+                            "oid": 84
+                        },
+                        "AC33.02": {
+                            "libelle": "Mettre en place un environnement de travail collaboratif",
+                            "oid": 85
+                        },
+                        "AC33.03": {
+                            "libelle": "Participer à la formation des utilisateurs",
+                            "oid": 86
+                        },
+                        "AC33.04": {
+                            "libelle": "Déployer et maintenir une solution informatique",
+                            "oid": 87
+                        },
+                        "AC33.05": {
+                            "libelle": "S’informer sur les évolutions et les nouveautés technologiques",
+                            "oid": 88
+                        },
+                        "AC33.06": {
+                            "libelle": "Sécuriser l'environnement numérique d'une application",
+                            "oid": 89
+                        }
+                    }
+                }
+            }
+        },
+        "Sécuriser": {
+            "id_orebut": "5f275775f2c68c75550e97b9dcaadc79",
+            "titre": "Sécuriser",
+            "titre_long": "Administrer un système d’information sécurisé",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Analyse de l’existant et étude des besoins de sécurité d’une petite structure"
+                },
+                {
+                    "libelle": "Évolution et mise en conformité du système d’information d’une entreprise"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en visant un juste compromis entre exigences de sécurité et contraintes d’utilisation"
+                },
+                {
+                    "libelle": "en respectant les normes et le cadre juridique"
+                },
+                {
+                    "libelle": "en intégrant les dernières technologies"
+                },
+                {
+                    "libelle": "en travaillant en équipe"
+                },
+                {
+                    "libelle": "en sensibilisant efficacement des utilisateurs"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Sensibiliser aux vulnérabilités d'un système d'information et aux remédiations possibles ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01Cyber": {
+                            "libelle": "Connaître et utiliser les bonnes pratiques et les recommandations de cybersécurité",
+                            "oid": 90
+                        },
+                        "AC24.02Cyber": {
+                            "libelle": "Mettre en œuvre les outils fondamentaux de sécurisation d’une infrastructure du réseau",
+                            "oid": 91
+                        },
+                        "AC24.03Cyber": {
+                            "libelle": "Sécuriser les services",
+                            "oid": 92
+                        },
+                        "AC24.04Cyber": {
+                            "libelle": "Choisir les outils cryptographiques adaptés au besoin fonctionnel du système d’information",
+                            "oid": 93
+                        },
+                        "AC24.05Cyber": {
+                            "libelle": "Connaître les différents types d’attaque",
+                            "oid": 94
+                        },
+                        "AC24.06Cyber": {
+                            "libelle": "Comprendre des documents techniques en anglais",
+                            "oid": 95
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Mettre en œuvre un système d’information sécurisé pour une petite structure ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01Cyber": {
+                            "libelle": "Participer activement à une analyse de risque pour définir une politique de sécurité pour une petite structure",
+                            "oid": 96
+                        },
+                        "AC34.02Cyber": {
+                            "libelle": "Mettre en œuvre des outils avancés de sécurisation d’une infrastructure du réseau",
+                            "oid": 97
+                        },
+                        "AC34.03Cyber": {
+                            "libelle": "Sécuriser les systèmes d’exploitation",
+                            "oid": 98
+                        },
+                        "AC34.04Cyber": {
+                            "libelle": "Proposer une architecture sécurisée de système d'information pour une petite structure",
+                            "oid": 99
+                        }
+                    }
+                }
+            }
+        },
+        "Orchestrer": {
+            "id_orebut": "c28c4205d654a72811f3a7ea63f4d8ec",
+            "titre": "Orchestrer",
+            "titre_long": "Coordonner des infrastructures modulaires",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Industrialisation du déploiement des infrastructures systèmes, réseaux et sécurité en sauvegardant et en restaurant ses configurations"
+                },
+                {
+                    "libelle": "Maintenance des outils pour l’intégration et la mise en production du code logiciel"
+                },
+                {
+                    "libelle": "Administration d’un cluster de containers"
+                },
+                {
+                    "libelle": "Analyse des performances d’un système pour améliorer les processus de production"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant un cahier des charges"
+                },
+                {
+                    "libelle": "en documentant le travail réalisé"
+                },
+                {
+                    "libelle": "en intégrant les problématiques de sécurité"
+                },
+                {
+                    "libelle": "en assurant une veille technologique"
+                },
+                {
+                    "libelle": "en respectant les pratiques d’équipes et des méthodes de production"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Assister l’administrateur infrastructure et Cloud ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01DevCloud": {
+                            "libelle": "Proposer une solution Cloud adaptée à l’entreprise",
+                            "oid": 100
+                        },
+                        "AC24.02DevCloud": {
+                            "libelle": "Virtualiser un environnement",
+                            "oid": 101
+                        },
+                        "AC24.03DevCloud": {
+                            "libelle": "Utiliser les services du Cloud",
+                            "oid": 102
+                        },
+                        "AC24.04DevCloud": {
+                            "libelle": "Analyser un service Cloud au travers des métriques",
+                            "oid": 103
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Administrer une infrastructure Cloud",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01DevCloud": {
+                            "libelle": "Concevoir, administrer et superviser une infrastructure Cloud",
+                            "oid": 104
+                        },
+                        "AC34.02DevCloud": {
+                            "libelle": "Orchestrer les ressources Cloud",
+                            "oid": 105
+                        },
+                        "AC34.03DevCloud": {
+                            "libelle": "Investiguer sur les incidents et les résoudre afin d’améliorer la qualité et la fiabilité des infrastructures",
+                            "oid": 106
+                        }
+                    }
+                }
+            }
+        },
+        "Etendre": {
+            "id_orebut": "1a44792b51880107bdcbb63e995581d1",
+            "titre": "Etendre",
+            "titre_long": "Gérer les infrastructures des réseaux mobiles ",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Gestion des infrastructures d’un opérateur de réseaux mobiles et d’Internet des Objets"
+                },
+                {
+                    "libelle": "Gestion des infrastructures de réseaux mobiles dans le contexte industriel, personnel ou médical"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant les normes et protocoles en vigueur"
+                },
+                {
+                    "libelle": "en intégrant les dernières technologies mobiles"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en œuvre les réseaux pour la mobilité ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01IOM": {
+                            "libelle": "Comprendre les architectures et spécificités des réseaux dédiés à l'IoT",
+                            "oid": 107
+                        },
+                        "AC24.02IOM": {
+                            "libelle": "Mettre en œuvre des systèmes de transmissions pour l’accès à un réseau IoT",
+                            "oid": 108
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Raccorder des objets connectés aux réseaux mobiles ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01IOM": {
+                            "libelle": "Comprendre les architectures, protocoles et services des réseaux mobiles 4G\/5G",
+                            "oid": 109
+                        },
+                        "AC34.02IOM": {
+                            "libelle": "Choisir un réseau pour satisfaire les contraintes énergétiques et spectrales, en délai, en débit et en portée des objets connectés",
+                            "oid": 110
+                        },
+                        "AC34.03IOM": {
+                            "libelle": "Mettre en œuvre des réseaux mobiles personnels ou industriels",
+                            "oid": 111
+                        }
+                    }
+                }
+            }
+        },
+        "Piloter": {
+            "id_orebut": "95742cf15ea805ff7ddae4ed3b893597",
+            "titre": "Piloter",
+            "titre_long": "Mettre en œuvre des projets techniques et réglementaires des R&T dans son activité ",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Adéquation technique des solutions réseaux informatiques et télécoms à la demande client"
+                },
+                {
+                    "libelle": "Élaboration de solutions techniques clients adaptées"
+                },
+                {
+                    "libelle": "Accompagnement technique de la mise en place des solutions clients"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en maîtrisant les enjeux techniques et réglementaires des nouvelles technologies"
+                },
+                {
+                    "libelle": "en pilotant un projet technique R&T"
+                },
+                {
+                    "libelle": "en faisant preuve de vision stratégique en phase avec le marché des réseaux et des télécommunications"
+                },
+                {
+                    "libelle": "en collaborant de façon responsable avec des équipes"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en œuvre un projet R&T ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01PPR": {
+                            "libelle": "Compréhension d’un cahier des charges technique R&T",
+                            "oid": 112
+                        },
+                        "AC24.02PPR": {
+                            "libelle": "Planification des étapes d’un projet technique R&T",
+                            "oid": 113
+                        },
+                        "AC24.03PPR": {
+                            "libelle": "Co-animation d’une équipe technique",
+                            "oid": 114
+                        },
+                        "AC24.04PPR": {
+                            "libelle": "Proposition de solutions techniques  R&T efficientes",
+                            "oid": 115
+                        },
+                        "AC24.05PPR": {
+                            "libelle": "Échanges vulgarisés ou techniques avec tous les acteurs d’un projet",
+                            "oid": 116
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Opérationnaliser un projet R&T ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01PPR": {
+                            "libelle": "Rédaction d'un appel d'offres ou d'un cahier des charges technique R&T",
+                            "oid": 117
+                        },
+                        "AC34.02PPR": {
+                            "libelle": "Animation technique d’équipes pluridisciplinaires",
+                            "oid": 118
+                        },
+                        "AC34.03PPR": {
+                            "libelle": "Coordination d’équipes sur une partie de projet R&T ou sa totalité",
+                            "oid": 119
+                        },
+                        "AC34.04PPR": {
+                            "libelle": "Mise en place de solutions techniques R&T efficientes",
+                            "oid": 120
+                        },
+                        "AC34.05PPR": {
+                            "libelle": "Livraison et suivi technique de projet R&T",
+                            "oid": 121
+                        }
+                    }
+                }
+            }
+        },
+        "Rapprocher": {
+            "id_orebut": "fc8588c8a115ac3a17e16ed59cfd7e79",
+            "titre": "Rapprocher",
+            "titre_long": "Gérer les infrastructures et les services des réseaux opérateurs ",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Gestion des services d’un ensemble de clients entreprises d’un opérateur"
+                },
+                {
+                    "libelle": "Gestion du déploiement de nouvelles infrastructures"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant les règles métiers et les délais"
+                },
+                {
+                    "libelle": "en assurant une communication optimale avec le client"
+                },
+                {
+                    "libelle": "en mettant en place des processus opérationnels de gestion d’incidents"
+                },
+                {
+                    "libelle": "en pilotant les acteurs terrain"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Gérer les infrastructures des réseaux opérateurs ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01ROM": {
+                            "libelle": "Administrer les réseaux d’accès fixes et mobiles",
+                            "oid": 122
+                        },
+                        "AC24.02ROM": {
+                            "libelle": "Virtualiser des services réseaux",
+                            "oid": 123
+                        },
+                        "AC24.03ROM": {
+                            "libelle": "Décrire\/comprendre l’architecture et les offres des opérateurs",
+                            "oid": 124
+                        },
+                        "AC24.04ROM": {
+                            "libelle": "Gérer le routage\/commutation et les interconnexions",
+                            "oid": 125
+                        },
+                        "AC24.05ROM": {
+                            "libelle": "Automatiser la gestion des équipements réseaux",
+                            "oid": 126
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Administrer les services des opérateurs de télécommunications ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01ROM": {
+                            "libelle": "Administrer\/superviser les infrastructures et les services télécom",
+                            "oid": 127
+                        },
+                        "AC34.02ROM": {
+                            "libelle": "Administrer et déployer des fonctions réseaux virtualisées et programmer le réseau",
+                            "oid": 128
+                        }
+                    }
+                }
+            }
+        },
+        "Surveiller": {
+            "id_orebut": "0f341f4017cfa432f98534cdc57fad85",
+            "titre": "Surveiller",
+            "titre_long": "Surveiller un système d’information sécurisé",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Surveillance et analyse du système d’information"
+                },
+                {
+                    "libelle": "Audit de sécurité"
+                },
+                {
+                    "libelle": "Gestion d’un incident de sécurité"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en assurant une veille permanente"
+                },
+                {
+                    "libelle": "en réalisant les mises à jour critiques"
+                },
+                {
+                    "libelle": "en automatisant des tâches"
+                },
+                {
+                    "libelle": "en s’intégrant dans une équipe"
+                },
+                {
+                    "libelle": "en surveillant le comportement du réseau"
+                },
+                {
+                    "libelle": "en veillant au respect des contrats et à la conformité des obligations du système d'information"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Prendre en main les outils de surveillance et de test du système d'information ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01Cyber": {
+                            "libelle": "Administrer les protections contre les logiciels malveillants",
+                            "oid": 129
+                        },
+                        "AC25.02Cyber": {
+                            "libelle": "Prendre en main des outils de test de pénétration réseau\/système",
+                            "oid": 130
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Mettre en œuvre le système de surveillance d’incidents de sécurité ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01Cyber": {
+                            "libelle": "Surveiller l’activité du système d’information",
+                            "oid": 131
+                        },
+                        "AC35.02Cyber": {
+                            "libelle": "Appliquer une méthodologie de tests de pénétration",
+                            "oid": 132
+                        },
+                        "AC35.03Cyber": {
+                            "libelle": "Réagir face à un incident de sécurité",
+                            "oid": 133
+                        },
+                        "AC35.04Cyber": {
+                            "libelle": "Administrer les outils de surveillance du système d’information",
+                            "oid": 134
+                        }
+                    }
+                }
+            }
+        },
+        "Développer": {
+            "id_orebut": "5d428a85a9bfa024fb83aae3d6d7353b",
+            "titre": "Développer",
+            "titre_long": "Accompagner le développement d’applications",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Déploiement d’une application"
+                },
+                {
+                    "libelle": "Intervention sur la chaîne de développement dans une optique DevOps"
+                },
+                {
+                    "libelle": "Surveillance de la qualité de la production"
+                },
+                {
+                    "libelle": "Mise en place des services réseaux nécessaires au développement"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant un cahier des charges"
+                },
+                {
+                    "libelle": "en documentant le travail réalisé"
+                },
+                {
+                    "libelle": "en respectant les bonnes pratiques de développement et de production"
+                },
+                {
+                    "libelle": "en visant l’amélioration continue"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Développer pour le Cloud ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01DevCloud": {
+                            "libelle": "Développer un microservice",
+                            "oid": 135
+                        },
+                        "AC25.02DevCloud": {
+                            "libelle": "Mettre en production une application",
+                            "oid": 136
+                        },
+                        "AC25.03DevCloud": {
+                            "libelle": "Programmer son réseau par le code",
+                            "oid": 137
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "S’intégrer dans une équipe DevOps ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01DevCloud": {
+                            "libelle": "Adopter les pratiques de pilotage de projet",
+                            "oid": 138
+                        },
+                        "AC35.02DevCloud": {
+                            "libelle": "Concevoir, gérer et sécuriser un environnement de microservices",
+                            "oid": 139
+                        },
+                        "AC35.03DevCloud": {
+                            "libelle": "Gérer son infrastructure comme du code",
+                            "oid": 140
+                        },
+                        "AC35.04DevCloud": {
+                            "libelle": "Gérer une chaîne d’intégration et\/ou de déploiement continu",
+                            "oid": 141
+                        }
+                    }
+                }
+            }
+        },
+        "Exploiter": {
+            "id_orebut": "58109285af1087d2cd5b7b9dd1b92b92",
+            "titre": "Exploiter",
+            "titre_long": "Mettre en œuvre des applications et des protocoles sécurisés pour l’Internet des Objets ",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Déploiement d’un système IoT de la source capteur aux traitements des données"
+                },
+                {
+                    "libelle": "Gestion, administration et sécurisation d’un système IoT"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en travaillant au sein d’une équipe pluridisciplinaire"
+                },
+                {
+                    "libelle": "en respectant les normes et contraintes opérationnelles"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en œuvre des solutions pour l’Internet des Objets ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01IOM": {
+                            "libelle": "Intégrer des systèmes électroniques et des systèmes d’exploitation embarqués",
+                            "oid": 142
+                        },
+                        "AC25.02IOM": {
+                            "libelle": "Mettre en œuvre des protocoles pour les réseaux de l’IoT",
+                            "oid": 143
+                        },
+                        "AC25.03IOM": {
+                            "libelle": "Mettre en œuvre des applications et traiter des données issues des objets connectés",
+                            "oid": 144
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Créer des solutions sécurisées pour l’Internet des Objets ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01IOM": {
+                            "libelle": "Superviser et analyser le déploiement des réseaux sans-fil",
+                            "oid": 145
+                        },
+                        "AC35.02IOM": {
+                            "libelle": "Sécuriser les objets connectés",
+                            "oid": 146
+                        },
+                        "AC35.03IOM": {
+                            "libelle": "Créer et innover pour l’IoT",
+                            "oid": 147
+                        }
+                    }
+                }
+            }
+        },
+        "Organiser": {
+            "id_orebut": "98f7d9b39bb503ce64755c6148cbc66d",
+            "titre": "Organiser",
+            "titre_long": "Gérer des activités réseaux et télécommunications en termes organisationnels, relationnels, financiers et commerciaux",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Communication et stratégie technique en interne et en externe pour des projets R&T"
+                },
+                {
+                    "libelle": "Suivi des objectifs opérationnels de projets R&T"
+                },
+                {
+                    "libelle": "Pilotage de la relation client"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en pilotant avec agilité des solutions techniques"
+                },
+                {
+                    "libelle": "en sachant communiquer à l’écrit et à l’oral avec tous les acteurs d’un projet"
+                },
+                {
+                    "libelle": "en respectant des contraintes technico-économiques (financières, éthiques, temporelles, contractuelles, qualité)"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Élaborer un projet technique ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01PPR": {
+                            "libelle": "Prise en compte des contraintes d’un pilotage de projet R&T",
+                            "oid": 148
+                        },
+                        "AC25.02PPR": {
+                            "libelle": "Planification de solutions techniques R&T efficientes",
+                            "oid": 149
+                        },
+                        "AC25.03PPR": {
+                            "libelle": "Prise de conscience des enjeux de la communication dans les relations interpersonnelles",
+                            "oid": 150
+                        },
+                        "AC25.04PPR": {
+                            "libelle": "Établissement d’un relationnel de qualité",
+                            "oid": 151
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Mettre en place et suivre un projet technique ",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01PPR": {
+                            "libelle": "Rigueur dans le pilotage d’un projet  R&T dans sa globalité",
+                            "oid": 152
+                        },
+                        "AC35.02PPR": {
+                            "libelle": "Flexibilité dans la gestion des équipes et des tâches",
+                            "oid": 153
+                        },
+                        "AC35.03PPR": {
+                            "libelle": "Prise de responsabilité envers les équipes",
+                            "oid": 154
+                        },
+                        "AC35.04PPR": {
+                            "libelle": "Valorisation de solutions déployées, ou d’offres techniques, ou d’offres commerciales",
+                            "oid": 155
+                        },
+                        "AC35.05PPR": {
+                            "libelle": "Force de propositions de solutions R&T innovantes responsables",
+                            "oid": 156
+                        }
+                    }
+                }
+            }
+        },
+        "Unifier": {
+            "id_orebut": "7301e73a203a85e6b2cb957dc5223e29",
+            "titre": "Unifier",
+            "titre_long": "Gérer les communications unifiées et la vidéo sur Internet ",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Déploiement et administration des services de communication"
+                },
+                {
+                    "libelle": "Administration des services multimédia"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en automatisant la gestion réseau des communications"
+                },
+                {
+                    "libelle": "en sécurisant les infrastructures"
+                },
+                {
+                    "libelle": "en gérant les interconnexions"
+                },
+                {
+                    "libelle": "en assurant une communication optimale avec le client"
+                },
+                {
+                    "libelle": "en respectant les règles métiers et les délais"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Mettre en oeuvre le système de téléphonie de l’entreprise ",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC25.01ROM": {
+                            "libelle": "Choisir une architecture et déployer des services de ToIP",
+                            "oid": 157
+                        },
+                        "AC25.02ROM": {
+                            "libelle": "Administrer un service de téléphonie pour l’entreprise",
+                            "oid": 158
+                        },
+                        "AC25.03ROM": {
+                            "libelle": "Mettre en place une politique de QoS pour les applications",
+                            "oid": 159
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Administrer les communications unifiées et les services vidéo de l’entreprise",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC35.01ROM": {
+                            "libelle": "Administrer les services multimédias pour une entreprise",
+                            "oid": 160
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "Cyber": {
+            "code": "Cyber",
+            "numero": 0,
+            "libelle": "Cybersécurité",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 1,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 1,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 2,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 2,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Sécuriser": {
+                            "niveau": 1,
+                            "id_orebut": "5f275775f2c68c75550e97b9dcaadc79"
+                        },
+                        "Surveiller": {
+                            "niveau": 1,
+                            "id_orebut": "0f341f4017cfa432f98534cdc57fad85"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 3,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 3,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Sécuriser": {
+                            "niveau": 2,
+                            "id_orebut": "5f275775f2c68c75550e97b9dcaadc79"
+                        },
+                        "Surveiller": {
+                            "niveau": 2,
+                            "id_orebut": "0f341f4017cfa432f98534cdc57fad85"
+                        }
+                    }
+                }
+            }
+        },
+        "DevCloud": {
+            "code": "DevCloud",
+            "numero": 0,
+            "libelle": "Développement système et cloud",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 1,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 1,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 2,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 2,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Orchestrer": {
+                            "niveau": 1,
+                            "id_orebut": "c28c4205d654a72811f3a7ea63f4d8ec"
+                        },
+                        "Développer": {
+                            "niveau": 1,
+                            "id_orebut": "5d428a85a9bfa024fb83aae3d6d7353b"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 3,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 3,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Orchestrer": {
+                            "niveau": 2,
+                            "id_orebut": "c28c4205d654a72811f3a7ea63f4d8ec"
+                        },
+                        "Développer": {
+                            "niveau": 2,
+                            "id_orebut": "5d428a85a9bfa024fb83aae3d6d7353b"
+                        }
+                    }
+                }
+            }
+        },
+        "IOM": {
+            "code": "IOM",
+            "numero": 0,
+            "libelle": "Internet des objets et mobilité",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 1,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 1,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 2,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 2,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Etendre": {
+                            "niveau": 1,
+                            "id_orebut": "1a44792b51880107bdcbb63e995581d1"
+                        },
+                        "Exploiter": {
+                            "niveau": 1,
+                            "id_orebut": "58109285af1087d2cd5b7b9dd1b92b92"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 3,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 3,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Etendre": {
+                            "niveau": 2,
+                            "id_orebut": "1a44792b51880107bdcbb63e995581d1"
+                        },
+                        "Exploiter": {
+                            "niveau": 2,
+                            "id_orebut": "58109285af1087d2cd5b7b9dd1b92b92"
+                        }
+                    }
+                }
+            }
+        },
+        "PPR": {
+            "code": "PPR",
+            "numero": 0,
+            "libelle": "Pilotage de projets de réseaux",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 1,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 1,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 2,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 2,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Piloter": {
+                            "niveau": 1,
+                            "id_orebut": "95742cf15ea805ff7ddae4ed3b893597"
+                        },
+                        "Organiser": {
+                            "niveau": 1,
+                            "id_orebut": "98f7d9b39bb503ce64755c6148cbc66d"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 3,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 3,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Piloter": {
+                            "niveau": 2,
+                            "id_orebut": "95742cf15ea805ff7ddae4ed3b893597"
+                        },
+                        "Organiser": {
+                            "niveau": 2,
+                            "id_orebut": "98f7d9b39bb503ce64755c6148cbc66d"
+                        }
+                    }
+                }
+            }
+        },
+        "ROM": {
+            "code": "ROM",
+            "numero": 0,
+            "libelle": "Réseaux Opérateurs et Multimédia",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 1,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 1,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 2,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 2,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Rapprocher": {
+                            "niveau": 1,
+                            "id_orebut": "fc8588c8a115ac3a17e16ed59cfd7e79"
+                        },
+                        "Unifier": {
+                            "niveau": 1,
+                            "id_orebut": "7301e73a203a85e6b2cb957dc5223e29"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "8fefe00b9ed3cd57da2e5174b4bc6282"
+                        },
+                        "Connecter": {
+                            "niveau": 3,
+                            "id_orebut": "d68c47e3ed9820ce41613f31c60a226e"
+                        },
+                        "Programmer": {
+                            "niveau": 3,
+                            "id_orebut": "baec10409ad866b2c21a280e9a94a35e"
+                        },
+                        "Rapprocher": {
+                            "niveau": 2,
+                            "id_orebut": "fc8588c8a115ac3a17e16ed59cfd7e79"
+                        },
+                        "Unifier": {
+                            "niveau": 2,
+                            "id_orebut": "7301e73a203a85e6b2cb957dc5223e29"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

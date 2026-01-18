@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration Mnémosyne</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        /* --- GLOBAL --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #EBEBEB; /* Gris clair fond */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: #1F2A44;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+
+        /* Le lien autour du logo */
+        .logo-link {
+            display: block;
+            transition: opacity 0.3s;
+        }
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        .logo-univ {
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .header-text {
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- CONTENEUR PRINCIPAL --- */
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        /* --- TITRES DE SECTION --- */
+        .section-title {
+            color: #BCA386; /* Couleur beige/dorée du titre */
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        .divider {
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        /* --- BOUTONS --- */
+        /* Bouton Rouge "Réécrire la mémoire" */
+        .btn-rewrite {
+            background-color: #C82343; /* Rouge framboise */
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background 0.3s;
+        }
+
+        .btn-rewrite:hover {
+            background-color: #a81c36;
+        }
+
+        /* Bouton Secondaire (Synchroniser) */
+        .btn-sync {
+            background-color: #6c757d;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .btn-sync:hover { background-color: #5a6268; }
+
+        /* --- MESSAGES FEEDBACK --- */
+        .msg-box {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .msg-success  { background-color: #d4edda; color: #252c07; border: 1px solid #c3e6cb; }
+       .msg-info { background-color: #d4edda; color: #252c07; border: 1px solid #c3e6cb; }
+
+        /* --- SECTION STATS --- */
+        .stats-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .stats-box h4 { margin-bottom: 15px; color: #1F2A44; }
+        .stats-box ul { list-style: none; padding-left: 0; }
+        .stats-box li { margin-bottom: 8px; font-size: 0.95rem; }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="{{ url_for('index.index') }}" class="logo-link" title="Retour à l'accueil">
+            <img src="{{ url_for('static', filename='img/logo_univ.png') }}" alt="Université Sorbonne Paris Nord" class="logo-univ">
+        </a>
+        <div class="header-text">Mnémosyne vous salue.</div>
+    </header>
+
+    <div class="container">
+
+        <h2 class="section-title">Synchronisation des données</h2>
+        <hr class="divider">
+        <p class="description">Cliquez sur le bouton pour synchroniser les données et appliquez les règles d’analyse.</p>
+
+        <form id="form-init" action="{{ url_for('admin.initialisation') }}" method="POST" style="display: inline-block; margin-right: 10px;">
+            <button type="submit" class="btn-rewrite">Réécrire la mémoire</button>
+        </form>
+
+        <form id="form-sync" action="{{ url_for('admin.synchronisation') }}" method="POST" style="display: inline-block;">
+            <button type="submit" class="btn-sync">import avec les json en attendant</button>
+        </form>
+
+        {% if msg_db %}
+            <div class="msg-box msg-info">{{ msg_db }}</div>
+        {% endif %}
+
+        {% if msg_import %}
+            <div class="msg-box msg-success">{{ msg_import }}</div>
+        {% endif %}
+
+        {% if stats %}
+        <div class="stats-box">
+            <h4>📊 Bilan de la synchronisation ScoDoc</h4>
+            <ul>
+                <li>Départements traités : <strong>{{ stats.departements }}</strong></li>
+                <li>Formations importées : <strong>{{ stats.formations }}</strong></li>
+                <li>Étudiants mis à jour : <strong>{{ stats.etudiants }}</strong></li>
+                <li>Inscriptions (Années) : <strong>{{ stats.inscriptions }}</strong></li>
+                <li>Evaluations (Notes) : <strong>{{ stats.evaluations }}</strong></li>
+            </ul>
+        </div>
+        {% endif %}
+
+        <h2 class="section-title">Gestion des règles d’analyse</h2>
+        <hr class="divider">
+
+    </div>
+
+    <script>
+        document.getElementById('form-init').addEventListener('submit', function(event) {
+            const choix = confirm("ATTENTION : Cette action va SUPPRIMER toutes les données existantes et recréer les tables vides.\n\nÊtes-vous sûr de vouloir continuer ?");
+            if (!choix) { event.preventDefault(); }
+        });
+
+        document.getElementById('form-sync').addEventListener('submit', function(event) {
+            const choix = confirm("Voulez-vous lancer la synchronisation des données depuis les fichiers JSON ?");
+            if (!choix) { event.preventDefault(); }
+        });
+    </script>
+</body>
+</html>

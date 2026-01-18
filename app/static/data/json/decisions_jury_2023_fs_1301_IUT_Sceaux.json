@@ -1,0 +1,74 @@
+[
+    {
+        "etudid": "2df8a267e266e0b07830003769493d23346db841c518107a91d831be33f6259b",
+        "code_nip": "4124ec2aeeb5ac56fe4ddda772f8e81cb80d337ccaa25ab5d889a3fde2a8390c",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 3,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2263,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2264,
+                    "moy": 8.3105,
+                    "code": "AJ"
+                },
+                "moy": 9.405249999999999,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2266,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2267,
+                    "moy": 8.2574,
+                    "code": "AJ"
+                },
+                "moy": 7.5787,
+                "code": "CMP"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2269,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2270,
+                    "moy": 9.704090909090908,
+                    "code": "CMP"
+                },
+                "moy": 10.802045454545453,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2263,
+                "code": "ADM",
+                "ects": 10
+            },
+            {
+                "ue_id": 2266,
+                "code": "ADM",
+                "ects": 10
+            },
+            {
+                "ue_id": 2269,
+                "code": "ADM",
+                "ects": 10
+            }
+        ],
+        "semestre": [],
+        "annee": [],
+        "autorisations": []
+    }
+]

@@ -1,0 +1,934 @@
+{
+    "dept_id": 4,
+    "annexe": "17",
+    "specialite": "INFO",
+    "specialite_long": "Informatique",
+    "type_structure": "type2",
+    "type_departement": "secondaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2021-12-11 00:00:00",
+    "scodoc_date_loaded": "2022-06-25T16:43:29.655167Z",
+    "scodoc_orig_filename": "but-INFO-05012022-081701.xml",
+    "competences": {
+        "Réaliser": {
+            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9",
+            "titre": "Réaliser",
+            "titre_long": "Développer — c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client. ",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Élaborer une application informatique"
+                },
+                {
+                    "libelle": "Faire évoluer une application informatique"
+                },
+                {
+                    "libelle": "Maintenir en conditions opérationnelles une application informatique"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant les besoins décrits par le client"
+                },
+                {
+                    "libelle": "en appliquant les principes algorithmiques"
+                },
+                {
+                    "libelle": "en veillant à la qualité du code et à sa documentation"
+                },
+                {
+                    "libelle": "en choisissant les ressources techniques appropriées"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Développer des applications informatiques simples ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Implémenter des conceptions simples",
+                            "oid": 226
+                        },
+                        "AC11.02": {
+                            "libelle": "Élaborer des conceptions simples",
+                            "oid": 227
+                        },
+                        "AC11.03": {
+                            "libelle": "Faire des essais et évaluer leurs résultats en regard des spécifications",
+                            "oid": 228
+                        },
+                        "AC11.04": {
+                            "libelle": "Développer des interfaces utilisateurs",
+                            "oid": 229
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Partir des exigences et aller jusqu’à une application complète ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+                            "oid": 230
+                        },
+                        "AC21.02": {
+                            "libelle": "Appliquer des principes d’accessibilité et d’ergonomie",
+                            "oid": 231
+                        },
+                        "AC21.03": {
+                            "libelle": "Adopter de bonnes pratiques de conception et de programmation",
+                            "oid": 232
+                        },
+                        "AC21.04": {
+                            "libelle": "Vérifier et valider la qualité de l’application par les tests",
+                            "oid": 233
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT…) ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Choisir et implémenter les architectures adaptées",
+                            "oid": 234
+                        },
+                        "AC31.02": {
+                            "libelle": "Faire évoluer une application existante",
+                            "oid": 235
+                        },
+                        "AC31.03": {
+                            "libelle": "Intégrer des solutions dans un environnement de production",
+                            "oid": 236
+                        }
+                    }
+                }
+            }
+        },
+        "Optimiser": {
+            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8",
+            "titre": "Optimiser",
+            "titre_long": "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources..",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Améliorer les performances des programmes dans des contextes contraints"
+                },
+                {
+                    "libelle": "Limiter l’impact environnemental d’une application informatique"
+                },
+                {
+                    "libelle": "Mettre en place des applications informatiques adaptées et efficaces"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en formalisant et modélisant des situations complexes"
+                },
+                {
+                    "libelle": "en recensant les algorithmes et les structures de données usuels"
+                },
+                {
+                    "libelle": "en s’appuyant sur des schémas de raisonnement"
+                },
+                {
+                    "libelle": "en justifiant les choix et validant les résultats"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Appréhender et construire des algorithmes ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)",
+                            "oid": 237
+                        },
+                        "AC12.02": {
+                            "libelle": "Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)",
+                            "oid": 238
+                        },
+                        "AC12.03": {
+                            "libelle": "Formaliser et mettre en œuvre des outils mathématiques pour l’informatique",
+                            "oid": 239
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Sélectionner les algorithmes adéquats pour répondre à un problème donné ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Choisir des structures de données complexes adaptées au problème",
+                            "oid": 240
+                        },
+                        "AC22.02": {
+                            "libelle": "Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (par ex. recherche opérationnelle, méthodes arborescentes, optimisation globale, intelligence artificielle...)",
+                            "oid": 241
+                        },
+                        "AC22.03": {
+                            "libelle": "Comprendre les enjeux et moyens de sécurisation des données et du code",
+                            "oid": 242
+                        },
+                        "AC22.04": {
+                            "libelle": "Évaluer l’impact environnemental et sociétal des solutions proposées",
+                            "oid": 243
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Analyser et optimiser des applications",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Anticiper les résultats de diverses métriques (temps d’exécution, occupation mémoire, montée en charge...)",
+                            "oid": 244
+                        },
+                        "AC32.02": {
+                            "libelle": "Profiler, analyser et justifier le comportement d’un code existant",
+                            "oid": 245
+                        },
+                        "AC32.03": {
+                            "libelle": "Choisir et utiliser des bibliothèques et méthodes dédiées au domaine d'application (imagerie, immersion, intelligence artificielle, jeux vidéos, parallélisme, calcul formel...)",
+                            "oid": 246
+                        }
+                    }
+                }
+            }
+        },
+        "Administrer": {
+            "id_orebut": "59052642c0556be77a77c600e3d47bfe",
+            "titre": "Administrer",
+            "titre_long": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d’une organisation ",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Déployer une nouvelle architecture technique"
+                },
+                {
+                    "libelle": "Améliorer une infrastructure existante"
+                },
+                {
+                    "libelle": "Sécuriser les applications et les services"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en sécurisant le système d’information"
+                },
+                {
+                    "libelle": "en appliquant  les normes en vigueur et les bonnes pratiques architecturales et de sécurité"
+                },
+                {
+                    "libelle": "en offrant une qualité de service optimale"
+                },
+                {
+                    "libelle": "en assurant la continuité d'activité"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Installer et configurer un poste de travail ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC13.01": {
+                            "libelle": "Identifier les différents composants (matériels et logiciels) d’un système numérique",
+                            "oid": 247
+                        },
+                        "AC13.02": {
+                            "libelle": "Utiliser les fonctionnalités de base d’un système multitâches \/ multiutilisateurs",
+                            "oid": 248
+                        },
+                        "AC13.03": {
+                            "libelle": "Installer et configurer un système d’exploitation et des outils de développement",
+                            "oid": 249
+                        },
+                        "AC13.04": {
+                            "libelle": "Configurer un poste de travail dans un réseau d’entreprise",
+                            "oid": 250
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Déployer des services dans une architecture réseau",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Concevoir et développer des applications communicantes",
+                            "oid": 251
+                        },
+                        "AC23.02": {
+                            "libelle": "Utiliser des serveurs et des services réseaux virtualisés",
+                            "oid": 252
+                        },
+                        "AC23.03": {
+                            "libelle": "Sécuriser les services et données d’un système",
+                            "oid": 253
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Faire évoluer et maintenir un système informatique communicant en conditions opérationnelles ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Créer des processus de traitement automatisé (solution de gestion de configuration et de parc, intégration et déploiement continu...)",
+                            "oid": 254
+                        },
+                        "AC33.02": {
+                            "libelle": "Configurer un serveur et des services réseaux de manière avancée (virtualisation...)",
+                            "oid": 255
+                        },
+                        "AC33.03": {
+                            "libelle": "Appliquer une politique de sécurité au niveau de l’infrastructure",
+                            "oid": 256
+                        },
+                        "AC33.04": {
+                            "libelle": "Déployer et maintenir un réseau d’organisation en fonction de ses besoins",
+                            "oid": 257
+                        }
+                    }
+                }
+            }
+        },
+        "Gérer": {
+            "id_orebut": "b1be9963258bc50533398ff0f42b1b91",
+            "titre": "Gérer",
+            "titre_long": "Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Lancer un nouveau projet"
+                },
+                {
+                    "libelle": "Sécuriser des données"
+                },
+                {
+                    "libelle": "Exploiter des données pour la prise de décisions"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en respectant les réglementations sur le respect de la vie privée et la protection des données personnelles"
+                },
+                {
+                    "libelle": "en respectant les enjeux économiques, sociétaux et écologiques de l’utilisation du stockage de données, ainsi que les différentes infrastructures (data centers, cloud, etc.)"
+                },
+                {
+                    "libelle": "en s’appuyant sur des bases mathématiques"
+                },
+                {
+                    "libelle": "en assurant la cohérence et la qualité"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Concevoir et mettre en place une base de données à partir d’un cahier des charges client ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC14.01": {
+                            "libelle": "Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)",
+                            "oid": 258
+                        },
+                        "AC14.02": {
+                            "libelle": "Visualiser des données",
+                            "oid": 259
+                        },
+                        "AC14.03": {
+                            "libelle": "Concevoir une base de données relationnelle à partir d’un cahier des charges",
+                            "oid": 260
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC24.01": {
+                            "libelle": "Optimiser les modèles de données de l’entreprise",
+                            "oid": 261
+                        },
+                        "AC24.02": {
+                            "libelle": "Assurer la sécurité des données (intégrité et confidentialité)",
+                            "oid": 262
+                        },
+                        "AC24.03": {
+                            "libelle": "Organiser la restitution de données à travers la programmation et la visualisation",
+                            "oid": 263
+                        },
+                        "AC24.04": {
+                            "libelle": "Manipuler des données hétérogènes",
+                            "oid": 264
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Administrer une base de données, concevoir et réaliser des systèmes d’informations décisionnels ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC34.01": {
+                            "libelle": "Capturer et stocker des ensembles volumineux et complexes de données hétérogènes",
+                            "oid": 265
+                        },
+                        "AC34.02": {
+                            "libelle": "Préparer et extraire les données pour l’exploitation",
+                            "oid": 266
+                        },
+                        "AC34.03": {
+                            "libelle": "Appliquer des méthodes d’exploration et d’exploitation des données (apprentissage, informatique décisionnelle ou fouille de données)",
+                            "oid": 267
+                        },
+                        "AC34.04": {
+                            "libelle": "Mettre en production et optimiser le système de gestion de données de l’entreprise",
+                            "oid": 268
+                        }
+                    }
+                }
+            }
+        },
+        "Conduire": {
+            "id_orebut": "de170ed9d5b9db7c256f17a866278eea",
+            "titre": "Conduire",
+            "titre_long": "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles",
+            "couleur": "c5",
+            "numero": 5,
+            "situations": [
+                {
+                    "libelle": "Lancer un nouveau projet"
+                },
+                {
+                    "libelle": "Piloter le maintien d’un projet en condition opérationnelle"
+                },
+                {
+                    "libelle": "Faire évoluer un système d’information"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en adoptant une démarche proactive, créative et critique"
+                },
+                {
+                    "libelle": "en respectant les règles juridiques et les normes en vigueur"
+                },
+                {
+                    "libelle": "en communiquant efficacement avec les différents acteurs d’un projet"
+                },
+                {
+                    "libelle": "en sensibilisant à une gestion éthique, responsable, durable et interculturelle"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Identifier les besoins métiers des clients et des utilisateurs ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC15.01": {
+                            "libelle": "Appréhender les besoins du client et de l'utilisateur",
+                            "oid": 269
+                        },
+                        "AC15.02": {
+                            "libelle": "Mettre en place les outils de gestion de projet",
+                            "oid": 270
+                        },
+                        "AC15.03": {
+                            "libelle": "Identifier les acteurs et les différentes phases d’un cycle de développement",
+                            "oid": 271
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC25.01": {
+                            "libelle": "Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information",
+                            "oid": 272
+                        },
+                        "AC25.02": {
+                            "libelle": "Formaliser les besoins du client et de l'utilisateur",
+                            "oid": 273
+                        },
+                        "AC25.03": {
+                            "libelle": "Identifier les critères de faisabilité d’un projet informatique",
+                            "oid": 274
+                        },
+                        "AC25.04": {
+                            "libelle": "Définir et mettre en œuvre une démarche de suivi de projet",
+                            "oid": 275
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Participer à la conception et à la mise en œuvre d’un projet système d’information ",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC35.01": {
+                            "libelle": "Mesurer les impacts économiques, sociétaux et technologiques d’un projet informatique",
+                            "oid": 276
+                        },
+                        "AC35.02": {
+                            "libelle": "Savoir intégrer un projet informatique dans le système d’information d’une organisation",
+                            "oid": 277
+                        },
+                        "AC35.03": {
+                            "libelle": "Savoir adapter un système d’information",
+                            "oid": 278
+                        }
+                    }
+                }
+            }
+        },
+        "Collaborer": {
+            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4",
+            "titre": "Collaborer",
+            "titre_long": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique",
+            "couleur": "c6",
+            "numero": 6,
+            "situations": [
+                {
+                    "libelle": "Lancer un nouveau projet"
+                },
+                {
+                    "libelle": "Organiser son travail en relation avec celui de son équipe"
+                },
+                {
+                    "libelle": "Élaborer, gérer et transmettre de l’information"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "en inscrivant sa démarche au sein d’une équipe pluridisciplinaire"
+                },
+                {
+                    "libelle": "en accompagnant la mise en œuvre des évolutions informatiques"
+                },
+                {
+                    "libelle": "en veillant au respect des contraintes juridiques"
+                },
+                {
+                    "libelle": "en développant une communication efficace et collaborative"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Identifier ses aptitudes pour travailler dans une équipe ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC16.01": {
+                            "libelle": "Appréhender l’écosystème numérique",
+                            "oid": 279
+                        },
+                        "AC16.02": {
+                            "libelle": "Découvrir les aptitudes requises selon les différents secteurs informatiques",
+                            "oid": 280
+                        },
+                        "AC16.03": {
+                            "libelle": "Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire",
+                            "oid": 281
+                        },
+                        "AC16.04": {
+                            "libelle": "Acquérir les compétences interpersonnelles pour travailler en équipe",
+                            "oid": 282
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Situer son rôle et ses missions au sein d’une équipe informatique ",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC26.01": {
+                            "libelle": "Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)",
+                            "oid": 283
+                        },
+                        "AC26.02": {
+                            "libelle": "Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation",
+                            "oid": 284
+                        },
+                        "AC26.03": {
+                            "libelle": "Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique",
+                            "oid": 285
+                        },
+                        "AC26.04": {
+                            "libelle": "Rendre compte de son activité professionnelle",
+                            "oid": 286
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Manager une équipe informatique",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC36.01": {
+                            "libelle": "Organiser et partager une veille technologique et informationnelle",
+                            "oid": 287
+                        },
+                        "AC36.02": {
+                            "libelle": "Identifier les enjeux de l’économie de l’innovation numérique",
+                            "oid": 288
+                        },
+                        "AC36.03": {
+                            "libelle": "Guider la conduite du changement informatique au sein d’une organisation",
+                            "oid": 289
+                        },
+                        "AC36.04": {
+                            "libelle": "Accompagner le management de projet informatique",
+                            "oid": 290
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "A": {
+            "code": "A",
+            "numero": 0,
+            "libelle": "A : Réalisation d’applications : conception, développement, validation",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 1,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 1,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 1,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 1,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 1,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 2,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 2,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 2,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 2,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 2,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 3,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 3,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Collaborer": {
+                            "niveau": 3,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                }
+            }
+        },
+        "B": {
+            "code": "B",
+            "numero": 0,
+            "libelle": "B : Déploiement d’applications communicantes et sécurisées",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 1,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 1,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 1,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 1,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 1,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 2,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 2,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 2,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 2,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 2,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 3,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Administrer": {
+                            "niveau": 3,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Collaborer": {
+                            "niveau": 3,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                }
+            }
+        },
+        "C": {
+            "code": "C",
+            "numero": 0,
+            "libelle": "C : Administration, gestion et exploitation des données",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 1,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 1,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 1,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 1,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 1,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 2,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 2,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 2,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 2,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 2,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Gérer": {
+                            "niveau": 3,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 3,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 3,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                }
+            }
+        },
+        "D": {
+            "code": "D",
+            "numero": 0,
+            "libelle": "D : Intégration d’applications et management du système d’information",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 1,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 1,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 1,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 1,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 1,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 1,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 2,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Optimiser": {
+                            "niveau": 2,
+                            "id_orebut": "384dc89c6cc6856ab3b49535d650a9d8"
+                        },
+                        "Administrer": {
+                            "niveau": 2,
+                            "id_orebut": "59052642c0556be77a77c600e3d47bfe"
+                        },
+                        "Gérer": {
+                            "niveau": 2,
+                            "id_orebut": "b1be9963258bc50533398ff0f42b1b91"
+                        },
+                        "Conduire": {
+                            "niveau": 2,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 2,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Réaliser": {
+                            "niveau": 3,
+                            "id_orebut": "c565dab0bf0c01a118811e1786bb2ac9"
+                        },
+                        "Conduire": {
+                            "niveau": 3,
+                            "id_orebut": "de170ed9d5b9db7c256f17a866278eea"
+                        },
+                        "Collaborer": {
+                            "niveau": 3,
+                            "id_orebut": "f4fcf7b2f78dbd8e00a3374a7a6243c4"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

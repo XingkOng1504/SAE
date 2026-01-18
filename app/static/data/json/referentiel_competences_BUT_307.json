@@ -1,0 +1,638 @@
+{
+    "dept_id": 3,
+    "annexe": "8",
+    "specialite": "GEII",
+    "specialite_long": "Génie électrique et informatique industrielle",
+    "type_structure": "type1",
+    "type_departement": "secondaire",
+    "type_titre": "B.U.T.",
+    "version_orebut": "2021-12-11 00:00:00",
+    "scodoc_date_loaded": "2022-06-27T09:17:04.890441Z",
+    "scodoc_orig_filename": "but-GEII-05012022-081639.xml",
+    "competences": {
+        "Concevoir": {
+            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d",
+            "titre": "Concevoir",
+            "titre_long": "Concevoir la partie GEII d’un système",
+            "couleur": "c1",
+            "numero": 1,
+            "situations": [
+                {
+                    "libelle": "Conseil au client en menant une étude de faisabilité à partir d'un cahier des charges"
+                },
+                {
+                    "libelle": "Chiffrage pour la réalisation d'un prototype ou d’un système industriel en GEII"
+                },
+                {
+                    "libelle": "Conception d’un prototype ou d’un sous système à partir d'un cahier des charges partiel"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En adoptant une approche holistique intégrant les innovations technologiques en lien avec la\n                    stratégie de l’entreprise pour répondre un besoin client."
+                },
+                {
+                    "libelle": "En produisant l’ensemble des documents nécessaires pour le client et les différents\n                    prestataires"
+                },
+                {
+                    "libelle": "En communiquant de façon adaptée avec les différents acteurs avant et pendant la phase de\n                    conception."
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Mener une conception partielle intégrant une démarche projet ",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC11.01": {
+                            "libelle": "Produire une analyse fonctionnelle d’un système simple",
+                            "oid": 291
+                        },
+                        "AC11.02": {
+                            "libelle": "Réaliser un prototype pour des solutions techniques matériel et\/ou logiciel",
+                            "oid": 292
+                        },
+                        "AC11.03": {
+                            "libelle": "Rédiger un dossier de fabrication à partir d'un dossier de conception",
+                            "oid": 293
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Concevoir un système en fiabilisant les solutions propoées",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC21.01": {
+                            "libelle": "Proposer des solutions techniques liées à l'analyse fonctionnelle",
+                            "oid": 294
+                        },
+                        "AC21.02": {
+                            "libelle": "Dérisquer les solutions techniques retenues",
+                            "oid": 295
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Concevoir un système en adoptant une approche sélective dans ses choix technologiques",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC31.01": {
+                            "libelle": "Contribuer à la rédaction d'un cahier des charges",
+                            "oid": 296
+                        },
+                        "AC31.02": {
+                            "libelle": "Prouver la pertinence de ses choix technologiques",
+                            "oid": 297
+                        },
+                        "AC31.03": {
+                            "libelle": "Rédiger un dossier de conception",
+                            "oid": 298
+                        }
+                    }
+                }
+            }
+        },
+        "Vérifier": {
+            "id_orebut": "8d6ba092510bfa04de81c140fc69816d",
+            "titre": "Vérifier",
+            "titre_long": "Vérifier la partie GEII d’un système",
+            "couleur": "c2",
+            "numero": 2,
+            "situations": [
+                {
+                    "libelle": "Mise en place d'un protocole de tests et de mesures dans les domaines de la gestion,\n                    production et maîtrise de l’énergie"
+                },
+                {
+                    "libelle": "Mise en place d'un protocole de tests et de mesures dans les process industriels"
+                },
+                {
+                    "libelle": "Mise en place d'un protocole de tests et de mesures dans les systèmes embarqués"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En tenant compte des spécificités matérielles, réglementaires et contextuelles"
+                },
+                {
+                    "libelle": "En mettant en oeuvre un plan d’essais et d’évaluations, dans une visée d'analyse qualitative\n                    et corrective"
+                },
+                {
+                    "libelle": "En tenant compte des enjeux économiques, environnementaux et réglementaires de la société"
+                }
+            ],
+            "niveaux": {
+                "BUT1": {
+                    "libelle": "Effectuer les tests et mesures nécessaires à une vérification d’un système",
+                    "annee": "BUT1",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC12.01": {
+                            "libelle": "Appliquer une procédure d’essais",
+                            "oid": 299
+                        },
+                        "AC12.02": {
+                            "libelle": "Identifier un dysfonctionnement",
+                            "oid": 300
+                        },
+                        "AC12.03": {
+                            "libelle": "Décrire un dysfonctionnement",
+                            "oid": 301
+                        }
+                    }
+                },
+                "BUT2": {
+                    "libelle": "Mettre en place un protocole de tests pour valider le fonctionnement d’un système",
+                    "annee": "BUT2",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC22.01": {
+                            "libelle": "Identifier les tests et mesures à mettre en place pour valider le\n                            fonctionnement d’un système",
+                            "oid": 302
+                        },
+                        "AC22.02": {
+                            "libelle": "Certifier le fonctionnement d’un nouvel équipement industriel",
+                            "oid": 303
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Élaborer une procédure intégrant une démarche qualité pour valider le fonctionnement d’un système",
+                    "annee": "BUT3",
+                    "ordre": 3,
+                    "app_critiques": {
+                        "AC32.01": {
+                            "libelle": "Evaluer la cause racine d’un dysfonctionnement",
+                            "oid": 304
+                        },
+                        "AC32.02": {
+                            "libelle": "Proposer une solution corrective à un dysfonctionnement",
+                            "oid": 305
+                        },
+                        "AC32.03": {
+                            "libelle": "Produire une procédure d’essais pour valider la conformité d’un système",
+                            "oid": 306
+                        }
+                    }
+                }
+            }
+        },
+        "Maintenir": {
+            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359",
+            "titre": "Maintenir",
+            "titre_long": "Assurer le maintien en condition opérationnelle d'un système",
+            "couleur": "c3",
+            "numero": 3,
+            "situations": [
+                {
+                    "libelle": "Maintenance corrective, préventive et améliorative dans les domaines de la gestion,\n                    production et maîtrise de l’énergie"
+                },
+                {
+                    "libelle": "Maintenance corrective, préventive et améliorative dans les process industriels"
+                },
+                {
+                    "libelle": "Maintenance corrective, préventive et améliorative dans les systèmes embarqués"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En adoptant une communication proactive avec les différents acteurs"
+                },
+                {
+                    "libelle": "En adoptant une approche holistique intégrant les nouvelles technologies et la\n                    transformation digitale"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Intervenir sur un système pour effectuer une opération de maintenance",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC23.01": {
+                            "libelle": "Exécuter l’entretien et le contrôle d’un système en respectant une procédure",
+                            "oid": 307
+                        },
+                        "AC23.02": {
+                            "libelle": "Exécuter une opération de maintenance (corrective, préventive, améliorative)",
+                            "oid": 308
+                        },
+                        "AC23.03": {
+                            "libelle": "Diagnostiquer un dysfonctionnement dans un système",
+                            "oid": 309
+                        },
+                        "AC23.04": {
+                            "libelle": "Identifier la cause racine du dysfonctionnement",
+                            "oid": 310
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Mettre en place une stratégie de maintenance pour garantir un fonctionnement optimal",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC33.01": {
+                            "libelle": "Proposer une solution de maintenance",
+                            "oid": 311
+                        },
+                        "AC33.02": {
+                            "libelle": "Évaluer les coûts d’indisponibilité et de maintenance d’un système",
+                            "oid": 312
+                        },
+                        "AC33.03": {
+                            "libelle": "Proposer un appui technique aux différents acteurs à l'échelle nationale et\n                            internationale",
+                            "oid": 314
+                        }
+                    }
+                }
+            }
+        },
+        "Implanter": {
+            "id_orebut": "28d79046d48712bcb7addd96d8244104",
+            "titre": "Implanter",
+            "titre_long": "Implanter un système matériel ou logiciel",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Homologation d’un protocole de réalisation pour un nouvel équipement industriel"
+                },
+                {
+                    "libelle": "Intervention chez un client pour la mise en place d’un système"
+                },
+                {
+                    "libelle": "Implantation d’une solution matérielle ou logicielle dans une partie ou sous partie d’un\n                    système"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En tenant compte des aspects organisationnels liés aux contextes industriels, humains et\n                    environnementaux"
+                },
+                {
+                    "libelle": "En garantissant un livrable conforme aux dossiers de conception, de fabrication et des\n                    normes"
+                },
+                {
+                    "libelle": "En garantissant un accompagnement client amont, aval et transverse dans une démarche\n                    qualité"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Réaliser un système en mettant en place une démarche qualité en conformité avec le dossier de fabrication",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01ESE": {
+                            "libelle": "Appliquer une procédure de fabrication pour implanter les composants matériels\n                            et\/ou logiciels dans un système",
+                            "oid": 315
+                        },
+                        "AC24.02ESE": {
+                            "libelle": "Évaluer la conformité du système",
+                            "oid": 316
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Interagir avec les différents acteurs, lors de l’installation et de la mise en service d’un système, dans une démarche qualité",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01ESE": {
+                            "libelle": "Produire une procédure d’installation et de mise en service d’un système",
+                            "oid": 317
+                        },
+                        "AC34.02ESE": {
+                            "libelle": "Exécuter la mise en service d’un système en respectant la procédure",
+                            "oid": 318
+                        },
+                        "AC34.03ESE": {
+                            "libelle": "Produire le dossier de conformité du système en gérant le versionnage",
+                            "oid": 319
+                        }
+                    }
+                }
+            }
+        },
+        "Installer": {
+            "id_orebut": "124219a128a6c4bf99fc3c45dbf0bf55",
+            "titre": "Installer",
+            "titre_long": "Installer tout ou partie d’un système de production, de conversion et de gestion d’énergie",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Planification d’opérations d’installation d’équipements industriels dans les domaines de\n                    courants forts"
+                },
+                {
+                    "libelle": "Montage et installation d’éléments ou sous-ensembles d’un équipement industriel en\n                    production, distribution, gestion ou conversion d’énergie"
+                },
+                {
+                    "libelle": "Mise en service d’un nouvel équipement industriel en production, distribution , gestion ou\n                    conversion d’énergie"
+                },
+                {
+                    "libelle": "Étude de l’implantation d’un équipements de production, distribution , de gestion ou de\n                    conversion d’énergie"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En garantissant un accompagnement client amont, aval et transverse dans une démarche\n                    qualité"
+                },
+                {
+                    "libelle": "En respectant les normes et les contraintes réglementaires liées aux courants forts, y\n                    compris dans un contexte international"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Procéder à une installation ou à une mise en service en suivant un protocole",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01EME": {
+                            "libelle": "Appliquer la procédure d’installation d’un système",
+                            "oid": 320
+                        },
+                        "AC24.02EME": {
+                            "libelle": "Exécuter la mise en service d’un système en respectant la procédure",
+                            "oid": 321
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Interagir avec les différents acteurs, depuis l’élaboration du protocole jusqu’à l’installation, dans une visée de démarche qualité",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01EME": {
+                            "libelle": "Planifier l’installation et la mise en service d’un nouvel équipement",
+                            "oid": 322
+                        },
+                        "AC34.02EME": {
+                            "libelle": "Produire une procédure d’installation et de mise en service d’un système",
+                            "oid": 323
+                        },
+                        "AC34.03EME": {
+                            "libelle": "Produire le dossier de conformité du système en gérant le versionnage",
+                            "oid": 324
+                        }
+                    }
+                }
+            }
+        },
+        "Intégrer": {
+            "id_orebut": "022ed4cb9c2b145cc22bc9ac0b41a245",
+            "titre": "Intégrer",
+            "titre_long": "Intégrer un système de commande et de contrôle dans un procédé industriel",
+            "couleur": "c4",
+            "numero": 4,
+            "situations": [
+                {
+                    "libelle": "Planification d’opérations d’installation d’un système automatisé et\/ou d’une architecture\n                    réseau"
+                },
+                {
+                    "libelle": "Montage et installation d’éléments ou sous-ensembles d’un système automatisé et\/ou d’une\n                    architecture réseau"
+                },
+                {
+                    "libelle": "Mise en service d’un système automatisé et\/ou d’une architecture réseau"
+                },
+                {
+                    "libelle": "Étude d’implantation d’un système automatisé et\/ou d’une architecture réseau dans un contexte\n                    industriel"
+                }
+            ],
+            "composantes_essentielles": [
+                {
+                    "libelle": "En garantissant un accompagnement client amont, aval et transverse dans une démarche\n                    qualité"
+                },
+                {
+                    "libelle": "En respectant les normes et les contraintes réglementaires y compris dans un contexte\n                    international"
+                },
+                {
+                    "libelle": "En gérant les réseaux industriels de communication pour une meilleure disponibilité et\n                    sécurité"
+                }
+            ],
+            "niveaux": {
+                "BUT2": {
+                    "libelle": "Procéder à une installation ou à une mise en service en suivant un protocole",
+                    "annee": "BUT2",
+                    "ordre": 1,
+                    "app_critiques": {
+                        "AC24.01AII": {
+                            "libelle": "Appliquer la procédure d’installation d’un système",
+                            "oid": 325
+                        },
+                        "AC24.02AII": {
+                            "libelle": "Exécuter la mise en service d’un système en respectant la procédure",
+                            "oid": 326
+                        }
+                    }
+                },
+                "BUT3": {
+                    "libelle": "Interagir avec les différents acteurs, depuis l’élaboration du protocole jusqu’à l’installation, dans une visée de démarche qualité",
+                    "annee": "BUT3",
+                    "ordre": 2,
+                    "app_critiques": {
+                        "AC34.01AII": {
+                            "libelle": "Planifier l’installation et la mise en service d’un nouvel équipement",
+                            "oid": 327
+                        },
+                        "AC34.02AII": {
+                            "libelle": "Produire une procédure d’installation et de mise en service d’un système",
+                            "oid": 328
+                        },
+                        "AC34.03AII": {
+                            "libelle": "Produire le dossier de conformité du système en gérant le versionnage",
+                            "oid": 329
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parcours": {
+        "AII": {
+            "code": "AII",
+            "numero": 0,
+            "libelle": "Automatisme et informatique industrielle",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Concevoir": {
+                            "niveau": 1,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 1,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 1,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 2,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 2,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Intégrer": {
+                            "niveau": 1,
+                            "id_orebut": "022ed4cb9c2b145cc22bc9ac0b41a245"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 2,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 3,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 3,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Intégrer": {
+                            "niveau": 2,
+                            "id_orebut": "022ed4cb9c2b145cc22bc9ac0b41a245"
+                        }
+                    }
+                }
+            }
+        },
+        "EME": {
+            "code": "EME",
+            "numero": 0,
+            "libelle": "Électricité et maîtrise de l'énergie",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Concevoir": {
+                            "niveau": 1,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 1,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 1,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 2,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 2,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Installer": {
+                            "niveau": 1,
+                            "id_orebut": "124219a128a6c4bf99fc3c45dbf0bf55"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 2,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 3,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 3,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Installer": {
+                            "niveau": 2,
+                            "id_orebut": "124219a128a6c4bf99fc3c45dbf0bf55"
+                        }
+                    }
+                }
+            }
+        },
+        "ESE": {
+            "code": "ESE",
+            "numero": 0,
+            "libelle": "Électronique et systèmes embarqués",
+            "annees": {
+                "1": {
+                    "ordre": 1,
+                    "competences": {
+                        "Concevoir": {
+                            "niveau": 1,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 1,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        }
+                    }
+                },
+                "2": {
+                    "ordre": 2,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 1,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 2,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 2,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Implanter": {
+                            "niveau": 1,
+                            "id_orebut": "28d79046d48712bcb7addd96d8244104"
+                        }
+                    }
+                },
+                "3": {
+                    "ordre": 3,
+                    "competences": {
+                        "Maintenir": {
+                            "niveau": 2,
+                            "id_orebut": "a1ca5c95c20b946c22eb8a1ce1047359"
+                        },
+                        "Concevoir": {
+                            "niveau": 3,
+                            "id_orebut": "b078d2f7f61c73d3d3c47a1b01b0ba4d"
+                        },
+                        "Vérifier": {
+                            "niveau": 3,
+                            "id_orebut": "8d6ba092510bfa04de81c140fc69816d"
+                        },
+                        "Implanter": {
+                            "niveau": 2,
+                            "id_orebut": "28d79046d48712bcb7addd96d8244104"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

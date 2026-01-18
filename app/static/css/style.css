@@ -1,0 +1,169 @@
+/* RESET ET BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif; /* La police élégante */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Empêche le scroll */
+}
+
+/* LAYOUT PRINCIPAL (SPLIT SCREEN) */
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* --- PARTIE GAUCHE (GRISE) --- */
+.left-panel {
+    width: 50%;
+    background-color: #E6E6E6; /* Gris clair comme sur l'image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Simulation du texte gribouillé (si tu n'as pas l'image exacte) */
+.scribble-text {
+    font-family: cursive; /* Police manuscrite par défaut */
+    font-size: 4rem;
+    color: #333;
+    transform: rotate(-5deg);
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* --- PARTIE DROITE (BLEUE) --- */
+.right-panel {
+    width: 50%;
+    background-color: #2A324B; /* Le bleu foncé Sorbonne */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+
+/* LOGO EN HAUT A DROITE */
+.top-right-logo {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 150px; /* Ajuste selon la taille de ton logo */
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.top-right-logo:hover {
+    opacity: 1;
+}
+
+.top-right-logo img {
+    width: 100%;
+    height: auto;
+    /* Si ton logo est noir, on peut l'inverser en blanc avec un filtre CSS */
+    filter: brightness(0) invert(1); 
+}
+
+/* CONTENU CENTRAL DROITE */
+.content-box {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+/* FORMULAIRE STYLISÉ */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-lock {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* STYLE DES SELECTS POUR RESSEMBLER A DES LIGNES */
+.input-group {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* La ligne fine */
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+select {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    text-align: right; /* Valeur à droite */
+}
+
+/* Pour que les options restent lisibles sur fond blanc (comportement par défaut des navigateurs) */
+select option {
+    color: #333;
+}
+
+/* BOUTON MARRON/DORÉ */
+.btn-submit {
+    margin-top: 30px;
+    background-color: #8D7F71; /* La couleur taupe du bouton */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 2px;
+}
+
+.btn-submit:hover {
+    background-color: #a39384;
+}
+
+/* ALERTE ERREUR */
+.alert-box {
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+    padding: 15px;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.alert-box a {
+    color: white;
+    text-decoration: underline;
+}

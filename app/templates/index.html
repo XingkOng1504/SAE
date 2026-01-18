@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mnémosyne - Université Sorbonne Paris Nord</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- RESET & GLOBAL --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #EBEBEB;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: #1F2A44; /* Bleu nuit */
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo-univ { height: 50px; object-fit: contain; }
+        .logo-admin { height: 66px; object-fit: contain; }
+
+        .logo-link {
+            display: block;
+            transition: opacity 0.3s;
+        }
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        /* --- CONTENU PRINCIPAL --- */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+        }
+
+        .watermark {
+            position: absolute;
+            font-family: 'Ingrid Darling', cursive;
+            font-size: 25vw;
+            color: #dcdcdc;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.6;
+            margin-top: -80px;
+        }
+
+        /* --- FORMULAIRE --- */
+        form {
+            z-index: 2;
+            width: 80%;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px; /* Réduit un peu pour laisser place au message d'erreur */
+        }
+
+        .filters-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            gap: 30px;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Style des sélecteurs */
+        .select-group {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .select-group label { display: none; }
+
+        select {
+            appearance: none;
+            background-color: transparent;
+            border: 1px solid #999;
+            border-radius: 4px;
+            padding: 10px 15px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: #555;
+            background-color: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23555%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 12px auto;
+            transition: border-color 0.3s;
+        }
+
+        /* Classe ajoutée en JS si erreur sur le select */
+        select.input-error {
+            border-color: #d93434;
+            color: #d93434;
+        }
+
+        /* --- TOGGLES FA / FI --- */
+        .toggle-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .toggle-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .toggle-label {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .toggle-box {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #777;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            transition: all 0.2s;
+        }
+
+        .toggle-inner {
+            width: 24px;
+            height: 24px;
+            background-color: transparent;
+            border-radius: 2px;
+            transition: background-color 0.2s;
+        }
+
+        .toggle-item.selected .toggle-box { border-color: #4a7c2e; }
+        .toggle-item.selected .toggle-inner {
+            background-color: #5D9538;
+            box-shadow: 0 0 5px rgba(93, 149, 56, 0.5);
+        }
+
+        /* Erreur visuelle sur les toggles (bordure rouge si erreur) */
+        .toggle-item.error .toggle-box {
+            border-color: #d93434;
+        }
+        .toggle-item.error .toggle-label {
+            color: #d93434;
+        }
+
+        /* --- MESSAGE D'ERREUR --- */
+        .error-message-container {
+            height: 24px; /* Hauteur fixe pour éviter que ça saute */
+            margin-top: -20px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .error-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #d93434; /* Rouge élégant mais visible */
+            font-size: 1.1rem;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease-out;
+        }
+
+        .error-text.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- BOUTON SUBMIT --- */
+        .btn-submit {
+            background-color: #263355;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+
+        .btn-submit:hover { background-color: #354570; }
+
+        .alert-warning {
+            z-index: 100;
+            background: white;
+            border: 1px solid red;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="{{ url_for('index.index') }}" class="logo-link" title="Retour à l'accueil">
+            <img src="{{ url_for('static', filename='img/logo_univ.png') }}" alt="Université Sorbonne Paris Nord" class="logo-univ">
+        </a>
+        
+        <a href="{{ url_for('admin.admin_dashboard') }}" class="logo-link" title="Admin">
+            <img src="{{ url_for('static', filename='img/logo_admin.png') }}" alt="Logo admin" class="logo-admin">
+        </a>
+    </header>
+
+
+    <main>
+        <div class="watermark">Mnemosyne</div>
+
+        {% if db_error %}
+            <div class="alert-warning">
+                <strong>⚠️ Base de données non détectée ou incomplète.</strong><br><br>
+                Veuillez initialiser l'application via la page d'administration.<br><br>
+                <a href="{{ url_for('admin.admin_dashboard') }}">Aller à la configuration</a>
+            </div>
+        {% else %}
+
+        <form action="{{ url_for('index.cohorte') }}" method="POST" id="searchForm" onsubmit="return validateForm()">
+            
+            <div class="filters-row">
+                
+                <div class="toggle-container">
+                    <div class="toggle-item selected" id="btn-fa" onclick="toggleRythme('FA')">
+                        <span class="toggle-label">FA</span>
+                        <div class="toggle-box">
+                            <div class="toggle-inner"></div>
+                        </div>
+                    </div>
+
+                    <div class="toggle-item selected" id="btn-fi" onclick="toggleRythme('FI')">
+                        <span class="toggle-label">FI</span>
+                        <div class="toggle-box">
+                            <div class="toggle-inner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" name="rythme" id="input-rythme" value="TOUS">
+                
+                <div class="select-group">
+                    <select name="departement" id="select-dept">
+                        <option value="" disabled selected>Choisir une formation...</option>
+                        <option value="TOUS">-- TOUS --</option>
+                        {% for d in depts %}
+                            <option value="{{ d }}">{{ d }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <select name="annee" id="select-annee">
+                        <option value="" disabled selected>Choisir une année scolaire...</option>
+                        {% for a in annees %}
+                            <option value="{{ a }}">{{ a }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="error-message-container">
+                <div id="error-msg" class="error-text"></div>
+            </div>
+
+            <button type="submit" class="btn-submit">SE SOUVENIR</button>
+            
+        </form>
+
+        {% endif %}
+    </main>
+
+    <script>
+        // État initial
+        let stateFA = true;
+        let stateFI = true;
+
+        function toggleRythme(type) {
+            const btnFA = document.getElementById('btn-fa');
+            const btnFI = document.getElementById('btn-fi');
+            const hiddenInput = document.getElementById('input-rythme');
+            
+            // On nettoie les erreurs visuelles quand l'utilisateur clique
+            clearErrors();
+
+            if (type === 'FA') stateFA = !stateFA;
+            if (type === 'FI') stateFI = !stateFI;
+
+            // Mise à jour visuelle
+            if (stateFA) btnFA.classList.add('selected');
+            else btnFA.classList.remove('selected');
+
+            if (stateFI) btnFI.classList.add('selected');
+            else btnFI.classList.remove('selected');
+
+            // Mise à jour input
+            if (stateFA && stateFI) {
+                hiddenInput.value = "TOUS";
+            } else if (stateFA && !stateFI) {
+                hiddenInput.value = "FA";
+            } else if (!stateFA && stateFI) {
+                hiddenInput.value = "FI";
+            } else {
+                hiddenInput.value = ""; 
+            }
+        }
+
+        // Fonction pour retirer le rouge et le message
+        function clearErrors() {
+            document.getElementById('error-msg').classList.remove('visible');
+            document.getElementById('btn-fa').classList.remove('error');
+            document.getElementById('btn-fi').classList.remove('error');
+            document.getElementById('select-dept').classList.remove('input-error');
+            document.getElementById('select-annee').classList.remove('input-error');
+        }
+
+        // Ajout d'écouteurs sur les select pour effacer l'erreur quand on change
+        document.getElementById('select-dept').addEventListener('change', clearErrors);
+        document.getElementById('select-annee').addEventListener('change', clearErrors);
+
+        function validateForm() {
+            const errorDiv = document.getElementById('error-msg');
+            const deptSelect = document.getElementById('select-dept');
+            const anneeSelect = document.getElementById('select-annee');
+            
+            clearErrors(); // Reset avant check
+
+            // 1. Vérif FA / FI
+            if (!stateFA && !stateFI) {
+                errorDiv.innerText = "Veuillez sélectionner au moins un rythme (FA ou FI).";
+                errorDiv.classList.add('visible');
+                
+                // On met les boutons en rouge pour montrer où est le problème
+                document.getElementById('btn-fa').classList.add('error');
+                document.getElementById('btn-fi').classList.add('error');
+                return false;
+            }
+
+            // 2. Vérif Formation
+            if (deptSelect.value === "") {
+                errorDiv.innerText = "Veuillez sélectionner une formation.";
+                errorDiv.classList.add('visible');
+                deptSelect.classList.add('input-error');
+                return false;
+            }
+
+            // 3. Vérif Année
+            if (anneeSelect.value === "") {
+                errorDiv.innerText = "Veuillez sélectionner une année scolaire.";
+                errorDiv.classList.add('visible');
+                anneeSelect.classList.add('input-error');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

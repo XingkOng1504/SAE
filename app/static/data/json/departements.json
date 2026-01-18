@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "acronym": "CJ",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T17:39:17.823040+02:00",
+        "dept_name": "CJ"
+    },
+    {
+        "id": 2,
+        "acronym": "GEA",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T17:42:56.376244+02:00",
+        "dept_name": "GEA"
+    },
+    {
+        "id": 3,
+        "acronym": "GEII",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T17:47:21.567477+02:00",
+        "dept_name": "GEII"
+    },
+    {
+        "id": 4,
+        "acronym": "INFO",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T17:49:09.393338+02:00",
+        "dept_name": "Info"
+    },
+    {
+        "id": 5,
+        "acronym": "RT",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T17:53:13.141452+02:00",
+        "dept_name": "RT"
+    },
+    {
+        "id": 8,
+        "acronym": "STID",
+        "description": "migré de ScoDoc7",
+        "visible": true,
+        "date_creation": "2021-09-11T18:03:21.713943+02:00",
+        "dept_name": "SD"
+    },
+    {
+        "id": 7,
+        "acronym": "FC",
+        "description": "migré de ScoDoc7",
+        "visible": false,
+        "date_creation": "2021-09-11T18:03:17.920527+02:00",
+        "dept_name": "FC"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "etudid": "8dcb5600c63b02ffd455e4625f5310ad11afbb3a366d980c25f656b84bb7cf60",
+        "code_nip": "852740a87735adf57474744227553761866399d7e42287814e993498f8ecbb57",
+        "code_ine": null,
+        "is_apc": true,
+        "etat": "I",
+        "nb_competences": 3,
+        "rcues": [
+            {
+                "ue_1": {
+                    "ue_id": 2695,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2698,
+                    "moy": 10.633666666666667,
+                    "code": "ADM"
+                },
+                "moy": 10.791833333333333,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2696,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2699,
+                    "moy": 9.538666666666668,
+                    "code": "CMP"
+                },
+                "moy": 10.164333333333333,
+                "code": "ADM"
+            },
+            {
+                "ue_1": {
+                    "ue_id": 2697,
+                    "moy": null,
+                    "code": "ADM"
+                },
+                "ue_2": {
+                    "ue_id": 2700,
+                    "moy": 10.856436210847976,
+                    "code": "ADM"
+                },
+                "moy": 11.783218105423988,
+                "code": "ADM"
+            }
+        ],
+        "ues": [
+            {
+                "ue_id": 2695,
+                "code": "ADM",
+                "ects": 10
+            },
+            {
+                "ue_id": 2696,
+                "code": "ADM",
+                "ects": 10
+            },
+            {
+                "ue_id": 2697,
+                "code": "ADM",
+                "ects": 10
+            }
+        ],
+        "semestre": [],
+        "annee": {
+            "code": "ADM",
+            "ordre": 1,
+            "annee_scolaire": 2023
+        },
+        "autorisations": []
+    }
+]
