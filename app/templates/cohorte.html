@@ -196,36 +196,45 @@
 
         .pie-container {
             flex: 1;
-            min-width: 300px;
+            min-width: 350px;
             background-color: white;
             border-radius: 4px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            padding: 20px;
+            padding: 15px;
+            overflow: hidden;
         }
 
         .pie-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #1F2A44;
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .pie-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
         }
 
         .pie-chart {
-            width: 100%;
-            height: 300px;
+            width: 180px;
+            height: 180px;
+            flex-shrink: 0;
         }
 
         .pie-legend {
             display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            padding: 10px 15px;
-            background-color: #f9f9f9;
+            flex-direction: column;
+            gap: 5px;
+            padding: 8px;
+            background-color: transparent;
             border-radius: 4px;
-            margin-top: 15px;
-            justify-content: center;
+            overflow: hidden;
         }
 
         .pie-slice {
@@ -240,14 +249,16 @@
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 5px;
-            font-size: 0.75rem;
+            gap: 4px;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            color: #555;
         }
 
         .legend-color {
-            width: 14px;
-            height: 14px;
-            border-radius: 3px;
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
             flex-shrink: 0;
         }
 
@@ -301,7 +312,7 @@
             <div id="sankey-chart"></div>
             <div class="sankey-legend">
                 <div class="legend-item">
-                    <div class="legend-color" style="background-color: #E8B4CB;"></div>
+                    <div class="legend-color" style="background-color: #3498db;"></div>
                     <span>Entrée</span>
                 </div>
                 <div class="legend-item">
@@ -309,19 +320,19 @@
                     <span>Années BUT</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-color" style="background-color: #8B4513;"></div>
+                    <div class="legend-color" style="background-color: #9b59b6;"></div>
                     <span>Entrée directe BUT2</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-color" style="background-color: #F4A460;"></div>
+                    <div class="legend-color" style="background-color: #f39c12;"></div>
                     <span>Redoublement (sortant)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-color" style="background-color: #FF8C00;"></div>
+                    <div class="legend-color" style="background-color: #e67e22;"></div>
                     <span>Redoublant entrant</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-color" style="background-color: #4CAF50;"></div>
+                    <div class="legend-color" style="background-color: #e74c3c;"></div>
                     <span>Abandon</span>
                 </div>
                 <div class="legend-item">
@@ -342,47 +353,59 @@
             <!-- 1. Camembert: Répartition par résultat -->
             <div class="pie-container">
                 <div class="pie-title">1. Répartition par Résultat</div>
-                <div id="pie-chart-resultats" class="pie-chart"></div>
-                <div id="pie-legend-resultats" class="pie-legend"></div>
+                <div class="pie-content">
+                    <div id="pie-chart-resultats" class="pie-chart"></div>
+                    <div id="pie-legend-resultats" class="pie-legend"></div>
+                </div>
             </div>
 
             <!-- 2. Camembert: Répartition FI / FA -->
             <div class="pie-container">
                 <div class="pie-title">2. Répartition par Rythme</div>
-                <div id="pie-chart-rythme" class="pie-chart"></div>
-                <div id="pie-legend-rythme" class="pie-legend"></div>
+                <div class="pie-content">
+                    <div id="pie-chart-rythme" class="pie-chart"></div>
+                    <div id="pie-legend-rythme" class="pie-legend"></div>
+                </div>
             </div>
         </div>
 
         <div class="charts-row">
-            <!-- 3. Camembert: Devenir BUT1 -->
+            <!-- 3. Camembert: Taux d'admission en BUT2 -->
             <div class="pie-container">
-                <div class="pie-title">3. Devenir des étudiants BUT1</div>
-                <div id="pie-chart-but1" class="pie-chart"></div>
-                <div id="pie-legend-but1" class="pie-legend"></div>
+                <div class="pie-title">3. Taux d'admission en BUT2</div>
+                <div class="pie-content">
+                    <div id="pie-chart-but1" class="pie-chart"></div>
+                    <div id="pie-legend-but1" class="pie-legend"></div>
+                </div>
             </div>
 
-            <!-- 4. Camembert: Devenir BUT2 -->
+            <!-- 4. Camembert: Taux d'admission en BUT3 -->
             <div class="pie-container">
-                <div class="pie-title">4. Devenir des étudiants BUT2</div>
-                <div id="pie-chart-but2" class="pie-chart"></div>
-                <div id="pie-legend-but2" class="pie-legend"></div>
+                <div class="pie-title">4. Taux d'admission en BUT3</div>
+                <div class="pie-content">
+                    <div id="pie-chart-but2" class="pie-chart"></div>
+                    <div id="pie-legend-but2" class="pie-legend"></div>
+                </div>
             </div>
         </div>
 
         <div class="charts-row">
-            <!-- 5. Camembert: Devenir BUT3 -->
+            <!-- 5. Camembert: Taux de diplomation -->
             <div class="pie-container">
-                <div class="pie-title">5. Devenir des étudiants BUT3</div>
-                <div id="pie-chart-but3" class="pie-chart"></div>
-                <div id="pie-legend-but3" class="pie-legend"></div>
+                <div class="pie-title">5. Taux de diplomation</div>
+                <div class="pie-content">
+                    <div id="pie-chart-but3" class="pie-chart"></div>
+                    <div id="pie-legend-but3" class="pie-legend"></div>
+                </div>
             </div>
 
             <!-- 6. Camembert: Répartition des abandons -->
             <div class="pie-container">
                 <div class="pie-title">6. Répartition des Abandons par Niveau</div>
-                <div id="pie-chart-abandons" class="pie-chart"></div>
-                <div id="pie-legend-abandons" class="pie-legend"></div>
+                <div class="pie-content">
+                    <div id="pie-chart-abandons" class="pie-chart"></div>
+                    <div id="pie-legend-abandons" class="pie-legend"></div>
+                </div>
             </div>
         </div>
 
@@ -390,15 +413,10 @@
             <!-- 7. Camembert: Bilan global cohorte -->
             <div class="pie-container">
                 <div class="pie-title">7. Bilan Global de la Cohorte</div>
-                <div id="pie-chart-bilan" class="pie-chart"></div>
-                <div id="pie-legend-bilan" class="pie-legend"></div>
-            </div>
-
-            <!-- 8. Camembert: Taux de diplomation -->
-            <div class="pie-container">
-                <div class="pie-title">8. Taux de Diplomation BUT3</div>
-                <div id="pie-chart-diplomation" class="pie-chart"></div>
-                <div id="pie-legend-diplomation" class="pie-legend"></div>
+                <div class="pie-content">
+                    <div id="pie-chart-bilan" class="pie-chart"></div>
+                    <div id="pie-legend-bilan" class="pie-legend"></div>
+                </div>
             </div>
         </div>
 
@@ -568,22 +586,22 @@
 
         // Couleurs par type de nœud
         const nodeColors = {
-            "Entrée": "#E8B4CB",
-            "BUT1": "#A8A8A8",
-            "BUT2": "#A8A8A8",
-            "BUT3": "#A8A8A8",
-            "Entrée directe BUT2": "#8B4513",
-            "Redoublement BUT1": "#F4A460",
-            "Redoublement BUT2": "#F4A460",
-            "Redoublement BUT3": "#F4A460",
-            "Redoublant entrant BUT1": "#FF8C00",
-            "Redoublant entrant BUT2": "#FF8C00",
-            "Redoublant entrant BUT3": "#FF8C00",
-            "Abandon BUT1": "#4CAF50",
-            "Abandon BUT2": "#4CAF50",
-            "Abandon BUT3": "#4CAF50",
-            "Réorientation": "#E91E63",
-            "Diplômés": "#27ae60"
+            "Entrée": "#3498db",              // Bleu - neutre, entrée
+            "BUT1": "#A8A8A8",                // Gris - niveau neutre
+            "BUT2": "#A8A8A8",                // Gris - niveau neutre
+            "BUT3": "#A8A8A8",                // Gris - niveau neutre
+            "Entrée directe BUT2": "#9b59b6", // Violet - entrée spéciale (passerelle)
+            "Redoublement BUT1": "#f39c12",   // Orange - attention, redoublement
+            "Redoublement BUT2": "#f39c12",   // Orange - attention
+            "Redoublement BUT3": "#f39c12",   // Orange - attention
+            "Redoublant entrant BUT1": "#e67e22", // Orange foncé - redoublant qui revient
+            "Redoublant entrant BUT2": "#e67e22", // Orange foncé
+            "Redoublant entrant BUT3": "#e67e22", // Orange foncé
+            "Abandon BUT1": "#e74c3c",        // Rouge - négatif, abandon
+            "Abandon BUT2": "#e74c3c",        // Rouge - négatif
+            "Abandon BUT3": "#e74c3c",        // Rouge - négatif
+            "Réorientation": "#e91e63",       // Rose - départ du cursus
+            "Diplômés": "#27ae60"             // Vert - positif, succès!
         };
 
         // Création du diagramme de Sankey avec positionnement personnalisé
@@ -665,40 +683,71 @@
             const topY = 5;
             const secondaryY = 200; // Position Y fixe pour les nœuds secondaires
             const mainNodeNames = ["Entrée", "BUT1", "BUT2", "BUT3", "Diplômés"];
-            const secondaryOffsets = {}; // Offset par colonne
+            // --- NOUVEAU CODE : POSITIONNEMENT DYNAMIQUE ET HAUTEUR AUTO ---
 
-            // D'abord positionner les nœuds principaux en haut
+            // 1. On regroupe les nœuds par colonne
+            const nodesByColumn = {};
             nodes.forEach(node => {
                 const originalNode = sankeyData.nodes.find(n => n.name === node.name);
-                const col = originalNode?.column;
-                const nodeHeight = Math.max(node.y1 - node.y0, 30);
-                
-                // Position X
-                if (col !== undefined && columnPositions[col] !== undefined) {
-                    node.x0 = columnPositions[col];
-                    node.x1 = columnPositions[col] + 12;
-                }
-
-                // Vérifier si c'est un nœud principal (comparaison exacte)
-                const isMainNode = mainNodeNames.some(name => node.name === name);
-
-                // Position Y - forcer les nœuds principaux en haut
-                if (isMainNode) {
-                    // Nœuds principaux TOUJOURS en haut
-                    node.y0 = topY;
-                    node.y1 = topY + nodeHeight;
-                } else {
-                    // Position Y différente selon la colonne
-                    const colSecondaryY = (col === 3) ? 240 : secondaryY; // Colonne 3 plus bas
-                    
-                    if (secondaryOffsets[col] === undefined) {
-                        secondaryOffsets[col] = colSecondaryY;
-                    }
-                    node.y0 = secondaryOffsets[col];
-                    node.y1 = secondaryOffsets[col] + Math.max(nodeHeight, 25);
-                    secondaryOffsets[col] = node.y1 + 25; // Plus d'espacement entre les nœuds
-                }
+                const col = originalNode ? originalNode.column : 0;
+                if (!nodesByColumn[col]) nodesByColumn[col] = [];
+                nodesByColumn[col].push(node);
             });
+
+            // 2. Ordre de priorité (Haut vers Bas)
+            const verticalPriority = {
+                "Entrée": 1, "BUT1": 1, "BUT2": 1, "BUT3": 1, "Diplômés": 1,
+                "Entrée directe BUT2": 2,
+                "Redoublant entrant BUT1": 2, "Redoublant entrant BUT2": 2, "Redoublant entrant BUT3": 2,
+                "Redoublement BUT1": 3, "Redoublement BUT2": 3, "Redoublement BUT3": 3,
+                "Réorientation": 4,
+                "Abandon BUT1": 5, "Abandon BUT2": 5, "Abandon BUT3": 5
+            };
+
+            // Variable pour mémoriser le point le plus bas du graphique
+            let maxGraphHeight = 0;
+
+            // 3. Positionnement dynamique
+            Object.keys(nodesByColumn).forEach(col => {
+                const colNodes = nodesByColumn[col];
+                
+                // Tri par priorité
+                colNodes.sort((a, b) => {
+                    const pA = verticalPriority[a.name] || 10;
+                    const pB = verticalPriority[b.name] || 10;
+                    return pA - pB;
+                });
+
+                // Position X
+                const xPos = (columnPositions[col] !== undefined) ? columnPositions[col] : col * (width/5);
+                
+                // Position Y (Empilement)
+                let currentY = 5; 
+                
+                colNodes.forEach(node => {
+                    const nodeHeight = Math.max(node.y1 - node.y0, 25);
+                    
+                    node.x0 = xPos;
+                    node.x1 = xPos + 12;
+                    node.y0 = currentY;
+                    node.y1 = currentY + nodeHeight;
+                    
+                    // On met à jour la hauteur maximale atteinte pour agrandir le cadre ensuite
+                    if (node.y1 > maxGraphHeight) {
+                        maxGraphHeight = node.y1;
+                    }
+
+                    // Espace entre les nœuds (60px pour éviter que ça se touche)
+                    currentY += nodeHeight + 60; 
+                });
+            });
+
+            // --- ETAPE CRITIQUE : REDIMENSIONNER LE SVG ---
+            // On agrandit le cadre pour tout faire rentrer sans couper
+            const newTotalHeight = maxGraphHeight + margin.top + margin.bottom + 50;
+            
+            d3.select("#sankey-chart svg")
+                .attr("height", newTotalHeight);
 
             // Recalculer les liens après repositionnement
             sankey.update({ nodes, links });
@@ -942,30 +991,30 @@
         // 3. Devenir des étudiants BUT1
         const pieDataBut1 = [
             { label: "Passage en BUT2", value: stats.but1_admis, color: "#27ae60" },
-            { label: "Redoublement", value: stats.but1_redouble, color: "#f39c12" },
-            { label: "Abandon", value: stats.but1_abandon, color: "#e74c3c" }
+              { label: "Redoublement", value: stats.but1_redouble, color: "#f39c12" },
+              { label: "Abandon", value: stats.but1_abandon, color: "#e74c3c" }
         ].filter(d => d.value > 0);
 
         // 4. Devenir des étudiants BUT2
         const pieDataBut2 = [
             { label: "Passage en BUT3", value: stats.but2_admis, color: "#27ae60" },
-            { label: "Redoublement", value: stats.but2_redouble, color: "#f39c12" },
-            { label: "Abandon", value: stats.but2_abandon, color: "#e74c3c" },
-            { label: "Réorientation", value: stats.but2_reorientation, color: "#9b59b6" }
+              { label: "Redoublement", value: stats.but2_redouble, color: "#f39c12" },
+              { label: "Abandon", value: stats.but2_abandon, color: "#e74c3c" },
+              { label: "Réorientation", value: stats.but2_reorientation, color: "#e91e63" }
         ].filter(d => d.value > 0);
 
         // 5. Devenir des étudiants BUT3
         const pieDataBut3 = [
             { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
-            { label: "Redoublement", value: stats.but3_redouble, color: "#f39c12" },
-            { label: "Abandon", value: stats.but3_abandon, color: "#e74c3c" }
+              { label: "Redoublement", value: stats.but3_redouble, color: "#f39c12" },
+              { label: "Abandon", value: stats.but3_abandon, color: "#e74c3c" }
         ].filter(d => d.value > 0);
 
         // 6. Répartition des abandons par niveau
         const pieDataAbandons = [
             { label: "Abandons BUT1", value: stats.but1_abandon, color: "#3498db" },
-            { label: "Abandons BUT2", value: stats.but2_abandon, color: "#9b59b6" },
-            { label: "Abandons BUT3", value: stats.but3_abandon, color: "#1abc9c" }
+              { label: "Abandons BUT2", value: stats.but2_abandon, color: "#e74c3c" },
+              { label: "Abandons BUT3", value: stats.but3_abandon, color: "#e74c3c" }
         ].filter(d => d.value > 0);
 
         // 7. Bilan global de la cohorte
@@ -973,16 +1022,9 @@
         const totalRedoublementsSortants = stats.but1_redouble + stats.but2_redouble + stats.but3_redouble;
         const pieDataBilan = [
             { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
-            { label: "Abandons", value: totalAbandons, color: "#e74c3c" },
-            { label: "Redoublements", value: totalRedoublementsSortants, color: "#f39c12" },
-            { label: "Réorientations", value: stats.but2_reorientation, color: "#9b59b6" }
-        ].filter(d => d.value > 0);
-
-        // 8. Taux de diplomation BUT3
-        const nonDiplomes = stats.but3_total - stats.but3_diplome;
-        const pieDataDiplomation = [
-            { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
-            { label: "Non diplômés", value: nonDiplomes > 0 ? nonDiplomes : 0, color: "#e74c3c" }
+              { label: "Abandons", value: totalAbandons, color: "#e74c3c" },
+              { label: "Redoublements", value: totalRedoublementsSortants, color: "#f39c12" },
+              { label: "Réorientations", value: stats.but2_reorientation, color: "#e91e63" }
         ].filter(d => d.value > 0);
 
         function createPieChart(containerId, legendId, data) {
@@ -1007,11 +1049,12 @@
             // Afficher le conteneur s'il était caché
             if (parentContainer) {
                 parentContainer.style.display = 'flex';
+                parentContainer.style.flexDirection = 'column';
             }
 
-            const width = container.clientWidth;
-            const height = 300;
-            const radius = Math.min(width, height) / 2 - 20;
+            const width = 200;
+            const height = 200;
+            const radius = Math.min(width, height) / 2 - 10;
 
             const svg = d3.select(`#${containerId}`)
                 .append("svg")
@@ -1092,21 +1135,25 @@
                 });
 
             // Labels au centre des tranches
-            svg.selectAll("text")
+            svg.selectAll("text.pie-label")
                 .data(pie(data))
                 .enter()
                 .append("text")
+                .attr("class", "pie-label")
                 .attr("transform", d => `translate(${arc.centroid(d)})`)
                 .attr("text-anchor", "middle")
                 .attr("dy", "0.35em")
-                .style("font-size", "12px")
+                .style("font-size", "11px")
                 .style("font-weight", "bold")
                 .style("fill", "white")
                 .style("text-shadow", "1px 1px 2px rgba(0,0,0,0.5)")
                 .style("opacity", 0)
                 .text(d => {
-                    const percentage = ((d.data.value / total) * 100).toFixed(0);
-                    return percentage > 5 ? `${percentage}%` : '';
+                    const percentage = ((d.data.value / total) * 100);
+                    const arcAngle = d.endAngle - d.startAngle;
+                    // N'afficher que si la tranche est assez grande (> 5% ou angle > 0.3 radian ≈ 17°)
+                    if (arcAngle < 0.3 || percentage < 5) return '';
+                    return `${percentage.toFixed(0)}%`;
                 })
                 .transition()
                 .delay(800)
@@ -1133,7 +1180,6 @@
             createPieChart('pie-chart-but3', 'pie-legend-but3', pieDataBut3);
             createPieChart('pie-chart-abandons', 'pie-legend-abandons', pieDataAbandons);
             createPieChart('pie-chart-bilan', 'pie-legend-bilan', pieDataBilan);
-            createPieChart('pie-chart-diplomation', 'pie-legend-diplomation', pieDataDiplomation);
         });
 
         // Redimensionnement
@@ -1145,7 +1191,6 @@
             createPieChart('pie-chart-but3', 'pie-legend-but3', pieDataBut3);
             createPieChart('pie-chart-abandons', 'pie-legend-abandons', pieDataAbandons);
             createPieChart('pie-chart-bilan', 'pie-legend-bilan', pieDataBilan);
-            createPieChart('pie-chart-diplomation', 'pie-legend-diplomation', pieDataDiplomation);
         });
     </script>
 
