@@ -99,43 +99,6 @@
             font-size: 0.9rem;
         }
 
-        /* --- TABLEAU --- */
-        .table-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 4px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            overflow-x: auto; /* Scroll si trop petit */
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.95rem;
-        }
-
-        th {
-            background-color: #1F2A44;
-            color: white;
-            padding: 12px 15px;
-            text-align: left;
-            font-family: 'Playfair Display', serif;
-            letter-spacing: 0.5px;
-        }
-
-        td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #eee;
-            color: #333;
-        }
-
-        tr:last-child td { border-bottom: none; }
-        tr:hover { background-color: #f9f9f9; }
-
-        /* Badges de résultats */
-        .status-adm { color: #27ae60; font-weight: bold; }
-        .status-fail { color: #c0392b; font-weight: bold; }
-
         /* --- STATISTIQUES (Placeholder layout) --- */
         .stats-row {
             display: flex;
@@ -222,6 +185,58 @@
             justify-content: center;
         }
 
+        /* --- GRAPHIQUES CAMEMBERT --- */
+        .charts-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .pie-container {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            padding: 20px;
+        }
+
+        .pie-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: #1F2A44;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .pie-chart {
+            width: 100%;
+            height: 300px;
+        }
+
+        .pie-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            margin-top: 15px;
+            justify-content: center;
+        }
+
+        .pie-slice {
+            transition: opacity 0.2s, transform 0.2s;
+            cursor: pointer;
+        }
+
+        .pie-slice:hover {
+            opacity: 0.8;
+        }
+
         .legend-item {
             display: flex;
             align-items: center;
@@ -281,47 +296,6 @@
             {% endif %}
         </div>
 
-        <div class="table-container">
-            {% if results %}
-            <table>
-                <thead>
-                    <tr>
-                        <th>Département</th>
-                        <th>Année Univ</th>
-                        <th>Niveau</th>
-                        <th>Statut</th> 
-                        <th>Résultat</th>
-                        <th>INE</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for row in results %}
-                    <tr>
-                        <td>{{ row.dept }}</td>
-                        <td>{{ row.annee_univ }}</td>
-                        <td>BUT {{ row.annee_but }}</td>
-                        <td>{{ row.rythme }}</td> 
-                        <td>
-                            {% if 'ADM' in row['resultat'] %}
-                                <span class="status-adm">{{ row['resultat'] }}</span>
-                            {% elif 'FAIL' in row['resultat'] or 'AJ' in row['resultat'] %}
-                                <span class="status-fail">{{ row['resultat'] }}</span>
-                            {% else %}
-                                {{ row['resultat'] }}
-                            {% endif %}
-                        </td>
-                        <td>{{ row.ine }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-            {% else %}
-                <p style="text-align: center; color: #777; padding: 20px;">
-                    Aucun étudiant trouvé pour ces critères.
-                </p>
-            {% endif %}
-        </div>
-
         <h2 class="section-title">Statistiques</h2>
         
         <!-- Diagramme de Sankey -->
@@ -360,6 +334,71 @@
                     <div class="legend-color" style="background-color: #27ae60;"></div>
                     <span>Diplômés</span>
                 </div>
+            </div>
+        </div>
+
+        <!-- Graphiques Camembert -->
+        <div class="charts-row">
+            <!-- 1. Camembert: Répartition par résultat -->
+            <div class="pie-container">
+                <div class="pie-title">1. Répartition par Résultat</div>
+                <div id="pie-chart-resultats" class="pie-chart"></div>
+                <div id="pie-legend-resultats" class="pie-legend"></div>
+            </div>
+
+            <!-- 2. Camembert: Répartition FI / FA -->
+            <div class="pie-container">
+                <div class="pie-title">2. Répartition par Rythme</div>
+                <div id="pie-chart-rythme" class="pie-chart"></div>
+                <div id="pie-legend-rythme" class="pie-legend"></div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <!-- 3. Camembert: Devenir BUT1 -->
+            <div class="pie-container">
+                <div class="pie-title">3. Devenir des étudiants BUT1</div>
+                <div id="pie-chart-but1" class="pie-chart"></div>
+                <div id="pie-legend-but1" class="pie-legend"></div>
+            </div>
+
+            <!-- 4. Camembert: Devenir BUT2 -->
+            <div class="pie-container">
+                <div class="pie-title">4. Devenir des étudiants BUT2</div>
+                <div id="pie-chart-but2" class="pie-chart"></div>
+                <div id="pie-legend-but2" class="pie-legend"></div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <!-- 5. Camembert: Devenir BUT3 -->
+            <div class="pie-container">
+                <div class="pie-title">5. Devenir des étudiants BUT3</div>
+                <div id="pie-chart-but3" class="pie-chart"></div>
+                <div id="pie-legend-but3" class="pie-legend"></div>
+            </div>
+
+            <!-- 6. Camembert: Répartition des abandons -->
+            <div class="pie-container">
+                <div class="pie-title">6. Répartition des Abandons par Niveau</div>
+                <div id="pie-chart-abandons" class="pie-chart"></div>
+                <div id="pie-legend-abandons" class="pie-legend"></div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <!-- 7. Camembert: Bilan global cohorte -->
+            <div class="pie-container">
+                <div class="pie-title">7. Bilan Global de la Cohorte</div>
+                <div id="pie-chart-bilan" class="pie-chart"></div>
+                <div id="pie-legend-bilan" class="pie-legend"></div>
+            </div>
+
+            <!-- 8. Camembert: Taux de diplomation -->
+            <div class="pie-container">
+                <div class="pie-title">8. Taux de Diplomation BUT3</div>
+                <div id="pie-chart-diplomation" class="pie-chart"></div>
+                <div id="pie-legend-diplomation" class="pie-legend"></div>
             </div>
         </div>
 
@@ -864,6 +903,249 @@
         window.addEventListener('resize', () => {
             d3.selectAll('.sankey-tooltip').remove();
             createSankeyDiagram();
+        });
+
+        // ============================================
+        // GRAPHIQUES CAMEMBERT (PIE CHARTS)
+        // ============================================
+
+        // Données pour les camemberts (extraites des résultats)
+        // On utilise JavaScript pour compter car les filtres Jinja2 sont limités
+        const allResults = [
+            {% for row in results %}
+            { resultat: "{{ row.resultat }}", rythme: "{{ row.rythme }}" }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        ];
+
+        // Compter par résultat
+        const adm_count = allResults.filter(r => r.resultat && r.resultat.includes('ADM')).length;
+        const aj_count = allResults.filter(r => r.resultat && r.resultat.includes('AJ')).length;
+        const fail_count = allResults.filter(r => r.resultat && r.resultat.includes('FAIL')).length;
+        const autres_count = allResults.length - adm_count - aj_count - fail_count;
+
+        const pieDataResultats = [
+            { label: "Admis (ADM)", value: adm_count, color: "#27ae60" },
+            { label: "Ajourné (AJ)", value: aj_count, color: "#e74c3c" },
+            { label: "Échec (FAIL)", value: fail_count, color: "#c0392b" },
+            { label: "Autres", value: autres_count > 0 ? autres_count : 0, color: "#95a5a6" }
+        ].filter(d => d.value > 0);
+
+        // Compter par rythme
+        const fi_count = allResults.filter(r => r.rythme === 'FI').length;
+        const fa_count = allResults.filter(r => r.rythme === 'FA').length;
+
+        const pieDataNiveaux = [
+            { label: "Formation Initiale (FI)", value: fi_count, color: "#3498db" },
+            { label: "Alternance (FA)", value: fa_count, color: "#e67e22" }
+        ].filter(d => d.value > 0);
+
+        // 3. Devenir des étudiants BUT1
+        const pieDataBut1 = [
+            { label: "Passage en BUT2", value: stats.but1_admis, color: "#27ae60" },
+            { label: "Redoublement", value: stats.but1_redouble, color: "#f39c12" },
+            { label: "Abandon", value: stats.but1_abandon, color: "#e74c3c" }
+        ].filter(d => d.value > 0);
+
+        // 4. Devenir des étudiants BUT2
+        const pieDataBut2 = [
+            { label: "Passage en BUT3", value: stats.but2_admis, color: "#27ae60" },
+            { label: "Redoublement", value: stats.but2_redouble, color: "#f39c12" },
+            { label: "Abandon", value: stats.but2_abandon, color: "#e74c3c" },
+            { label: "Réorientation", value: stats.but2_reorientation, color: "#9b59b6" }
+        ].filter(d => d.value > 0);
+
+        // 5. Devenir des étudiants BUT3
+        const pieDataBut3 = [
+            { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
+            { label: "Redoublement", value: stats.but3_redouble, color: "#f39c12" },
+            { label: "Abandon", value: stats.but3_abandon, color: "#e74c3c" }
+        ].filter(d => d.value > 0);
+
+        // 6. Répartition des abandons par niveau
+        const pieDataAbandons = [
+            { label: "Abandons BUT1", value: stats.but1_abandon, color: "#3498db" },
+            { label: "Abandons BUT2", value: stats.but2_abandon, color: "#9b59b6" },
+            { label: "Abandons BUT3", value: stats.but3_abandon, color: "#1abc9c" }
+        ].filter(d => d.value > 0);
+
+        // 7. Bilan global de la cohorte
+        const totalAbandons = stats.but1_abandon + stats.but2_abandon + stats.but3_abandon;
+        const totalRedoublementsSortants = stats.but1_redouble + stats.but2_redouble + stats.but3_redouble;
+        const pieDataBilan = [
+            { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
+            { label: "Abandons", value: totalAbandons, color: "#e74c3c" },
+            { label: "Redoublements", value: totalRedoublementsSortants, color: "#f39c12" },
+            { label: "Réorientations", value: stats.but2_reorientation, color: "#9b59b6" }
+        ].filter(d => d.value > 0);
+
+        // 8. Taux de diplomation BUT3
+        const nonDiplomes = stats.but3_total - stats.but3_diplome;
+        const pieDataDiplomation = [
+            { label: "Diplômés", value: stats.but3_diplome, color: "#27ae60" },
+            { label: "Non diplômés", value: nonDiplomes > 0 ? nonDiplomes : 0, color: "#e74c3c" }
+        ].filter(d => d.value > 0);
+
+        function createPieChart(containerId, legendId, data) {
+            const container = document.getElementById(containerId);
+            const legendContainer = document.getElementById(legendId);
+            const parentContainer = container ? container.closest('.pie-container') : null;
+            
+            if (!container) return;
+
+            // Nettoyer le conteneur
+            d3.select(`#${containerId}`).selectAll("*").remove();
+            d3.select(`#${legendId}`).selectAll("*").remove();
+
+            // Si pas de données, cacher le conteneur parent
+            if (data.length === 0) {
+                if (parentContainer) {
+                    parentContainer.style.display = 'none';
+                }
+                return;
+            }
+
+            // Afficher le conteneur s'il était caché
+            if (parentContainer) {
+                parentContainer.style.display = 'flex';
+            }
+
+            const width = container.clientWidth;
+            const height = 300;
+            const radius = Math.min(width, height) / 2 - 20;
+
+            const svg = d3.select(`#${containerId}`)
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+            // Créer le générateur de camembert
+            const pie = d3.pie()
+                .value(d => d.value)
+                .sort(null);
+
+            // Créer le générateur d'arc
+            const arc = d3.arc()
+                .innerRadius(0)
+                .outerRadius(radius);
+
+            // Arc pour l'animation hover
+            const arcHover = d3.arc()
+                .innerRadius(0)
+                .outerRadius(radius + 10);
+
+            // Calculer le total pour les pourcentages
+            const total = d3.sum(data, d => d.value);
+
+            // Tooltip
+            const tooltip = d3.select("body").append("div")
+                .attr("class", "pie-tooltip")
+                .style("position", "absolute")
+                .style("background", "rgba(0,0,0,0.8)")
+                .style("color", "white")
+                .style("padding", "8px 12px")
+                .style("border-radius", "4px")
+                .style("font-size", "12px")
+                .style("pointer-events", "none")
+                .style("opacity", 0)
+                .style("z-index", 1000);
+
+            // Dessiner les tranches
+            const slices = svg.selectAll("path")
+                .data(pie(data))
+                .enter()
+                .append("path")
+                .attr("class", "pie-slice")
+                .attr("d", arc)
+                .attr("fill", d => d.data.color)
+                .attr("stroke", "white")
+                .attr("stroke-width", 2)
+                .on("mouseover", function(event, d) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("d", arcHover);
+                    
+                    const percentage = ((d.data.value / total) * 100).toFixed(1);
+                    tooltip.style("opacity", 1)
+                        .html(`<strong>${d.data.label}</strong><br/>${d.data.value} étudiants (${percentage}%)`)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function() {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("d", arc);
+                    tooltip.style("opacity", 0);
+                });
+
+            // Animation d'entrée
+            slices.transition()
+                .duration(800)
+                .attrTween("d", function(d) {
+                    const interpolate = d3.interpolate({ startAngle: 0, endAngle: 0 }, d);
+                    return function(t) {
+                        return arc(interpolate(t));
+                    };
+                });
+
+            // Labels au centre des tranches
+            svg.selectAll("text")
+                .data(pie(data))
+                .enter()
+                .append("text")
+                .attr("transform", d => `translate(${arc.centroid(d)})`)
+                .attr("text-anchor", "middle")
+                .attr("dy", "0.35em")
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .style("fill", "white")
+                .style("text-shadow", "1px 1px 2px rgba(0,0,0,0.5)")
+                .style("opacity", 0)
+                .text(d => {
+                    const percentage = ((d.data.value / total) * 100).toFixed(0);
+                    return percentage > 5 ? `${percentage}%` : '';
+                })
+                .transition()
+                .delay(800)
+                .duration(300)
+                .style("opacity", 1);
+
+            // Créer la légende
+            const legend = d3.select(`#${legendId}`);
+            data.forEach(item => {
+                const percentage = ((item.value / total) * 100).toFixed(1);
+                legend.append("div")
+                    .attr("class", "legend-item")
+                    .html(`<div class="legend-color" style="background-color: ${item.color};"></div>
+                           <span>${item.label}: ${item.value} (${percentage}%)</span>`);
+            });
+        }
+
+        // Initialiser les camemberts
+        document.addEventListener('DOMContentLoaded', function() {
+            createPieChart('pie-chart-resultats', 'pie-legend-resultats', pieDataResultats);
+            createPieChart('pie-chart-rythme', 'pie-legend-rythme', pieDataNiveaux);
+            createPieChart('pie-chart-but1', 'pie-legend-but1', pieDataBut1);
+            createPieChart('pie-chart-but2', 'pie-legend-but2', pieDataBut2);
+            createPieChart('pie-chart-but3', 'pie-legend-but3', pieDataBut3);
+            createPieChart('pie-chart-abandons', 'pie-legend-abandons', pieDataAbandons);
+            createPieChart('pie-chart-bilan', 'pie-legend-bilan', pieDataBilan);
+            createPieChart('pie-chart-diplomation', 'pie-legend-diplomation', pieDataDiplomation);
+        });
+
+        // Redimensionnement
+        window.addEventListener('resize', () => {
+            createPieChart('pie-chart-resultats', 'pie-legend-resultats', pieDataResultats);
+            createPieChart('pie-chart-rythme', 'pie-legend-rythme', pieDataNiveaux);
+            createPieChart('pie-chart-but1', 'pie-legend-but1', pieDataBut1);
+            createPieChart('pie-chart-but2', 'pie-legend-but2', pieDataBut2);
+            createPieChart('pie-chart-but3', 'pie-legend-but3', pieDataBut3);
+            createPieChart('pie-chart-abandons', 'pie-legend-abandons', pieDataAbandons);
+            createPieChart('pie-chart-bilan', 'pie-legend-bilan', pieDataBilan);
+            createPieChart('pie-chart-diplomation', 'pie-legend-diplomation', pieDataDiplomation);
         });
     </script>
 
