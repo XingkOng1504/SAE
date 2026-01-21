@@ -1,0 +1,19 @@
+<html>
+  <head>
+	<title>Modification MDP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+	<div class="container">
+	  <h1>Changement de mot de passe</h1>
+	  <br>
+	  <form action="{{url_for('login.switchmdp')}}" method="POST">
+		   <label for="new_password">Nouveau mot de passe :</label>
+            <input type="password" name="new_password" required>
+            <button type="submit">Changer le mot de passe</button>
+	  </form>
+	</div>
+
+  </body>
+</html>

@@ -1,0 +1,164 @@
+/* --- RESET & GLOBAL --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex; 
+        }
+
+        /* --- PARTIE GAUCHE (Image) --- */
+        .split-left {
+            flex: 1; 
+            background-color: #EBEBEB;
+            position: relative; /* Important pour que l'image absolue se cale par rapport à ce bloc */
+            overflow: hidden; /* Coupe ce qui dépasse au cas où */
+        }
+
+        /* L'image FORCEE en plein écran */
+        .main-image {
+            position: absolute; /* On la sort du flux pour qu'elle colle aux bords */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Remplissage parfait sans déformation */
+            display: block;
+        }
+
+        /* --- PARTIE DROITE (Formulaire) --- */
+        .split-right {
+            flex: 1; 
+            background-color: #1F2A44 ; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+            padding: 40px;
+        }
+
+        /* Logo LIEN en haut à droite */
+        .logo-link {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            width: 150px;
+            z-index: 10;
+            transition: opacity 0.3s;
+        }
+
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        .logo-univ {
+            width: 100%; /* L'image prend 100% du lien */
+            height: auto;
+            display: block;
+        }
+
+        /* Titre / Citation */
+        .quote {
+            font-size: 1.6rem;
+            margin-bottom: 60px;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- FORMULAIRE --- */
+        form {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+        }
+
+        .input-group i {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: white;
+        }
+
+        .input-group input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            width: 100%;
+        }
+
+        .input-group input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+            font-style: italic;
+        }
+
+        /* --- BOUTON --- */
+        .btn-submit {
+            background-color: #8D806F;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-submit:hover {
+            background-color: #a39482;
+        }
+
+        .text-danger {
+            color: #ff6b6b;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+		.credits {
+			/* --- TON CODE (Je n'ai rien touché) --- */
+			position: absolute;
+			bottom: 10px;
+			font-size: 0.7rem;
+			color: rgba(255, 255, 255, 0.3);
+			font-family: 'Roboto', sans-serif;
+
+			/* --- CE QUE J'AI AJOUTÉ POUR LE CENTRAGE --- */
+			width: 100%;        /* Prend toute la place horizontalement */
+			text-align: center; /* Centre le texte */
+			left: 0;            /* Colle au bord gauche */
+			z-index: 10;        /* Passe au premier plan */
+		}
+
+		.credits a {
+			color: rgba(255, 255, 255, 0.5);
+			text-decoration: none;
+		}
+
+		.credits a:hover {
+			color: white;
+			text-decoration: underline;
+		}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration Mnémosyne</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/admin.css') }}">
+
+</head>
+<body>
+
+    <header>
+        <a href="{{ url_for('index.index') }}" class="logo-link" title="Retour à l'accueil">
+            <img src="{{ url_for('static', filename='img/logo_univ.png') }}" alt="Université Sorbonne Paris Nord" class="logo-univ">
+        </a>
+        <a href="{{ url_for('login.logout') }}" class="btn-logout">
+            <i class="bi bi-box-arrow-right"></i> Oublier
+        </a>
+    </header>
+
+    <div class="container">
+
+        <h2 class="section-title">Synchronisation des données</h2>
+        <hr class="divider">
+        <p class="description">Cliquez sur le bouton pour synchroniser les données et appliquez les règles d’analyse.</p>
+
+        <form id="form-init" action="{{ url_for('admin.initialisation') }}" method="POST" style="display: inline-block; margin-right: 10px;">
+            <button type="submit" class="btn-rewrite">Réécrire la mémoire</button>
+        </form>
+
+        <form id="form-sync" action="{{ url_for('admin.synchronisation') }}" method="POST" style="display: inline-block;">
+            <button type="submit" class="btn-sync">import avec ScoDoc</button>
+        </form>
+
+        {% if msg_db %} <div class="msg-box msg-info">{{ msg_db }}</div> {% endif %}
+        {% if msg_import %} <div class="msg-box msg-success">{{ msg_import }}</div> {% endif %}
+
+        {% if stats %}
+        <div class="stats-box">
+            <h4>📊 Bilan de la synchronisation ScoDoc</h4>
+            <ul>
+                <li>Départements traités : <strong>{{ stats.departements }}</strong></li>
+                <li>Formations importées : <strong>{{ stats.formations }}</strong></li>
+                <li>Étudiants mis à jour : <strong>{{ stats.etudiants }}</strong></li>
+                <li>Inscriptions (Années) : <strong>{{ stats.inscriptions }}</strong></li>
+                <li>Evaluations (Notes) : <strong>{{ stats.evaluations }}</strong></li>
+            </ul>
+        </div>
+        {% endif %}
+
+        <h2 class="section-title">Gestion des règles d’analyse</h2>
+        <hr class="divider">
+
+        <table class="rules-table">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Description</th>
+                    <th>Condition</th>
+                    <th>Statut</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for rule in rules %}
+                <tr>
+                    <td>{{ rule.nom }}</td>
+                    <td>{{ rule.description }}</td>
+                    <td>{{ rule.condition }}</td>
+                    <td>
+                        <form action="{{ url_for('admin.update_statut') }}" method="POST">
+                            <input type="hidden" name="index" value="{{ loop.index0 }}">
+                            <label class="switch">
+                                <input type="checkbox" name="statut" value="1"
+                                       {% if rule.statut %}checked{% endif %}
+                                       onchange="this.form.submit()">
+                                <span class="slider"></span>
+                            </label>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="{{ url_for('admin.suppRegle') }}" method="POST">
+                            <input type="hidden" name="index" value="{{ loop.index0 }}">
+                            <button type="submit" class="badge-delete">SUPPRIMER</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="add-rule-box">
+            <div class="add-rule-title">Ajouter une nouvelle règle</div>
+            
+            <form action="{{ url_for('admin.ajouteRegle') }}" method="POST" onsubmit="return validateSQL()">
+                <div class="form-group">
+                    <label class="form-label" for="nom">Nom de la règle</label>
+                    <input type="text" id="nom" name="nom" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="description">Description</label>
+                    <textarea id="description" name="description" class="form-textarea" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="condition">Condition (expression WHERE)</label>
+                    <input type="text" id="condition" name="condition" class="form-input" placeholder="Ex: moyenne > 10 AND absences < 5" required>
+                    <small id="sql-error" style="color: #C82343; font-weight: bold; display: none; margin-top: 5px;"></small>
+                </div>
+
+                <button type="submit" class="btn-beige">Ajouter la règle</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // --- 1. Gestion des Pop-ups de confirmation ---
+        document.getElementById('form-init').addEventListener('submit', function(event) {
+            const choix = confirm("ATTENTION : Suppression totale.\nÊtes-vous sûr ?");
+            if (!choix) { event.preventDefault(); }
+        });
+
+        document.getElementById('form-sync').addEventListener('submit', function(event) {
+            const choix = confirm("Lancer la synchronisation ?");
+            if (!choix) { event.preventDefault(); }
+        });
+
+        // --- 2. Validation de la syntaxe SQL (Condition) ---
+        function validateSQL() {
+            const input = document.getElementById('condition').value;
+            const errorMsg = document.getElementById('sql-error');
+            
+            // A. Vérification de sécurité (Injection basique)
+            // On interdit le point-virgule (;) et les commentaires (--)
+            if (input.includes(';') || input.includes('--') || input.includes('/*')) {
+                errorMsg.innerText = "⚠️ Erreur : Caractères interdits (; -- /*) détectés.";
+                errorMsg.style.display = 'block';
+                return false; // Bloque l'envoi
+            }
+
+            // B. Vérification des parenthèses équilibrées
+            let parentheses = 0;
+            for (let char of input) {
+                if (char === '(') parentheses++;
+                if (char === ')') parentheses--;
+                if (parentheses < 0) break; // Fermante avant ouvrante
+            }
+            if (parentheses !== 0) {
+                errorMsg.innerText = "⚠️ Erreur : Les parenthèses ne sont pas équilibrées.";
+                errorMsg.style.display = 'block';
+                return false;
+            }
+
+            // C. Vérification de présence d'au moins un opérateur
+            // Liste des opérateurs SQL courants
+            const operators = ['=', '>', '<', '>=', '<=', '!=', 'LIKE', 'IN', 'IS NULL', 'IS NOT NULL', 'BETWEEN'];
+            let hasOperator = false;
+            
+            // On met tout en majuscule pour tester les mots clés comme LIKE ou IN
+            const upperInput = input.toUpperCase();
+            
+            for (let op of operators) {
+                if (upperInput.includes(op)) {
+                    hasOperator = true;
+                    break;
+                }
+            }
+
+            if (!hasOperator) {
+                errorMsg.innerText = "⚠️ Erreur : La condition doit contenir un opérateur (=, >, <, LIKE, etc.).";
+                errorMsg.style.display = 'block';
+                return false;
+            }
+
+            // Si tout est bon, on cache l'erreur et on laisse passer
+            errorMsg.style.display = 'none';
+            return true;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+    {
+        "nom": "zerz",
+        "description": "zert",
+        "condition": "i.moyenne > 10",
+        "statut": true
+    }
+]

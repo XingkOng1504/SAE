@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mnémosyne - Université Sorbonne Paris Nord</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header>
+        <a href="{{ url_for('index.index') }}" class="logo-link" title="Retour à l'accueil">
+            <img src="{{ url_for('static', filename='img/logo_univ.png') }}" alt="Université Sorbonne Paris Nord" class="logo-univ">
+        </a>
+        
+        <a href="{{ url_for('admin.admin_dashboard') }}" class="logo-link" title="Admin">
+            <img src="{{ url_for('static', filename='img/logo_admin.png') }}" alt="Logo admin" class="logo-admin">
+        </a>
+    </header>
+
+
+    <main>
+        <div class="watermark">Mnemosyne</div>
+
+        {% if db_error %}
+            <div class="alert-warning">
+                <strong>⚠️ Base de données non détectée ou incomplète.</strong><br><br>
+                Veuillez initialiser l'application via la page d'administration.<br><br>
+                <a href="{{ url_for('admin.admin_dashboard') }}">Aller à la configuration</a>
+            </div>
+        {% else %}
+
+        <form action="{{ url_for('index.cohorte') }}" method="POST" id="searchForm" onsubmit="return validateForm()">
+            
+            <div class="filters-row">
+                
+                <div class="toggle-container">
+                    <div class="toggle-item selected" id="btn-fa" onclick="toggleRythme('FA')">
+                        <span class="toggle-label">FA</span>
+                        <div class="toggle-box">
+                            <div class="toggle-inner"></div>
+                        </div>
+                    </div>
+
+                    <div class="toggle-item selected" id="btn-fi" onclick="toggleRythme('FI')">
+                        <span class="toggle-label">FI</span>
+                        <div class="toggle-box">
+                            <div class="toggle-inner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" name="rythme" id="input-rythme" value="TOUS">
+                
+                <div class="select-group">
+                    <select name="departement" id="select-dept">
+                        <option value="" disabled selected>Choisir une formation...</option>
+                        <option value="TOUS">-- TOUS --</option>
+                        {% for d in depts %}
+                            <option value="{{ d }}">{{ d }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <select name="annee" id="select-annee">
+                        <option value="" disabled selected>Choisir une année scolaire...</option>
+                        {% for a in annees %}
+                            <option value="{{ a }}">{{ a }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="error-message-container">
+                <div id="error-msg" class="error-text"></div>
+            </div>
+
+            <button type="submit" class="btn-submit">SE SOUVENIR</button>
+            
+        </form>
+
+        {% endif %}
+    </main>
+
+    <script>
+        // État initial
+        let stateFA = true;
+        let stateFI = true;
+
+        function toggleRythme(type) {
+            const btnFA = document.getElementById('btn-fa');
+            const btnFI = document.getElementById('btn-fi');
+            const hiddenInput = document.getElementById('input-rythme');
+            
+            // On nettoie les erreurs visuelles quand l'utilisateur clique
+            clearErrors();
+
+            if (type === 'FA') stateFA = !stateFA;
+            if (type === 'FI') stateFI = !stateFI;
+
+            // Mise à jour visuelle
+            if (stateFA) btnFA.classList.add('selected');
+            else btnFA.classList.remove('selected');
+
+            if (stateFI) btnFI.classList.add('selected');
+            else btnFI.classList.remove('selected');
+
+            // Mise à jour input
+            if (stateFA && stateFI) {
+                hiddenInput.value = "TOUS";
+            } else if (stateFA && !stateFI) {
+                hiddenInput.value = "FA";
+            } else if (!stateFA && stateFI) {
+                hiddenInput.value = "FI";
+            } else {
+                hiddenInput.value = ""; 
+            }
+        }
+
+        // Fonction pour retirer le rouge et le message
+        function clearErrors() {
+            document.getElementById('error-msg').classList.remove('visible');
+            document.getElementById('btn-fa').classList.remove('error');
+            document.getElementById('btn-fi').classList.remove('error');
+            document.getElementById('select-dept').classList.remove('input-error');
+            document.getElementById('select-annee').classList.remove('input-error');
+        }
+
+        // Ajout d'écouteurs sur les select pour effacer l'erreur quand on change
+        document.getElementById('select-dept').addEventListener('change', clearErrors);
+        document.getElementById('select-annee').addEventListener('change', clearErrors);
+
+        function validateForm() {
+            const errorDiv = document.getElementById('error-msg');
+            const deptSelect = document.getElementById('select-dept');
+            const anneeSelect = document.getElementById('select-annee');
+            
+            clearErrors(); // Reset avant check
+
+            // 1. Vérif FA / FI
+            if (!stateFA && !stateFI) {
+                errorDiv.innerText = "Veuillez sélectionner au moins un rythme (FA ou FI).";
+                errorDiv.classList.add('visible');
+                
+                // On met les boutons en rouge pour montrer où est le problème
+                document.getElementById('btn-fa').classList.add('error');
+                document.getElementById('btn-fi').classList.add('error');
+                return false;
+            }
+
+            // 2. Vérif Formation
+            if (deptSelect.value === "") {
+                errorDiv.innerText = "Veuillez sélectionner une formation.";
+                errorDiv.classList.add('visible');
+                deptSelect.classList.add('input-error');
+                return false;
+            }
+
+            // 3. Vérif Année
+            if (anneeSelect.value === "") {
+                errorDiv.innerText = "Veuillez sélectionner une année scolaire.";
+                errorDiv.classList.add('visible');
+                anneeSelect.classList.add('input-error');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

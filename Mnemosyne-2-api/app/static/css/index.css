@@ -1,0 +1,215 @@
+/* --- RESET & GLOBAL --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #EBEBEB;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: #1F2A44; /* Bleu nuit */
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo-univ { height: 50px; object-fit: contain; }
+        .logo-admin { height: 66px; object-fit: contain; }
+
+        .logo-link {
+            display: block;
+            transition: opacity 0.3s;
+        }
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        /* --- CONTENU PRINCIPAL --- */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+        }
+
+        .watermark {
+            position: absolute;
+            font-family: 'Ingrid Darling', cursive;
+            font-size: 25vw;
+            color: #dcdcdc;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.6;
+            margin-top: -80px;
+        }
+
+        /* --- FORMULAIRE --- */
+        form {
+            z-index: 2;
+            width: 80%;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px; /* Réduit un peu pour laisser place au message d'erreur */
+        }
+
+        .filters-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            gap: 30px;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Style des sélecteurs */
+        .select-group {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .select-group label { display: none; }
+
+        select {
+            appearance: none;
+            background-color: transparent;
+            border: 1px solid #999;
+            border-radius: 4px;
+            padding: 10px 15px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: #555;
+            background-color: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23555%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 12px auto;
+            transition: border-color 0.3s;
+        }
+
+        /* Classe ajoutée en JS si erreur sur le select */
+        select.input-error {
+            border-color: #d93434;
+            color: #d93434;
+        }
+
+        /* --- TOGGLES FA / FI --- */
+        .toggle-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .toggle-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .toggle-label {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .toggle-box {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #777;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            transition: all 0.2s;
+        }
+
+        .toggle-inner {
+            width: 24px;
+            height: 24px;
+            background-color: transparent;
+            border-radius: 2px;
+            transition: background-color 0.2s;
+        }
+
+        .toggle-item.selected .toggle-box { border-color: #4a7c2e; }
+        .toggle-item.selected .toggle-inner {
+            background-color: #5D9538;
+            box-shadow: 0 0 5px rgba(93, 149, 56, 0.5);
+        }
+
+        /* Erreur visuelle sur les toggles (bordure rouge si erreur) */
+        .toggle-item.error .toggle-box {
+            border-color: #d93434;
+        }
+        .toggle-item.error .toggle-label {
+            color: #d93434;
+        }
+
+        /* --- MESSAGE D'ERREUR --- */
+        .error-message-container {
+            height: 24px; /* Hauteur fixe pour éviter que ça saute */
+            margin-top: -20px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .error-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #d93434; /* Rouge élégant mais visible */
+            font-size: 1.1rem;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease-out;
+        }
+
+        .error-text.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- BOUTON SUBMIT --- */
+        .btn-submit {
+            background-color: #263355;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+
+        .btn-submit:hover { background-color: #354570; }
+
+        .alert-warning {
+            z-index: 100;
+            background: white;
+            border: 1px solid red;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }

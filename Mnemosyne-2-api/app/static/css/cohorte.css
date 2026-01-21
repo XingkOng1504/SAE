@@ -1,0 +1,280 @@
+/* --- GLOBAL --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #EBEBEB; /* Gris clair fond */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: #1F2A44; /* Bleu nuit */
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* --- CONTENEUR PRINCIPAL --- */
+        .container {
+            width: 100%;
+            max-width: 1100px; /* Un peu plus large pour le tableau */
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        /* --- TITRES DE SECTION --- */
+        .section-title {
+            color: #BCA386; /* Couleur beige/dorée */
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 30px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        /* --- FIL D'ARIANE / NAVIGATION --- */
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-link:hover { color: #1F2A44; }
+        .nav-link i { margin-right: 5px; }
+
+        /* --- INFO CRITÈRES --- */
+        .criteria-box {
+            background-color: #fff;
+            padding: 15px 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            border-left: 5px solid #1F2A44;
+        }
+        .criteria-text { font-size: 1rem; color: #444; }
+        .criteria-text strong { color: #1F2A44; }
+        .count-badge {
+            background-color: #BCA386;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* --- STATISTIQUES (Placeholder layout) --- */
+        .stats-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background-color: white;
+            min-height: 250px;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-style: italic;
+            border: 1px solid #eee;
+            padding: 20px;
+        }
+
+        /* Styles pour le diagramme Sankey */
+        .sankey-container {
+            width: 100%;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        #sankey-chart {
+            width: 100%;
+            min-height: 450px;
+            overflow: visible;
+        }
+
+        .sankey-link {
+            fill: none;
+            stroke-opacity: 0.5;
+            transition: stroke-opacity 0.2s;
+        }
+
+        .sankey-link:hover {
+            stroke-opacity: 0.8;
+        }
+
+        .sankey-node rect {
+            shape-rendering: crispEdges;
+            cursor: grab;
+            transition: opacity 0.2s;
+        }
+
+        .sankey-node rect:hover {
+            opacity: 0.8;
+        }
+
+        .sankey-node rect:active {
+            cursor: grabbing;
+        }
+
+        .sankey-node.dragging rect {
+            cursor: grabbing;
+            opacity: 0.9;
+        }
+
+        .sankey-node text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            fill: #333;
+        }
+
+        .sankey-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        /* --- GRAPHIQUES CAMEMBERT --- */
+        .charts-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .pie-container {
+            flex: 1;
+            min-width: 350px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            padding: 15px;
+            overflow: hidden;
+        }
+
+        .pie-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: #1F2A44;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .pie-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .pie-chart {
+            width: 180px;
+            height: 180px;
+            flex-shrink: 0;
+        }
+
+        .pie-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding: 8px;
+            background-color: transparent;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .pie-slice {
+            transition: opacity 0.2s, transform 0.2s;
+            cursor: pointer;
+        }
+
+        .pie-slice:hover {
+            opacity: 0.8;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            color: #555;
+        }
+
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+
+        .logo-univ { height: 50px; object-fit: contain; }
+        .logo-admin { height: 66px; object-fit: contain; }
+
+        .logo-link {
+            display: block;
+            transition: opacity 0.3s;
+        }
+        .logo-link:hover {
+            opacity: 0.8;
+        }
+
+        /* --- NOUVEAUX STYLES DASHBOARD (CHART.JS) --- */
+        .kpi-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px; margin-top: 30px; }
+        .dashboard-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 30px; }
+        .full-width { grid-column: span 2; }
+
+        .chart-card {
+            background: white; border-radius: 8px; padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: flex; flex-direction: column; align-items: center;
+        }
+        .chart-card h4 {
+            font-family: 'Playfair Display', serif; color: #1F2A44; font-size: 1.1rem;
+            margin: 0 0 15px 0; border-bottom: 2px solid #BCA386; padding-bottom: 5px; width: 100%; text-align: center;
+        }
+        .chart-container-inner { position: relative; width: 100%; height: 250px; }
+        .kpi-container-inner { position: relative; height: 160px; width: 100%; display: flex; justify-content: center; }
+        
+        .kpi-value {
+            position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%);
+            font-family: 'Playfair Display', serif; font-weight: bold; font-size: 1.6rem; color: #1F2A44;
+        }
